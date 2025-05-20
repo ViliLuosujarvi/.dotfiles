@@ -4,7 +4,7 @@
   imports =
     [ 
       # ---- Hardware ----
-      ../../system/hardware-configuration.nix
+      ../../hosts/Home-Desktop/Desktop-hw.nix
 
       # ----  Base  ----
       ../../system/base/boot.nix
@@ -16,6 +16,9 @@
       ../../system/base/networking.nix
       ../../system/base/locale.nix
 
+	# hostname
+      ../../system/base/hostnames/Home-Desktop.nix
+	
       # ---- Shell ----
       ../../system/base/shells/zsh.nix
 
