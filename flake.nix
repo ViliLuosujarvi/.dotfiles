@@ -33,6 +33,7 @@
 
 
     let
+
       # ---- SYSTEM SETTINGS ----
       systemSettings = {
         system = "x86_64-linux";
@@ -44,24 +45,22 @@
 	};
         hostname = "NanSuS";
 
-	# Change this depending on
-	# which host is in use
+	# !!! Change these depending on which host is in use !!!
 	# ~/.dotfiles/hosts/<host_name>
-        host = "Home-Desktop";
+        host = "Laptop";
+	# change this per-host: "laptop" or "slave"
+	# for correct drivers and such
+	hostType = "laptop";
 
-        timezone = "America/Chicago";
-        locale = "en_US.UTF-8";
+        timezone = "Europe/Helsinki";
+        locale = "fi_FI.UTF-8";
       };
 
       # ----- USER SETTINGS -----
       userSettings = rec {
         username = "nansus";
         name = "NanSuS";
-        email = "vililuosujarvi135@gmail.com";
         term = "kitty";
-        font = "Intel One Mono";
-        fontPkg = systemSettings.pkgs.intel-one-mono;
-        editor = "nano";
       };
 
     in {
@@ -71,7 +70,19 @@
           modules = [
              "${self}/hosts/${systemSettings.host}/configuration.nix"
 
-	     nixos-hardware.nixosModules.lenovo-legion-t526amr5
+	     # Choose right hardware modules according to machine
+	     # for up to date drivers
+	     (if systemSettings.hostType == "desktop" then
+	        nixos-hardware.nixosModules.lenovo-legion-t526amr5
+	     else if systemSettings.hostType == "laptop" then
+                nixos-hardware.nixosModules.lenovo-16ithg6
+             else if systemSettings.hostType == "slave" then
+                ./hosts/slave/custom.nix
+	     else
+		throw "unknown hostType: ${systemSettings.hostType}")
+
+
+	     #nixos-hardware.nixosModules.lenovo-legion-t526amr5
 
 	    ./system/base/shells/zsh.nix
           ];

@@ -4,7 +4,7 @@
   imports =
     [ 
       # ---- Hardware ----
-      ../../system/hardware-configuration.nix
+      ../../Laptop/Laptop-hw.nix
 
       # ----  Base  ----
       ../../system/base/boot.nix
