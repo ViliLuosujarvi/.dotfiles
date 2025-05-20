@@ -15,6 +15,7 @@
       ../../system/base/hyprland.nix
       ../../system/base/networking.nix
       ../../system/base/locale.nix
+      ../../system/base/kernel.nix
 
       # ---- Shell ----
       ../../system/base/shells/zsh.nix
