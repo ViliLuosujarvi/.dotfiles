@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, userSettings, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -17,7 +17,7 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  home.packages = [
+  home.packages = with pkgs; [
 	git
 	gh
 	kitty
@@ -32,7 +32,7 @@
 
   home.file = {
      ".config" = {
-	source = "/home/nansus/.dotfiles/hosts/Home-Desktop/.config";
+	source = ./.config;
 	recursive = true;
      };
   };

@@ -107,10 +107,10 @@
               home.homeDirectory = "/home/${userSettings.username}";
               home.stateVersion = "24.11";
 	      
-              home.file.".config" = {
-                source = "${self}/hosts/${systemSettings.host}/.config";
-                recursive = true;
-              };
+              #home.file.".config" = {
+              #  source = "${self}/hosts/${systemSettings.host}/.config";
+              #  recursive = true;
+              #};
 
               programs.home-manager.enable = true;
               }
