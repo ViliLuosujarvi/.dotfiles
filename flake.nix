@@ -47,10 +47,10 @@
 
 	# !!! Change these depending on which host is in use !!!
 	# ~/.dotfiles/hosts/<host_name>
-        host = "Laptop";
+        host = "Home-Desktop";
 	# change this per-host: "laptop" or "slave"
 	# for correct drivers and such
-	hostType = "laptop";
+	hostType = "desktop";
 
         timezone = "Europe/Helsinki";
         locale = "fi_FI.UTF-8";

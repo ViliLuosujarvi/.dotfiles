@@ -17,7 +17,7 @@
       ../../system/base/locale.nix
 
 	# hostname
-      ../../system/base/hostnames/Home-Desktop.nix
+      #../../system/base/hostnames/Home-Desktop.nix
 	
       # ---- Shell ----
       ../../system/base/shells/zsh.nix
