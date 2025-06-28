@@ -75,7 +75,7 @@
 	     (if systemSettings.hostType == "desktop" then
 	        nixos-hardware.nixosModules.lenovo-legion-t526amr5
 	     else if systemSettings.hostType == "laptop" then
-                nixos-hardware.nixosModules.lenovo-16ithg6
+                nixos-hardware.nixosModules.lenovo-legion-16ithg6
              else if systemSettings.hostType == "slave" then
                 ./hosts/slave/custom.nix
 	     else
