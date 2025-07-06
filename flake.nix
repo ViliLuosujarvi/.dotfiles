@@ -35,85 +35,76 @@
     let
 
       # ---- SYSTEM SETTINGS ----
-      systemSettings = {
         system = "x86_64-linux";
         lib = nixpkgs.lib;
         #pkgs = nixpkgs.legacyPackages."x86_64-linux";
 	pkgs = import nixpkgs {
-	   system = systemSettings.system;
+	     inherit system;
   	   config.allowUnfree = true;
 	};
-        hostname = "NanSuS";
-
-	# !!! Change these depending on which host is in use !!!
-	# ~/.dotfiles/hosts/<host_name>
-        host = "Home-Desktop";
-	# change this per-host: "laptop" or "slave"
-	# for correct drivers and such
-	hostType = "desktop";
-
-        timezone = "Europe/Helsinki";
-        locale = "fi_FI.UTF-8";
-      };
-
-      # ----- USER SETTINGS -----
-      userSettings = rec {
-        username = "nansus";
-        name = "NanSuS";
-        term = "kitty";
-      };
-
     in {
       nixosConfigurations = {
-        nansus = systemSettings.lib.nixosSystem {
-          inherit (systemSettings) system;
+        Home-Desktop = lib.nixosSystem {
+          inherit system;
           modules = [
-             "${self}/hosts/${systemSettings.host}/configuration.nix"
-
-	     # Choose right hardware modules according to machine
-	     # for up to date drivers
-	     (if systemSettings.hostType == "desktop" then
-	        nixos-hardware.nixosModules.lenovo-legion-t526amr5
-	     else if systemSettings.hostType == "laptop" then
-                nixos-hardware.nixosModules.lenovo-legion-16ithg6
-             else if systemSettings.hostType == "slave" then
-                ./hosts/slave/custom.nix
-	     else
-		throw "unknown hostType: ${systemSettings.hostType}")
-
-
-	     #nixos-hardware.nixosModules.lenovo-legion-t526amr5
-
-	    ./system/base/shells/zsh.nix
+             "${self}/hosts/Home-Desktop/configuration.nix"
+             nixos-hardware.nixosModules.lenovo-legion-t526amr5
+        	   ./system/base/shells/zsh.nix
           ];
           specialArgs = {
-            inherit systemSettings userSettings inputs;
-            pkgs = systemSettings.pkgs;
+            inherit inputs pkgs;
+          };
+        };
+        NanSuS-Laptop = lib.nixosSystem {
+          inherit system;
+          modules = [
+             "${self}/hosts/Laptop/configuration.nix"
+             nixos-hardware.nixosModules.lenovo-legion-16ithg6
+      	    ./system/base/shells/zsh.nix
+          ];
+          specialArgs = {
+            inherit inputs pkgs;
+          };
+        };
+        Slave = lib.nixosSystem {
+          inherit system;
+          modules = [
+             "${self}/hosts/Slave/configuration.nix"
+      	    ./system/base/shells/zsh.nix
+          ];
+          specialArgs = {
+            inherit inputs pkgs;
           };
         };
       };
 
-      homeConfigurations = {
-        nansus = inputs.home-manager.lib.homeManagerConfiguration {
-          pkgs = systemSettings.pkgs;
-          extraSpecialArgs = {
-            inherit systemSettings userSettings;
-          };
-          modules = [
-	      "${self}/hosts/${systemSettings.host}/home.nix"
-
-	      {
-              home.username = userSettings.username;
-              home.homeDirectory = "/home/${userSettings.username}";
+      homeConfigurations = let basics = {
+              home.username = "nansus";
+              home.homeDirectory = "/home/nansus";
               home.stateVersion = "24.11";
 	      
-              #home.file.".config" = {
-              #  source = "${self}/hosts/${systemSettings.host}/.config";
-              #  recursive = true;
-              #};
-
               programs.home-manager.enable = true;
-              }
+              };
+          in {
+        "nansus@Home-Desktop" = inputs.home-manager.lib.homeManagerConfiguration {
+          inherit pkgs;
+          modules = [
+	      		"${self}/hosts/Home-Desktop/home.nix"
+  	      	basics
+          ];
+        };
+        "nansus@NanSuS-Laptop" = inputs.home-manager.lib.homeManagerConfiguration {
+          inherit pkgs;
+          modules = [
+    	      "${self}/hosts/Laptop/home.nix"
+	        	basics
+          ];
+        };
+        "nansus@Slave" = inputs.home-manager.lib.homeManagerConfiguration {
+          inherit pkgs;
+          modules = [
+	      		"${self}/hosts/Slave/home.nix"
+						basics
           ];
         };
       };
