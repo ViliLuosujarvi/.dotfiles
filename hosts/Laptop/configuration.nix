@@ -1,4 +1,4 @@
-{ config, pkgs, lib, systemSettings, userSettings, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   imports =
@@ -16,6 +16,8 @@
       ../../system/base/networking.nix
       ../../system/base/locale.nix
       ../../system/base/kernel.nix
+
+      ../../system/base/hostnames/Laptop.nix
 
       # ---- Shell ----
       ../../system/base/shells/zsh.nix
