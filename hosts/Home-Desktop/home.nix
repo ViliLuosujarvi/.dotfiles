@@ -16,6 +16,7 @@
 	git
 	gh
 	kitty
+	ripgrep
   ];
 
   #Enable git
