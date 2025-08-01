@@ -38,7 +38,7 @@
         system = "x86_64-linux";
         lib = nixpkgs.lib;
         #pkgs = nixpkgs.legacyPackages."x86_64-linux";
-	pkgs = import nixpkgs {
+        pkgs = import nixpkgs {
 	     inherit system;
   	   config.allowUnfree = true;
 	};
@@ -46,7 +46,7 @@
 
       # workaround before nixos-hardware has added
       # 16iah7h version of lenovo legion to their flake.nix
-      nixosModules.lenovo-legion-16iah7h = import "${nixos-hardware}/lenovo/legion/16iah7h";
+      #nixosModules.lenovo-legion-16iah7h = import "${nixos-hardware}/lenovo/legion/16iah7h";
 
       nixosConfigurations = {
         Home-Desktop = lib.nixosSystem {
@@ -65,7 +65,7 @@
           modules = [
              "${self}/hosts/Laptop/configuration.nix"
              
-	    self.nixosModules.lenovo-legion-16iah7h
+	    (import "${inputs.nixos-hardware}/lenovo/legion/16iah7h")
 	    #nixos-hardware.nixosModules.lenovo-legion-16iah7h
       	    ./system/base/shells/zsh.nix
           ];
