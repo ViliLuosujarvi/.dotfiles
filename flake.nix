@@ -64,7 +64,9 @@
           inherit system;
           modules = [
              "${self}/hosts/Laptop/configuration.nix"
-             self.nixos-hardware.nixosModules.lenovo-legion-16iah7h
+             
+	    self.nixosModules.lenovo-legion-16iah7h
+	    #nixos-hardware.nixosModules.lenovo-legion-16iah7h
       	    ./system/base/shells/zsh.nix
           ];
           specialArgs = {
