@@ -44,10 +44,6 @@
 	};
     in {
 
-      # workaround before nixos-hardware has added
-      # 16iah7h version of lenovo legion to their flake.nix
-      #nixosModules.lenovo-legion-16iah7h = import "${nixos-hardware}/lenovo/legion/16iah7h";
-
       nixosConfigurations = {
         Home-Desktop = lib.nixosSystem {
           inherit system;
@@ -64,9 +60,7 @@
           inherit system;
           modules = [
              "${self}/hosts/Laptop/configuration.nix"
-             
-	    (import "${inputs.nixos-hardware}/lenovo/legion/16iah7h")
-	    #nixos-hardware.nixosModules.lenovo-legion-16iah7h
+	    nixos-hardware.nixosModules.lenovo-legion-16ithg6
       	    ./system/base/shells/zsh.nix
           ];
           specialArgs = {
