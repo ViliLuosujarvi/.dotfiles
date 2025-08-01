@@ -43,6 +43,11 @@
   	   config.allowUnfree = true;
 	};
     in {
+
+      # workaround before nixos-hardware has added
+      # 16iah7h version of lenovo legion to their flake.nix
+      nixosModules.lenovo-legion-16iah7h = import "${nixos-hardware}/lenovo/legion/16iah7h";
+
       nixosConfigurations = {
         Home-Desktop = lib.nixosSystem {
           inherit system;
