@@ -4,7 +4,7 @@
   imports =
     [ 
       # ---- Hardware ----
-      ../../hosts/Home-Desktop/Desktop-hw.nix
+      ../../hosts/Slave/Slave-hw.nix
 
       # ----  Base  ----
       ../../system/base/boot.nix
@@ -17,7 +17,7 @@
       ../../system/base/locale.nix
 
 	# hostname
-      ../../system/base/hostnames/Home-Desktop.nix
+      #../../system/base/hostnames/Home-Desktop.nix
 	
       # ---- Shell ----
       ../../system/base/shells/zsh.nix
@@ -34,12 +34,6 @@
       ../../system/app/libreOffice.nix
       ../../system/app/vscode.nix
       ../../system/app/browser/firefox.nix
-
-      # ---- games ----
-      ../../system/games/steam.nix
-      ../../system/games/prismlauncher.nix
-      ../../system/games/tailscale.nix
-      ../../system/games/gamemode.nix
 
       # ---- Security ----
       ../../system/security/automount.nix
