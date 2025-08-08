@@ -30,7 +30,7 @@
       nvidiaSettings = true;
 
       # Driver version
-      package = config.boot.kernelPackages.nvidiaPackages.dc;
+      package = config.boot.kernelPackages.nvidiaPackages.dc_570;
 
 
    };
