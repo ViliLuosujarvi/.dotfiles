@@ -31,8 +31,9 @@
   extensions = with pkgs.vscode-extensions; [
     
     # theme options
-    #dracula-theme.theme-dracula
+    dracula-theme.theme-dracula
     silofy.hackthebox
+    thorerik.hacker-theme
 
     # Basic ML
     vscodevim.vim
