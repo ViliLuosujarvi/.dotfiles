@@ -16,11 +16,11 @@
       modesetting.enable = true;
 
       #Power management
-      powermanagement.enable = false;
+      powerManagement.enable = false;
 
       # Fine grained poweromanagement, only for
       # never gpu's(Turing ->)
-      powermanagement.finegrained = false;
+      powerManagement.finegrained = false;
 
       # Open version of nvidia proprietary drivers,
       # (not to be confused for 'noveau')
