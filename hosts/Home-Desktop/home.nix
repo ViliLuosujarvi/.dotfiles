@@ -41,6 +41,7 @@
     
     # ML visualization
     #wholroyd.jinja
+    mechatroner.rainbow-csv
 
     # miscellaneous
     tekumara.typos-vscode

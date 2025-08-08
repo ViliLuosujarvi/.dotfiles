@@ -32,7 +32,7 @@
   extensions = with pkgs.vscode-extensions; [
     
     # theme options
-    #dracula-theme.theme-dracula
+    dracula-theme.theme-dracula
     silofy.hackthebox
 
     # Basic ML
@@ -42,6 +42,7 @@
     
     # ML visualization
     #wholroyd.jinja
+    mechatroner.rainbow-csv
 
     # miscellaneous
     tekumara.typos-vscode
