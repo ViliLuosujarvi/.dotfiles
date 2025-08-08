@@ -17,6 +17,7 @@
 	gh
 	kitty
 	ripgrep
+	tailscale
   ];
 
   #Enable git
