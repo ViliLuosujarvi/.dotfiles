@@ -27,6 +27,7 @@
       ../../system/hardware/systemd.nix
       ../../system/hardware/opengl.nix
       ../../system/hardware/time_syncd.nix
+      ../../system/hardware/nvidia_proprietary.nix
 
       # ---- App ----
       ../../system/app/discord.nix
