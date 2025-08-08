@@ -27,6 +27,27 @@
     userEmail = "vili.luosujarvi@edu.lapinamk.fi";
   };
 
+  programs.vscode = {
+  enable = true;
+  extensions = with pkgs.vscode-extensions; [
+    
+    # theme options
+    #dracula-theme.theme-dracula
+    silofy.hackthebox
+
+    # Basic ML
+    vscodevim.vim
+    ms-python.python
+    ms-toolsai.jupyter
+    
+    # ML visualization
+    #wholroyd.jinja
+
+    # miscellaneous
+    tekumara.typos-vscode
+    ];
+  };
+
   home.file = {
      ".config" = {
 	source = ./.config;

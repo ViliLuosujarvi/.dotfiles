@@ -32,7 +32,7 @@
       ../../system/app/discord.nix
       ../../system/app/thunar.nix
       ../../system/app/libreOffice.nix
-      ../../system/app/vscode.nix
+      #../../system/app/vscode.nix
       ../../system/app/browser/firefox.nix
 
       # ---- games ----
