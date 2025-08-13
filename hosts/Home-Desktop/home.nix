@@ -17,7 +17,23 @@
 	gh
 	kitty
 	ripgrep
+
+
+	(nerdfonts.override {
+    	   fonts = [
+      	     "FiraCode"
+      	     "JetBrainsMono"
+      	     "CascadiaCode"
+      	     "CodeNewRoman"
+    	   ];
+  	})
   ];
+
+  
+  #fonts.fontconfig.enable = true;
+  #  home.packages = [
+  #    (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+  #  ];
 
   #Enable git
   programs.git = {
@@ -28,7 +44,7 @@
 
   programs.vscode = {
   enable = true;
-  package = pkgs.vscode.fhs;
+  package = pkgs.vscode;
   extensions = with pkgs.vscode-extensions; [
     
     # theme options
