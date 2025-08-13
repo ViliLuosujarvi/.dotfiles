@@ -17,23 +17,8 @@
 	gh
 	kitty
 	ripgrep
-
-
-	(nerdfonts.override {
-    	   fonts = [
-      	     "FiraCode"
-      	     "JetBrainsMono"
-      	     "CascadiaCode"
-      	     "CodeNewRoman"
-    	   ];
-  	})
   ];
 
-  
-  #fonts.fontconfig.enable = true;
-  #  home.packages = [
-  #    (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
-  #  ];
 
   #Enable git
   programs.git = {
