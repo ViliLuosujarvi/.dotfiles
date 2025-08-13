@@ -21,13 +21,13 @@
 	nerd-fonts.mononoki
   ];
 
-  fontconfig = {
+  fonts.fontconfig = {
     enable = true;
     defaultFonts = {
       serif = [ "Fira Code" ];
       sansSerif = [ "Fira Code" ];
       monospace = [ "Fira Code" ];
-      #emoji = [ "Noto Color Emoji" ];
+      emoji = [ "Noto Color Emoji" ];
     };
   };  
 
