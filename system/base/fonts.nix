@@ -12,7 +12,7 @@
 	font-awesome
 	victor-mono
 	iosevka-bin
-	nerdfonts
+	#nerdfonts
 
   ];
 }
