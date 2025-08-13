@@ -16,7 +16,7 @@
 
 	#nerdfonts
 	nerd-fonts.fira-code
-	nerd-fonts.fira-code-symbols
+	#nerd-fonts.fira-code-symbols
 	nerd-fonts.iosevka
 	nerd-fonts.mononoki
   ];
