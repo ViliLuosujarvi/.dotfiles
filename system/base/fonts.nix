@@ -27,7 +27,7 @@
       serif = [ "Fira Code" ];
       sansSerif = [ "Fira Code" ];
       monospace = [ "Fira Code" ];
-      emoji = [ "Noto Color Emoji" ];
+      #emoji = [ "Noto Color Emoji" ];
     };
   };  
 
