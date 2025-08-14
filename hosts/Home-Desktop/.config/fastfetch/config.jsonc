@@ -106,11 +106,11 @@
     "key": "│ ├󰅐",
     "keyColor": "green"
     },
-    {
-    "type": "display",
-    "key": "│ └󰍹",
-    "keyColor": "green"
-    },
+    #{
+    #"type": "display",
+    #"key": "│ └󰍹",
+    #"keyColor": "green"
+    #},
     {
     "type": "sound",
     "key": " AUDIO",
