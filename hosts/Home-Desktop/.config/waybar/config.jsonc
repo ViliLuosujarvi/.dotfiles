@@ -38,7 +38,7 @@
 
     "disk": {
         "interval": 30,
-        "format": "󰋊 {percentage_used}%",
+        "format": "󰋊  {percentage_used}%",
         "path": "/",
         "tooltip": true,
         "unit": "GB",
@@ -84,7 +84,7 @@
     },
 
     "cpu": {
-        "format": "CPU: 󰘚 {usage}%",
+        "format": "CPU: 󰘚  {usage}%",
         "tooltip": true,
         "interval": 1
     },
@@ -146,7 +146,7 @@
     },
 
     "pulseaudio": {
-        "format": "{icon} {volume}%",
+        "format": "{icon}  {volume}%",
         "format-muted": "󰝟",
         "format-icons": {
             "headphone": "󰋋",
@@ -222,7 +222,7 @@
 
 
     "custom/nvidia": {
-      "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s  %s%%  \\uf2db %s%%  \\uf2c9 %s°C\", $1, $2, $3, $4}'",
+      "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s  %s%%  \\uf2db  %s%%  \\uf2c9 %s°C\", $1, $2, $3, $4}'",
       "interval": 1
 
 	//"exec": "nvidia-smi --query-gpu=pstate,utilization.gpu,temperature.gpu --format=csv,noheader,nounits",
