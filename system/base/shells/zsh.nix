@@ -7,6 +7,8 @@
      lsd
      #zsh
      #oh-my-zsh
+     oh-my-posh
+
   ];
 
   programs = {
