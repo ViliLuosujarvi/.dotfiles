@@ -1,5 +1,11 @@
 { config, lib, pkgs, ... }:
 
+let
+
+   Theme = "zsh_theme"
+
+in
+
 {
 
   environment.systemPackages = with pkgs; [
@@ -22,7 +28,7 @@
 		 "virtualenv" 
 		 "vi-mode"	
 		];
-        theme = "zsh_theme";
+        theme = "Theme";
 	# good ones been:
 	# jonathan, candy, gnzh,
 	# strug, xiong-chiamiov,
@@ -35,6 +41,9 @@
       syntaxHighlighting.enable = true;
 
       promptInit = ''
+
+	source /home/nansus/.dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/${Theme}
+
         # Set-up icons for files/folders in terminal using lsd
         alias ls='lsd'
         alias l='ls -l'
@@ -50,14 +59,6 @@
         '';
       }; 
    };
-
-  # Put your custom theme into oh-my-zsh's custom dir
-  #xdg.configFile."oh-my-zsh/custom/themes/mytheme.zsh-theme".source =
-  #  ./../../../.config/oh-my-zsh/custom/themes; 
- 
-  environment.etc."oh-my-zsh/custom/themes/zsh-theme".source =
-  .dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/zsh-theme;
-  
 
   # Set ZSH as default shell for nansus
   users.users.nansus = {   
