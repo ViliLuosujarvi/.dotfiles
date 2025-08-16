@@ -52,9 +52,12 @@
    };
 
   # Put your custom theme into oh-my-zsh's custom dir
-  xdg.configFile."oh-my-zsh/custom/themes/mytheme.zsh-theme".source =
-    ./../../../.config/oh-my-zsh/custom/themes; 
+  #xdg.configFile."oh-my-zsh/custom/themes/mytheme.zsh-theme".source =
+  #  ./../../../.config/oh-my-zsh/custom/themes; 
  
+  xdg.configFile."oh-my-zsh/custom/themes/zsh-theme".source = .config/oh-my-zsh/custom/zsh-theme;
+
+
   # Set ZSH as default shell for nansus
   users.users.nansus = {   
     shell = pkgs.zsh;
