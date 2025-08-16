@@ -7,7 +7,7 @@
      lsd
      #zsh
      #oh-my-zsh
-     oh-my-posh
+     #oh-my-posh
 
   ];
 
@@ -22,11 +22,11 @@
 		 "virtualenv" 
 		 "vi-mode"	
 		];
-        theme = "kennethreitz";
+        theme = "zsh_theme";
 	# good ones been:
 	# jonathan, candy, gnzh,
 	# strug, xiong-chiamiov,
- 	# kennethreitz, ys.
+ 	# //kennethreitz\\, ys.
 	# frontcube, rkj-repos,
 	# kennethreitz  
       	};
@@ -49,6 +49,10 @@
         setopt appendhistory;
         '';
       };
+
+     # Put your custom theme into oh-my-zsh's custom dir
+    xdg.configFile."oh-my-zsh/custom/themes/mytheme.zsh-theme".source =
+      ./../../../.config/oh-my-zsh/custom/themes; 
    };
  
   # Set ZSH as default shell for nansus
