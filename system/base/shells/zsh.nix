@@ -1,11 +1,12 @@
 { config, lib, pkgs, ... }:
 
+{
+
 let
 
    Theme = "zsh_theme"
 
-in;
-{
+in
 
   environment.systemPackages = with pkgs; [
      fzf
