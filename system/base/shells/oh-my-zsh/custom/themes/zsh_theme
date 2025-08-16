@@ -17,7 +17,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%}*%{$fg[yellow]%}"
 # $(git_prompt_info) = branch info
 PROMPT='
 %F{cyan}%n%f @ %F{blue}%m%f %F{green}%~%f$(git_prompt_info)
-   %{$fg[red]%}%(!..)%{$reset_color%} '
+   %{$fg[red]%}%(!..)%{$reset_color%} '
 
 # --- Right prompt ---
 # %1~ = current folder
