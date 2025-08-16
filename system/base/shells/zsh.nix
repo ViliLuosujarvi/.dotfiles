@@ -4,7 +4,7 @@
 
 let
 
-   Theme = "zsh_theme"
+   Theme = "zsh_theme";
 
 in
 
