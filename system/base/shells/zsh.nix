@@ -28,7 +28,9 @@ in
 		 "virtualenv" 
 		 "vi-mode"	
 		];
-        theme = "Theme";
+        inherit Theme;
+
+	#theme = "Theme";
 	# good ones been:
 	# jonathan, candy, gnzh,
 	# strug, xiong-chiamiov,
