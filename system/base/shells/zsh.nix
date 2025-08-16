@@ -56,7 +56,7 @@
   #  ./../../../.config/oh-my-zsh/custom/themes; 
  
   environment.etc."oh-my-zsh/custom/themes/zsh-theme".source =
-  .dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/mytheme.zsh-theme;
+  .dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/zsh-theme;
   
 
   # Set ZSH as default shell for nansus
