@@ -15,11 +15,8 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 # %m = short hostname
 # %1~ = current folder name only
 # $(git_prompt_info) = branch info
-PROMPT='%F{cyan}%n%f@%F{blue}%m%f %F{green}%1~
-	# git info
-	%f$(git_prompt_info)
-	# the red thing after current folder
-	%{$fg[red]%}%(!.#.»)%{$reset_color%}'
+PROMPT='%F{cyan}%n%f@%F{blue}%m%f %F{green}%1~%f$(git_prompt_info)
+%{$fg[red]%}%(!.#.»)%{$reset_color%}'
 
 # --- Right prompt ---
 # %~ = full path
