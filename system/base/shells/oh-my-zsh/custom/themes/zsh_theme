@@ -1,7 +1,13 @@
+# If run as root, red. Else white
+#if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
+
+# Shows exit status of latest command if not zero
+local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+
 # --- Git prompt symbols ---
 ZSH_THEME_GIT_PROMPT_PREFIX=" ("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")"
-ZSH_THEME_GIT_PROMPT_DIRTY="*"
+ZSH_THEME_GIT_PROMPT_DIRTY=" "
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 # --- Left prompt ---
@@ -9,7 +15,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 # %m = short hostname
 # %1~ = current folder name only
 # $(git_prompt_info) = branch info
-PROMPT='%F{cyan}%n%f@%F{blue}%m%f %F{yellow}%1~%f$(git_prompt_info) '
+PROMPT='%F{cyan}%n%f@%F{blue}%m%f %F{green}%1~ %{$fg[red]%}%(!.#.»)%{$reset_color%}  %f$(git_prompt_info) '
 
 # --- Right prompt ---
 # %~ = full path
