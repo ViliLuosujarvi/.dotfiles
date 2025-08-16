@@ -8,7 +8,7 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$fg[yellow]%}["
 ZSH_THEME_GIT_PROMPT_SUFFIX="]%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_DIRTY=" "
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%}*%{$fg[yellow]%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%} %{$fg[yellow]%}"
 
 # --- Left prompt ---
 # %n = username
@@ -16,7 +16,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%}*%{$fg[yellow]%}"
 # %~ = full folder path
 # $(git_prompt_info) = branch info
 PROMPT='
-%F{cyan}%n%f @ %F{blue}%m%f %{$fg[turquoise]%}%D{[ %X ]} %F{green}%~ %f$(git_prompt_info) %F{green}%~
+%F{cyan}%n%f @ %F{blue}%m%f %{$fg[turquoise]%}%D{[ %X ]} %f$(git_prompt_info) %F{green}%~
   %{$fg[red]%}%(!..  )%{$reset_color%} '
 
 # --- Right prompt ---
