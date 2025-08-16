@@ -21,4 +21,4 @@ PROMPT='
 
 # --- Right prompt ---
 # %1~ = current folder
-RPROMPT='%F{magenta}%1~%f %{$reset_color%} ${return_code}'
+RPROMPT='%F{yellow}%1~%f %{$reset_color%} ${return_code}'
