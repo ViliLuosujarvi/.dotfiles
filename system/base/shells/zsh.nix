@@ -48,12 +48,12 @@
         SAVEHIST=10000;
         setopt appendhistory;
         '';
-      };
-
-     # Put your custom theme into oh-my-zsh's custom dir
-    xdg.configFile."oh-my-zsh/custom/themes/mytheme.zsh-theme".source =
-      ./../../../.config/oh-my-zsh/custom/themes; 
+      }; 
    };
+
+  # Put your custom theme into oh-my-zsh's custom dir
+  xdg.configFile."oh-my-zsh/custom/themes/mytheme.zsh-theme".source =
+    ./../../../.config/oh-my-zsh/custom/themes; 
  
   # Set ZSH as default shell for nansus
   users.users.nansus = {   
