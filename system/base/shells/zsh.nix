@@ -21,7 +21,7 @@
 		 "virtualenv" 
 		 "vi-mode"	
 		];
-	theme = "zsh_theme";
+	theme = "";
 	# good ones been:
 	# jonathan, candy, gnzh,
 	# strug, xiong-chiamiov,
