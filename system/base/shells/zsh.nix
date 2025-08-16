@@ -55,8 +55,8 @@
   #xdg.configFile."oh-my-zsh/custom/themes/mytheme.zsh-theme".source =
   #  ./../../../.config/oh-my-zsh/custom/themes; 
  
-  xdg.configFile."oh-my-zsh/custom/themes/zsh-theme".source = .config/oh-my-zsh/custom/zsh-theme;
-
+  xdg.configFile."oh-my-zsh/custom/themes/zsh-theme".source = 
+    ./hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/zsh-theme;
 
   # Set ZSH as default shell for nansus
   users.users.nansus = {   
