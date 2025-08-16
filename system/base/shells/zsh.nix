@@ -36,7 +36,7 @@
       promptInit = ''
 	
 	# current custom zsh theme is stored here
-	source /../../.dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/zsh_theme
+	source ./../.dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/zsh_theme
 
         # Set-up icons for files/folders in terminal using lsd
         alias ls='lsd'
