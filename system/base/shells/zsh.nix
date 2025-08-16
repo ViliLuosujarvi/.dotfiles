@@ -1,13 +1,6 @@
 { config, lib, pkgs, ... }:
 
-let
-
-   Theme = "zsh_theme";
-
-in
-
 {
-
   environment.systemPackages = with pkgs; [
      fzf
      lsd
@@ -28,9 +21,7 @@ in
 		 "virtualenv" 
 		 "vi-mode"	
 		];
-        inherit Theme;
-
-	#theme = "Theme";
+	theme = "zsh_theme";
 	# good ones been:
 	# jonathan, candy, gnzh,
 	# strug, xiong-chiamiov,
@@ -44,7 +35,7 @@ in
 
       promptInit = ''
 
-	source /home/nansus/.dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/${Theme}
+	source /home/nansus/.dotfiles/hosts/Home-Desktop/.config/oh-my-zsh/custom/themes/zsh_theme
 
         # Set-up icons for files/folders in terminal using lsd
         alias ls='lsd'
