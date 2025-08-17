@@ -24,9 +24,12 @@
 #RPROMPT='%F{yellow}%1~%f %{$reset_color%} ${return_code}'
 
 
-------
+# ------
 # Shows exit status of latest command if not zero
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+
+# Right side of the prompt
+RPS1='%{$fg[blue]%}%~%{$reset_color%} ${return_code} '
 
 # Main prompt
 PROMPT='$(virtualenv_prompt_info)%{␛[03m%}%{$fg[green]%}%c \
@@ -37,7 +40,7 @@ $(git_prompt_info)
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 
 # Right side of the prompt
-RPS1='%{$fg[blue]%}%~%{$reset_color%} ${return_code} '
+#RPS1='%{$fg[blue]%}%~%{$reset_color%} ${return_code} '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$fg[yellow]%}("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%} "
