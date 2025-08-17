@@ -22,9 +22,12 @@ PROMPT='
 %F{cyan}%n%f @ %F{blue}%m%f %f$(git_prompt_info) %F{green}%~
   %{$fg[red]%}%(!..  )%{$reset_color%} '
 
+# Resets color idk
+PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
+
 # --- Right prompt ---
 # %1~ = current folder
-RPROMPT='%F{yellow}%1~%f %{$reset_color%} ${return_code}'
+RPS1='%F{yellow}%1~%f %{$reset_color%} ${return_code}'
 
 
 # ------ testing to modify zsh
