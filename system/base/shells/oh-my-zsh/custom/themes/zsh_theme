@@ -20,7 +20,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%}  %{$fg[yellow]%}"
 #$(git_prompt_info) = branch info
 PROMPT='
 %F{cyan}%n%f @ %F{blue}%m%f %f$(git_prompt_info) %F{green}%~
-  %{$fg[yellow]%}%1~%{$reset_color%} ${return_code} %{$fg[red]%}%(!..  )%{$reset_color%} '
+%{$fg[yellow]%}%1~%{$reset_color%} ${return_code} %{$fg[red]%}%(!..  )%{$reset_color%} '
 
 # Resets color idk
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
@@ -28,7 +28,7 @@ PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 # --- Right prompt ---
 # %1~ = current folder
 # RPS1='%F{yellow}%1~%f %{$reset_color%} ${return_code}'
-
+RPS1= '%{$fg[grey]%}%D{[ %X ]}'
 
 # ------ testing to modify zsh
 
