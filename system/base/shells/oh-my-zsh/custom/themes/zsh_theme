@@ -2,13 +2,13 @@
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
 
 # Shows exit status of latest command if not zero
-local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+#local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 # --- Git prompt symbols ---
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$fg[yellow]%}["
-ZSH_THEME_GIT_PROMPT_SUFFIX="]%{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DIRTY=""
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%}  %{$fg[yellow]%}"
+#ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$fg[yellow]%}["
+#ZSH_THEME_GIT_PROMPT_SUFFIX="]%{$reset_color%} "
+#ZSH_THEME_GIT_PROMPT_DIRTY=""
+#ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%}  %{$fg[yellow]%}"
 
 # ----- in case of need -----
 # %{$fg[turquoise]%}%D{[ %X ]} = clock, h%.m%.s%
@@ -18,12 +18,12 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[red]%}  %{$fg[yellow]%}"
 # %m = short hostname
 # %~ = full folder path
 #$(git_prompt_info) = branch info
-PROMPT='
-%F{cyan}%n%f @ %F{blue}%m%f %f$(git_prompt_info) %F{green}%~
-%{$fg[yellow]%}%1~%{$reset_color%} ${return_code} %{$fg[red]%}%(!..  )%{$reset_color%} '
+#PROMPT='
+#%F{cyan}%n%f @ %F{blue}%m%f %f$(git_prompt_info) %F{green}%~
+#%{$fg[yellow]%}%1~%{$reset_color%} ${return_code} %{$fg[red]%}%(!..  )%{$reset_color%} '
 
 # Resets color idk
-PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
+#PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 
 # --- Right prompt ---
 # %1~ = current folder
@@ -35,23 +35,26 @@ PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 # ------ testing to modify zsh
 
 # Shows exit status of latest command if not zero
-#local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 # Right side of the prompt
-#RPS1='%{$fg[blue]%}%~%{$reset_color%} ${return_code} '
+#RPS1='%{$reset_color%} %{$fg[grey]%}%D{[ %X ]} '
 
 # Main prompt
-#PROMPT='$(virtualenv_prompt_info)%{␛{03m%}%{$fg[green]%}%c \
-#$(git_prompt_info)
-#  %{$fg[red]%}%(!..  )%{$reset_color%} '
+PROMPT='
+%F{magenta}%n%f @ %F{magenta}%m%f $(git_prompt_info)  $(virtualenv_prompt_info)%{$fg[green]%}%~
+  %{$fg[yellow]%}%1~%{$reset_color%} ${return_code} %{$fg[magenta]%}%(!..  ) %{$reset_color%} '
 
 # Resets color idk
-#PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
+PROMPT2='%{$fg[gray]%}\ %{$reset_color%}'
+
+# Right side of the prompt
+RPS1='%{$fg[gray]%}%D{[ %H:%M ]} %{$reset_color%} ${return_code}'
 
 # Right side of the prompt
 #RPS1='%{$fg[blue]%}%~%{$reset_color%} ${return_code} '
 
-#ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$fg[yellow]%}("
-#ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%} "
-#ZSH_THEME_GIT_PROMPT_CLEAN=""
-#ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%} %{$fg[yellow]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$fg[yellow]%}("
+ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_CLEAN=""
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%} %{$fg[yellow]%}"
