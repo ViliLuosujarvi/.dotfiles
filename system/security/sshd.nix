@@ -10,5 +10,5 @@
       PermitRootLogin = "no";
     };
   };
-  users.users.nansus.openssh.authorizedKeys.keys = authorizedKeys;
+  #users.users.nansus.openssh.authorizedKeys.keys = authorizedKeys;
 }
