@@ -16,6 +16,9 @@
       ../../system/base/networking.nix
       ../../system/base/locale.nix
 
+      # ----- Games -----
+      ../../system/games/tailscale.nix
+
 	# hostname
       #../../system/base/hostnames/Home-Desktop.nix
 	
