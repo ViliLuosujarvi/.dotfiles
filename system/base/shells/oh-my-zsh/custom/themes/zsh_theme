@@ -43,7 +43,7 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 # Main prompt
 PROMPT='
 %F{magenta}%n%f @ %F{magenta}%m%f $(git_prompt_info)  $(virtualenv_prompt_info)%{$fg[green]%}%~
-  %{$fg[yellow]%}%1~%{$reset_color%} ${return_code} %{$fg[magenta]%}%(!..  ) %{$reset_color%} '
+  %{$fg[yellow]%}%1~%{$reset_color%} %{$fg[magenta]%}%(!..  ) %{$reset_color%} '
 
 # Resets color idk
 PROMPT2='%{$fg[gray]%}\ %{$reset_color%}'
