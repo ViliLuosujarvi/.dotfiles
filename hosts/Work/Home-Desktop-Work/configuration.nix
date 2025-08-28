@@ -4,7 +4,7 @@
   imports =
     [ 
       # ---- Hardware ----
-      ../../hosts/Home-Desktop/Desktop-hw.nix
+      ../../Home-Desktop/Desktop-hw.nix
 
       # ----  Base  ----
       ../../system/base/boot.nix
