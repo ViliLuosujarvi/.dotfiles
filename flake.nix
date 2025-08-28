@@ -45,6 +45,7 @@
     in {
 
       nixosConfigurations = {
+	# Leisure configuration for Home-Desktop
         Home-Desktop = lib.nixosSystem {
           inherit system;
           modules = [
@@ -56,7 +57,20 @@
             inherit inputs pkgs;
           };
         };
-        NanSuS-Laptop = lib.nixosSystem {
+	# Work mode for Home-Desktop
+	Home-Desktop-work = lib.nixosSystem {
+	  inherit system;
+	  modules = [
+	     "${self}/hosts/Work/Home-Desktop-Work/configuration.nix"
+	     nixos-hardware.nixosModules.lenovo-legion-t526amr5
+             ./system/base/shells/zsh.nix
+	  ];
+	  specialArgs = {
+	    inherit inputs pkgs;
+	  };
+	};
+	# Leisure configuration for home Laptop
+        Home-Laptop = lib.nixosSystem {
           inherit system;
           modules = [
              "${self}/hosts/Laptop/configuration.nix"
@@ -67,6 +81,20 @@
             inherit inputs pkgs;
           };
         };
+	# Work configuration for home Laptop
+        Home-Laptop-Work = lib.nixosSystem {
+          inherit system;
+          modules = [
+             "${self}/hosts/Work/Home-Laptop-Work/configuration.nix"
+	   nixos-hardware.nixosModules.lenovo-legion-16ithg6
+      	   ./system/base/shells/zsh.nix
+          ];
+          specialArgs = {
+            inherit inputs pkgs;
+          };
+        };
+	# Basic configuration for Slave machine
+	# to run ML calculations
         Slave = lib.nixosSystem {
           inherit system;
           modules = [
@@ -94,13 +122,31 @@
   	      	basics
           ];
         };
-        "nansus@NanSuS-Laptop" = inputs.home-manager.lib.homeManagerConfiguration {
+
+	"nansus@Home-Desktop-Work" = inputs.home-manager.lib.homeManagerConfiguration {
+          inherit pkgs;
+          modules = [
+	     		"${self}/hosts/Work/Home-Desktop-Work/home.nix"
+  	     	basics
+          ];
+        };
+
+        "nansus@Home-Laptop" = inputs.home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           modules = [
     	      "${self}/hosts/Laptop/home.nix"
 	        	basics
           ];
         };
+
+        "nansus@Home-Laptop-Work" = inputs.home-manager.lib.homeManagerConfiguration {
+          inherit pkgs;
+          modules = [
+    	     "${self}/hosts/Work/Home-Laptop-Work/home.nix"
+	       	basics
+          ];
+        };
+
         "nansus@Slave" = inputs.home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           modules = [
