@@ -58,7 +58,7 @@
           };
         };
 	# Work mode for Home-Desktop
-	Home-Desktop-work = lib.nixosSystem {
+	Home-Desktop-Work = lib.nixosSystem {
 	  inherit system;
 	  modules = [
 	     "${self}/hosts/Work/Home-Desktop-Work/configuration.nix"
