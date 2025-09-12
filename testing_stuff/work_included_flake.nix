@@ -14,10 +14,8 @@
     hyprland = {
       url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
-    };
+  };
 
-    sops-nix.url = "github:Mic92/sops-nix";
-    sops-nix.inputs.nixpkgs.follows = "nixpkgs";
 
 
   };
@@ -29,8 +27,7 @@
       flake-utils,
       hyprland,
       home-manager,
-      nixos-hardware,
-      sops-nix
+      nixos-hardware
      
       }@inputs:
 
@@ -54,8 +51,7 @@
           modules = [
              "${self}/hosts/Home-Desktop/configuration.nix"
              nixos-hardware.nixosModules.lenovo-legion-t526amr5
-             ./system/base/shells/zsh.nix
-	     sops-nix.nixosModules.sops
+        	   ./system/base/shells/zsh.nix
           ];
           specialArgs = {
             inherit inputs pkgs;
@@ -68,7 +64,6 @@
 	     "${self}/hosts/Work/Home-Desktop-Work/configuration.nix"
 	     nixos-hardware.nixosModules.lenovo-legion-t526amr5
              ./system/base/shells/zsh.nix
-	     sops-nix.nixosModules.sops
 	  ];
 	  specialArgs = {
 	    inherit inputs pkgs;
@@ -81,7 +76,6 @@
              "${self}/hosts/Laptop/configuration.nix"
 	    nixos-hardware.nixosModules.lenovo-legion-16ithg6
       	    ./system/base/shells/zsh.nix
-	    sops-nix.nixosModules.sops
           ];
           specialArgs = {
             inherit inputs pkgs;
@@ -94,7 +88,6 @@
              "${self}/hosts/Work/Home-Laptop-Work/configuration.nix"
 	   nixos-hardware.nixosModules.lenovo-legion-16ithg6
       	   ./system/base/shells/zsh.nix
-	   sops-nix.nixosModules.sops
           ];
           specialArgs = {
             inherit inputs pkgs;
@@ -107,7 +100,6 @@
           modules = [
              "${self}/hosts/Slave/configuration.nix"
       	    ./system/base/shells/zsh.nix
-	    sops-nix.nixosModules.sops
           ];
           specialArgs = {
             inherit inputs pkgs;
