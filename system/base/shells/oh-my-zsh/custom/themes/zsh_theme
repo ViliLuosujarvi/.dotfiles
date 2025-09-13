@@ -49,7 +49,11 @@ PROMPT='
 PROMPT2='%{$fg[gray]%}\ %{$reset_color%}'
 
 # Right side of the prompt
-RPS1='%{$fg[gray]%}%D{[ %H:%M ]} %{$reset_color%} ${return_code}'
+#RPS1='%{$fg[blue]%}%D{[ %H:%M ]} %{$reset_color%} ${return_code}'
+RPS1='${return_code} %{$reset_color%} %{$fg[cyan]%}%D{[ %H:%M ]}'
+#RPS1='%{$fg[cyan]%}%D{[ %H:%M ]} %{$reset_color%}'
+
+
 
 # Right side of the prompt
 #RPS1='%{$fg[blue]%}%~%{$reset_color%} ${return_code} '
