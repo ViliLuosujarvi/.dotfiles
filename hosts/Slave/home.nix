@@ -48,6 +48,18 @@
     ];
   };
 
+  # Enable DirEnv
+  programs = {
+    direnv = {
+      enable = true;
+      enableBashIntegration = true;
+      nix-direnv.enable = true;
+    };
+
+    bash.enable = true;
+    #zsh.enable = true;
+  };
+
   home.file = {
      ".config" = {
 	source = ./.config;
