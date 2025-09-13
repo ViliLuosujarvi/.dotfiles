@@ -30,7 +30,8 @@
       hyprland,
       home-manager,
       nixos-hardware,
-      sops-nix
+      sops-nix,
+      vscode-server
      
       }@inputs:
 
