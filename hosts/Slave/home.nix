@@ -56,7 +56,7 @@
       nix-direnv.enable = true;
     };
 
-    bash.enable = true;
+    #bash.enable = true;
     #zsh.enable = true;
   };
 
