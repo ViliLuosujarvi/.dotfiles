@@ -19,7 +19,7 @@
     sops-nix.url = "github:Mic92/sops-nix";
     sops-nix.inputs.nixpkgs.follows = "nixpkgs";
 
-
+    vscode-server.url = "github:nix-community/nixos-vscode-server";
   };
 
   outputs = {
@@ -108,6 +108,9 @@
              "${self}/hosts/Slave/configuration.nix"
       	    ./system/base/shells/zsh.nix
 	    sops-nix.nixosModules.sops
+            vscode-server.nixosModules.default
+            ({ config, pkgs, ... }: {
+               services.vscode-server.enable = true;
           ];
           specialArgs = {
             inherit inputs pkgs;
