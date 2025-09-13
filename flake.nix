@@ -111,6 +111,7 @@
             vscode-server.nixosModules.default
             ({ config, pkgs, ... }: {
                services.vscode-server.enable = true;
+	    })
           ];
           specialArgs = {
             inherit inputs pkgs;
