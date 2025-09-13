@@ -57,6 +57,13 @@
              nixos-hardware.nixosModules.lenovo-legion-t526amr5
              ./system/base/shells/zsh.nix
 	     sops-nix.nixosModules.sops
+
+	     # remember to run this on host machine:
+	     # systemctl --user enable auto-fix-vscode-server.service
+	     vscode-server.nixosModules.default
+             ({ config, pkgs, ... }: {
+                services.vscode-server.enable = true;
+	     })
           ];
           specialArgs = {
             inherit inputs pkgs;
@@ -109,6 +116,9 @@
              "${self}/hosts/Slave/configuration.nix"
       	    ./system/base/shells/zsh.nix
 	    sops-nix.nixosModules.sops
+
+	    # remember to run this on host machine:
+	    # systemctl --user enable auto-fix-vscode-server.service
             vscode-server.nixosModules.default
             ({ config, pkgs, ... }: {
                services.vscode-server.enable = true;
