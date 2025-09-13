@@ -26,8 +26,10 @@
     userEmail = "vili.luosujarvi@edu.lapinamk.fi";
   };
 
+  # Enable vscode
   programs.vscode = {
   enable = true;
+  # and extensions
   extensions = with pkgs.vscode-extensions; [
     
     # theme options
@@ -47,6 +49,18 @@
     # miscellaneous
     tekumara.typos-vscode
     ];
+  };
+
+  # Enable DirEnv
+  programs = {
+    direnv = {
+      enable = true;
+      enableBashIntegration = true;
+      nix-direnv.enable = true;
+    };
+
+    bash.enable = true;
+    #zsh.enable = true;
   };
 
   home.file = {
