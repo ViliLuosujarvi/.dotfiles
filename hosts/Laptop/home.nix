@@ -29,7 +29,6 @@
   
   # -----
 
-{
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
@@ -42,7 +41,6 @@
       fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ];
     })
   ];
-}
 
   # ----
 
