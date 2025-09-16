@@ -15,9 +15,16 @@
   home.packages = with pkgs; [
 	git
 	gh
-	kitty
+	#kitty
 	ripgrep
   ];
+
+  programs.kitty = {
+    enable = true;
+    font = {
+      name = "FiraCode Nerd Font";
+      size = 10;
+  };
 
   #Enable git
   programs.git = {
