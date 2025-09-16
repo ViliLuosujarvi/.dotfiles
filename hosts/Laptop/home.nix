@@ -27,27 +27,18 @@
     };
   };
   
-  # -----
-
+  # Enable Fira Code as default font
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
       #monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
     
-      serif = [ "Fira Code Nerd Font" ];
+      serif = [ "Fira Serif Nerd Font" ];
       sansSerif = [ "Fira Code Nerd Font" ];
       monospace = [ "Fira Code Nerd Font" ];
       emoji = [ "Noto Color Emoji" ];
       };
   };
-
- # home.packages = [
- #   (pkgs.nerdfonts.override {
- #     fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ];
- #   })
- # ];
-
-  # ----
 
   #Enable git
   programs.git = {
