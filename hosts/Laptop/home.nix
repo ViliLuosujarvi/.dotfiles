@@ -32,7 +32,7 @@
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
-      monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
+      monospace = [ "FiraCode Light Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
     };
   };
 
