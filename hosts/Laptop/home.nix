@@ -32,8 +32,13 @@
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
-      monospace = [ "FiraCode Light Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
-    };
+      #monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
+    
+      serif = [ "Fira Code" ];
+      sansSerif = [ "Fira Code" ];
+      monospace = [ "Fira Code" ];
+      emoji = [ "Noto Color Emoji" ];
+      };
   };
 
  # home.packages = [
