@@ -36,11 +36,11 @@
     };
   };
 
-  home.packages = [
-    (pkgs.nerdfonts.override {
-      fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ];
-    })
-  ];
+ # home.packages = [
+ #   (pkgs.nerdfonts.override {
+ #     fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ];
+ #   })
+ # ];
 
   # ----
 
