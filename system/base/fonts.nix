@@ -27,7 +27,7 @@
 	fontDir.enable = true;
 	enableGhostscriptFonts = true;
 	packages = with pkgs; [
-     		map (font: font.overrideAttrs { fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ]; ) [
+     		map (font: font.overrideAttrs { fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ]; }) [
 		#roboto
 		#noto-fonts
 		#noto-fonts-cjk-sans
