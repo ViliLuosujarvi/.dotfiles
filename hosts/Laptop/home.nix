@@ -26,6 +26,25 @@
       size = 10;
     };
   };
+  
+  # -----
+
+{
+  fonts.fontconfig = {
+    enable = true;
+    defaultFonts = {
+      monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
+    };
+  };
+
+  home.packages = [
+    (pkgs.nerdfonts.override {
+      fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ];
+    })
+  ];
+}
+
+  # ----
 
   #Enable git
   programs.git = {
