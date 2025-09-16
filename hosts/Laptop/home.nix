@@ -34,9 +34,9 @@
     defaultFonts = {
       #monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
     
-      serif = [ "Fira Code" ];
-      sansSerif = [ "Fira Code" ];
-      monospace = [ "Fira Code" ];
+      serif = [ "Fira Code Nerd Font" ];
+      sansSerif = [ "Fira Code Nerd Font" ];
+      monospace = [ "Fira Code Nerd Font" ];
       emoji = [ "Noto Color Emoji" ];
       };
   };
