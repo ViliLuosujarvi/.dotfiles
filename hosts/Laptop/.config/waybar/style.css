@@ -220,7 +220,7 @@ window#waybar {
     margin: 0 2px;
     color: @color7;  /*used to be @color12*/
     border-bottom: 2px solid transparent;
-    font-size: 15px
+    font-size: 18px
 }
 
 #battery {
