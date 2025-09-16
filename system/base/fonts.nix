@@ -43,7 +43,7 @@
 		nerd-fonts.fira-mono
 		nerd-fonts.iosevka
 		nerd-fonts.mononoki
-		];
+		]
  	};	
 
 
