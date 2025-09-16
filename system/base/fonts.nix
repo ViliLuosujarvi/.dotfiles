@@ -23,7 +23,7 @@
   #];
 
   # Add fonts to system
-  font = {
+  fonts = {
 	fontDir.enable = true;
 	enableGhostscriptFonts = true;
 	packages = with pkgs; [
