@@ -60,6 +60,8 @@
      gh
      git
      btop
+
+     inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
   ];
 
   # Allow unfree software

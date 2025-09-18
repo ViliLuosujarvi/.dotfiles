@@ -11,12 +11,6 @@
 
     flake-utils.url = "github:numtide/flake-utils";
 
-    rose-pine-hyprcursor = {
-      url = "github:ndom91/rose-pine-hyprcursor";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.hyprlang.follows = "hyprland/hyprlang";
-    };
-
     hyprland = {
       url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -37,8 +31,7 @@
       home-manager,
       nixos-hardware,
       sops-nix,
-      vscode-server,
-      rose-pine-hyprcursor
+      vscode-server
      
       }@inputs:
 
