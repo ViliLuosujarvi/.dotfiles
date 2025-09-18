@@ -22,6 +22,12 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    hyprlang = {
+      url = "github:hyprwm/hyprlang";
+      inputs.systems.follows = "systems";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     sops-nix.url = "github:Mic92/sops-nix";
     sops-nix.inputs.nixpkgs.follows = "nixpkgs";
 
@@ -34,6 +40,7 @@
       nixpkgs, 
       flake-utils,
       hyprland,
+      hyprlang,
       home-manager,
       nixos-hardware,
       sops-nix,
