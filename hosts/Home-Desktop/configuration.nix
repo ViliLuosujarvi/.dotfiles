@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }:
+{ config, pkgs, lib, inputs, system, ... }:
 
 {
   imports =
@@ -60,6 +60,8 @@
      gh
      git
      btop
+
+     inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
   ];
 
   # Allow unfree software
