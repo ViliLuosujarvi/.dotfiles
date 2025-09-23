@@ -55,6 +55,7 @@
      networkmanagerapplet
      openssl
      pciutils
+     feh
 
      # Personally needed software
      gh
