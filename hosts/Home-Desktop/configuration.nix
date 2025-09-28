@@ -44,6 +44,7 @@
       # ---- Security ----
       ../../system/security/automount.nix
       ../../system/security/firewall.nix
+      ../../system/security/sshd.nix
      ];
 
 
