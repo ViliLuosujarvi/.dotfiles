@@ -4,7 +4,7 @@
   # Enable incoming ssh
   services.openssh = {
     enable = true;
-    openFirewall = true;
+    openFirewall = false;
     settings = {
       PasswordAuthentication = true;
       PermitRootLogin = "no";
