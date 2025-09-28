@@ -19,7 +19,6 @@
         enable = true;
 	plugins = ["git" 
 		 "virtualenv" 
-		 "vi-mode"
 		 "direnv"	
 		];
 	theme = "";
