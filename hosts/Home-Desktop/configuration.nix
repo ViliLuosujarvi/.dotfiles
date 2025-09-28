@@ -34,6 +34,7 @@
       ../../system/app/libreOffice.nix
       #../../system/app/vscode.nix
       ../../system/app/browser/firefox.nix
+      ../../system/app/mysql.nix
 
       # ---- games ----
       ../../system/games/steam.nix
