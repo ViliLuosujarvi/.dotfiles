@@ -112,7 +112,7 @@ window#waybar {
 .modules-left, /*.modules-center,*/ .modules-right {
     background-color: alpha(@color0, 0.85);
     border: 2px solid alpha(@color8, 0.9);
-    border-radius: 12px;
+    border-radius: 16px;
     padding: 1px 2px;
     margin: 0 4px;
 }
@@ -221,7 +221,7 @@ window#waybar {
     margin: 0 2px;
     color: @color7;  /*used to be @color12*/
     border-bottom: 2px solid transparent;
-    font-size: 14px
+    font-size: 11px
 }
 
 #battery {
