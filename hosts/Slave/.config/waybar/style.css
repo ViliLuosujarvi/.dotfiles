@@ -115,6 +115,11 @@ window#waybar {
     faded cyan line)*/
     /*background-color: alpha(@color0, 0.85);*/
     /*border: 2px solid alpha(@color8, 0.9);*/
+
+    /*enabling this creates faded round edge on
+    the left side and removes rounded edges on right
+    side but rainbow coloring still stays 
+    (sorry, this is more of a note to self)*/
     /*border-radius: 12px;*/
     padding: 1px 2px;
     margin: 0 4px;
@@ -136,16 +141,16 @@ window#waybar {
 }*/
 
 /*.modules-left,*/
-.modules-right {
+/*/.modules-right {
     /*border-top: 3px solid #dc322f;
     animation: rainbow-border 18s infinite linear;*/
 
 
-    border-top: 3px solid #dc322f; /* Default color (Red) */
-    border-left: 3px solid #dc322f; /* Default color (Red) */
-    border-right: 3px solid #dc322f; /* Default color (Red) */
-    animation: rainbow-border 30s infinite linear; /* Adjust time for animation speed */
-}
+    /*border-top: 3px solid #dc322f; /* Default color (Red) */
+    /*border-left: 3px solid #dc322f; /* Default color (Red) */
+    /*border-right: 3px solid #dc322f; /* Default color (Red) */
+    /*animation: rainbow-border 30s infinite linear; /* Adjust time for animation speed */
+/*}*/
 
 
 #workspaces {
