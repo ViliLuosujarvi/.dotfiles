@@ -110,9 +110,12 @@ window#waybar {
 }
 
 .modules-left, /*.modules-center,*/ .modules-right {
+    /*enabling these will result to a line under both
+    sides (not meaning the really colorful lines, just
+    faded cyan line)*/
     /*background-color: alpha(@color0, 0.85);*/
     /*border: 2px solid alpha(@color8, 0.9);*/
-    border-radius: 12px;
+    /*border-radius: 12px;*/
     padding: 1px 2px;
     margin: 0 4px;
 }
