@@ -194,7 +194,7 @@
               home.homeDirectory = "/home/nansus";
               home.stateVersion = "24.11";
 	      
-	      # enable home manager
+	      # Enable home manager
               programs.home-manager.enable = true;
               };
           in {
