@@ -10,6 +10,9 @@
 
 environment.systemPackages = with pkgs; [
      # Hyprland related software
+     # that I tend to utilize as
+     # "base" for hyprland system
+     # always, choose yourself ig
      kitty
      waybar
      hyprpaper
