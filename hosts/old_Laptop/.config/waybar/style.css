@@ -99,7 +99,7 @@
 * {
     font-family: "JetBrainsMono Nerd Font", "CaskaydiaCove Nerd Font";
     /* this for changing the kitty size :face_holding_back_tears: */
-    font-size: 9px;
+    font-size: 7px;
     font-weight: 500;
     min-height: 0;
    /* animation: rainbow-border 30s infinite linear; */
@@ -229,7 +229,7 @@ window#waybar {
     margin: 0 2px;
     color: @color7;  /*used to be @color12*/
     border-bottom: 2px solid transparent;
-    font-size: 17px
+    font-size: 15px
 }
 
 #battery {
