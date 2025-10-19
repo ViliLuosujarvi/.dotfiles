@@ -141,14 +141,14 @@ window#waybar {
 }*/
 
 /*.modules-left,*/
-/*/.modules-right {
+/*.modules-right {
     /*border-top: 3px solid #dc322f;
     animation: rainbow-border 18s infinite linear;*/
 
 
-    /*border-top: 3px solid #dc322f; /* Default color (Red) */
-    /*border-left: 3px solid #dc322f; /* Default color (Red) */
-    /*border-right: 3px solid #dc322f; /* Default color (Red) */
+    /*border-top: 3px solid #dc322f;  Default color (Red) */
+    /*border-left: 3px solid #dc322f;  Default color (Red) */
+    /*border-right: 3px solid #dc322f;  Default color (Red) */
     /*animation: rainbow-border 30s infinite linear; /* Adjust time for animation speed */
 /*}*/
 
