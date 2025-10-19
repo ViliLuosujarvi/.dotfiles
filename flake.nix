@@ -43,11 +43,11 @@
 
     # not in use at the moment, could be just
     # removed from this file entirely
-    #hyprlang = {
-    #  url = "github:hyprwm/hyprlang";
-    #  inputs.system.follows = "system";
-    #  inputs.nixpkgs.follows = "nixpkgs";
-    #};
+    hyprlang = {
+      url = "github:hyprwm/hyprlang";
+      inputs.system.follows = "system";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # sops-nix for ecrets management
     # (still under maintanance aka I haven't had
