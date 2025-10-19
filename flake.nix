@@ -104,7 +104,7 @@
         Home-Desktop = lib.nixosSystem {
           inherit system;
           modules = [
-             "${self}/hosts/Home-Desktop/configuration.nix
+             "${self}/hosts/Home-Desktop/configuration.nix"
              nixos-hardware.nixosModules.lenovo-legion-t526amr5
              ./system/base/shells/zsh.nix
 	     sops-nix.nixosModules.sops
