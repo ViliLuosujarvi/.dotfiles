@@ -12,6 +12,10 @@
     "modules-right": ["network", "group/system-info","disk" ,"memory", "custom/nvidia", "group/cpu_info", "battery", "tray"],
 
 
+// WHEN I'M LISTENING TO MEZZANINE ALBUM AND PONDERING ON THESE
+// ADJUSTMENTS, THINK OF ME AS MARK ROTHKO LISTENING TO MOZART XD
+
+
 	//cute cats can be found here:
 	//https://emojidb.org/cat-ascii-emojis
     "hyprland/workspaces": {
