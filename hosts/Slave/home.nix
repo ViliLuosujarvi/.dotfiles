@@ -73,6 +73,13 @@
     #zsh.enable = true;
   };
 
+  # Enaable fastfetch to use custom filepath
+  # for config.json 
+  programs.fastfetch = {
+    #enable = true;
+    configFile = /home/your-username/.dtfiles/computer/.config/fastfetch/ci.json;
+  };
+
   home.file = {
      ".config" = {
 	source = ./.config;
