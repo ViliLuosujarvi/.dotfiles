@@ -22,6 +22,9 @@
 	# screenshots
 	grimblast
 
+	hyprshot
+	hyprpicker
+
 	# photo modification
 	gimp
   ];
