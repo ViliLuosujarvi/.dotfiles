@@ -4,7 +4,7 @@ of the configs if you happen to enjoy any stylistic implementations. 😎  Also 
 artistic canvas that might be messy at times but if ever need be I'll clean it up. My goal is to have clean code that is
 easy to use but comments that might end up rambling way too extensively for no apparent reason. XD
 
-Also, no install scripts here, at the moment it's rsync of nothing. 🥹
+Also, no install scripts here, at the moment it's rsync or nothing. 🥹
 
 ( This repo has gotten heavy lift and inspiration from JaKooLit's setup but only in limited amount of the
   full functionality he has made. Also multiple times when I have felt like a puppy left in a rain 
