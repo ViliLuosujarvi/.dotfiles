@@ -16,8 +16,9 @@
       ../../system/base/networking.nix
       ../../system/base/locale.nix
       ../../system/base/kernel.nix
+      ../../system/base/screen_shot.nix
 
-      ../../system/base/hostnames/Laptop.nix
+      #../../system/base/hostnames/Laptop.nix
 
       # ---- Shell ----
       ../../system/base/shells/zsh.nix

@@ -27,6 +27,9 @@
 
 	# photo modification
 	gimp
+
+	# image viewer
+	swayimg
   ];
 
   programs.kitty = {
