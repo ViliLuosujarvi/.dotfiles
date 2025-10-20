@@ -16,7 +16,14 @@
 	git
 	gh
 	#kitty
+	# faster grep
 	ripgrep
+
+	# screenshots
+	grimblast
+
+	# photo modification
+	gimp
   ];
 
   programs.kitty = {
