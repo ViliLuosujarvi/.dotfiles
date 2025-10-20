@@ -20,16 +20,16 @@
 	ripgrep
 
 	# screenshots
-	grimblast
+	#grimblast
 
-	hyprshot
-	hyprpicker
+	#hyprshot
+	#hyprpicker
 
 	# photo modification
-	gimp
+	#gimp
 
 	# image viewer
-	swayimg
+	#swayimg
   ];
 
   programs.kitty = {
