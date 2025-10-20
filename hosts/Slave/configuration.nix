@@ -38,6 +38,8 @@
       ../../system/app/libreOffice.nix
       #../../system/app/vscode.nix
       ../../system/app/browser/firefox.nix
+      ../../system/app/spotify.nix
+
 
       # ---- Security ----
       ../../system/security/automount.nix

@@ -35,6 +35,7 @@
       #../../system/app/vscode.nix
       ../../system/app/browser/firefox.nix
       ../../system/app/mysql.nix
+      ../../system/app/spotify.nix
 
       # ---- games ----
       ../../system/games/steam.nix
