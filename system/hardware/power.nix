@@ -32,10 +32,10 @@
       MEM_SLEEP_ON_AC = "deep";
       MEM_SLEEP_ON_BAT = "deep";
 
-      PLATFORM_PROFILE_ON_AC = "performance";
+      PLATFORM_PROFILE_ON_AC = "balance";
       PLATFORM_PROFILE_ON_BAT = "low-power";
 
-      RADEON_DPM_STATE_ON_AC = "performance";
+      RADEON_DPM_STATE_ON_AC = "balance";
       RADEON_DPM_STATE_ON_BAT = "battery";
       RADEON_POWER_PROFILE_ON_AC = "high";
       RADEON_POWER_PROFILE_ON_BAT = "low";
