@@ -1,4 +1,19 @@
 {
+
+{
+   "layer": "top",
+   "position"": "left",
+   "margin-bottom": 2,
+   "margin-left": 12,
+   "margin-right": 12,
+   "output": "DP-2",
+
+   # Add new module to left screeens left side
+   "modules-left": ["clock", "network", "group/system-info","disk" ,"memory", "custom/nvidia", "group/cpu_info"],
+   
+},
+{
+
     "layer": "top",
     "position": "top",
     "height": 24,
@@ -6,14 +21,16 @@
     "margin-left": 12,
     "margin-right": 12,
     "spacing": 8,
-    //"output": ["DP-2", "HDMI-A-1"],
-    "output": "DP-2",
+    "output": "top",
     // "output": ["DP-2", "HDMI-A-1"] maybe?? to apply waybar two two monitors but not 'all' monitors
 					// Turns out it was possible :exploding_head:
-    "modules-left": ["clock", "hyprland/workspaces"],
-    //"modules-center": ["clock", "custom/weather"],
-    "modules-right": ["network", "group/system-info","disk" ,"memory", "custom/nvidia", "group/cpu_info", "battery", "tray"],
 
+    # Keep the basic modules as used to be on the main monitor
+    "modules-left": ["clock", "hyprland/workspaces"],
+    "modules-right": ["network", "group/system-info","disk" ,"memory", "custom/nvidia", "group/cpu_info", "battery", "tray"],
+}
+
+{
 
 // WHEN I'M LISTENING TO MEZZANINE ALBUM AND PONDERING ON THESE
 // ADJUSTMENTS FOR HYPRLAND, THINK OF ME AS MARK ROTHKO LISTENING TO MOZART XD
