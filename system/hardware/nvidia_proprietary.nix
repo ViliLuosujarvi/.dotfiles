@@ -16,7 +16,7 @@
       modesetting.enable = true;
 
       #Power management
-      powerManagement.enable = false;
+      powerManagement.enable = true;
 
       # Fine grained poweromanagement, only for
       # never gpu's(Turing ->)
