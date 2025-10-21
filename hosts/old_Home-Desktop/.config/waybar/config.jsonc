@@ -6,10 +6,8 @@
     "margin-left": 12,
     "margin-right": 12,
     "spacing": 8,
-    "output": ["DP-2", "HDMI-A-1"],
-    //"output": "DP-2",
+    "output": "DP-2",
     // "output": ["DP-2", "HDMI-A-1"] maybe?? to apply waybar two two monitors but not 'all' monitors
-					// Turns out it was possible :exploding_head:
     "modules-left": ["clock", "hyprland/workspaces"],
     //"modules-center": ["clock", "custom/weather"],
     "modules-right": ["network", "group/system-info","disk" ,"memory", "custom/nvidia", "group/cpu_info", "battery", "tray"],
