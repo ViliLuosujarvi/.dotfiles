@@ -1,19 +1,17 @@
-{
 
 {
    "layer": "top",
-   "position"": "left",
-   "margin-bottom": 2,
-   "margin-left": 12,
-   "margin-right": 12,
-   "output": "DP-2",
+   "position": "left",
+   //"margin-bottom": 2,
+   //"margin-left": 12,
+   //"margin-right": 12,
+   "output": "HDMI-A-1",
 
-   # Add new module to left screeens left side
+   // Add new module to left screeens left side
    "modules-left": ["clock", "network", "group/system-info","disk" ,"memory", "custom/nvidia", "group/cpu_info"],
-   
 },
+  
 {
-
     "layer": "top",
     "position": "top",
     "height": 24,
@@ -21,16 +19,14 @@
     "margin-left": 12,
     "margin-right": 12,
     "spacing": 8,
-    "output": "top",
-    // "output": ["DP-2", "HDMI-A-1"] maybe?? to apply waybar two two monitors but not 'all' monitors
+    "output": "DP-2",
+    // "output": ["DP-2"] maybe?? to apply waybar two two monitors but not 'all' monitors
 					// Turns out it was possible :exploding_head:
 
-    # Keep the basic modules as used to be on the main monitor
+    // Keep the basic modules as used to be on the main monitor
     "modules-left": ["clock", "hyprland/workspaces"],
-    "modules-right": ["network", "group/system-info","disk" ,"memory", "custom/nvidia", "group/cpu_info", "battery", "tray"],
-}
-
-{
+    "modules-right": ["network", "group/system-info", "disk" ,"memory", "custom/nvidia", "group/cpu_info", "battery", "tray"]
+},
 
 // WHEN I'M LISTENING TO MEZZANINE ALBUM AND PONDERING ON THESE
 // ADJUSTMENTS FOR HYPRLAND, THINK OF ME AS MARK ROTHKO LISTENING TO MOZART XD
@@ -57,8 +53,8 @@
         "urgent": "  /\\_/\\  \n (⊙﹏⊙;)  \n  >づづ  ",
 	"active": "  ∧,,,∧\n(  ̳• · • ̳)\n/    づ♡ I love you",
 	"default": "  /\\_/\\  \n (°w°)  \n  >づづ"
-        }
-    },
+        },
+    //},
 
 // ----------------------
 
@@ -79,7 +75,7 @@
 	//"default": "  /\\_/\\  \n (°w°)  \n  >づづ  "
 
 // -----------------------
-
+    
     "disk": {
         "interval": 30,
         "format": "󰋊  {percentage_used}%",
@@ -277,3 +273,4 @@
     }
 
 }
+
