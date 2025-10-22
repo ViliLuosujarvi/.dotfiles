@@ -17,6 +17,9 @@
 	gh
 	kitty
 	ripgrep
+
+	# for basic image viewing
+	swayimg
   ];
 
   # Enable Fira Code as default font

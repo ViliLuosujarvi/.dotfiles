@@ -8,6 +8,9 @@
 #  };
 
 
+# better to handle this trough
+# hyprlands own multi language
+# keyboard configurations:
   # Configure keymap in X11
   services.xserver = {
     xkb.layout = "us,fi";
