@@ -93,7 +93,7 @@
 	"lp"
 	"input"
 	"audio"
-
+	"uinput"
    ];
   };
   

@@ -9,7 +9,7 @@
   '';
 
 
-  users.users.nansus.extraGroups = [ "input" "uinput" ];
+  #users.users.nansus.extraGroups = [ "input" "uinput" ];
 
   # optional: start ydotoold at boot for your user
   systemd.user.services.ydotoold = {
