@@ -43,6 +43,7 @@
       ../../system/games/prismlauncher.nix
       ../../system/games/tailscale.nix
       ../../system/games/gamemode.nix
+      ../../system/games/ydotool.nix
 
       # ---- Security ----
       ../../system/security/automount.nix
