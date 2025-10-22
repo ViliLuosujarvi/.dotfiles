@@ -50,6 +50,11 @@
     "keyColor": "31"
     },
     {
+    "type": "Processes"
+    "key": "│ ├"
+    "keyColor": "31"
+    },
+    {
     "type": "shell",
     "key": "│ └",
     "keyColor": "31"
