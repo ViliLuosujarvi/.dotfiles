@@ -18,6 +18,7 @@
 
       # ----- Games -----
       ../../system/games/tailscale.nix
+      ../../system/games/steam.nix
 
 	# hostname
       ../../system/base/hostnames/Slave.nix
