@@ -71,7 +71,7 @@
     {
     "type": "host",
     "key": " 󰌢 SYSTEM ",
-    "keyColor": "green"
+    "keyColor": "green",
     "fallback": "Cool build bro! 😎"
     },
     {
