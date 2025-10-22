@@ -20,7 +20,7 @@
       ../../system/games/tailscale.nix
 
 	# hostname
-      #../../system/base/hostnames/Home-Desktop.nix
+      ../../system/base/hostnames/Slave.nix
 	
       # ---- Shell ----
       ../../system/base/shells/zsh.nix
