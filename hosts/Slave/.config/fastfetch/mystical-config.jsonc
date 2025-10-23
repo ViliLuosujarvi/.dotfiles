@@ -206,7 +206,7 @@
     "type": "sound",
     "key": " AUDIO",
     "format": "{2:22} {5} {3}",
-    "keyColor": "light)green",
+    "keyColor": "light_green",
     "percent": {
 	"type": 9,
 	"green": "99",
