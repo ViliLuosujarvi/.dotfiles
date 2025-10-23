@@ -121,7 +121,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "{1} {8}  {3} {7}"
+    "format": "{2}: ({3}C) {7}HZ {8}"
     },
     {
     "type": "CPUUsage",
@@ -164,22 +164,16 @@
     "key": "│ ╠ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{1}x{2} @ {3}"
+    "format": "{1}x{2} @ {3}Hz"
 		   /*HDR-compatible: {20}, HDR-Enabled: {15}*/
 		   /*Bits per color channel: {14} ppi:{13}"*/
     },
     {
     "type": "display",
-    "key": "│       ╚ ",
+    "key": "│      ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": " primary:{9}, HDR-enabled: {15}, compat: {20}"
-    },
-    {
-    "type": "display",
-    "key": "│       ╚ ",
-    "keyColor": "green",
-    "format": " Bits per color channel: {14} ppi:{13}"
+    "format": "primary:{9}, HDR-enabled: {15}, compat: {20}"
     },
     {
     "type": "memory",
