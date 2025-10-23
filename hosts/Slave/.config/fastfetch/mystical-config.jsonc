@@ -106,7 +106,7 @@
     {
     "type": "Board"
     "key": "│ ╠ ",
-    "keyColor": "green"
+    "keyColor": "green",
     "format": "{1}{2}{3} {4}"
     },
     {
