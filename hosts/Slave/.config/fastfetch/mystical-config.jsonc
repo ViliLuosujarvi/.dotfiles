@@ -143,7 +143,7 @@
 	"yellow": 80,
 	"red": 93
     },
-    "key": "│ ╠    ╚",
+    "key": "│ ╠    ╚ ",
     "keyColor": "green",
     "format": "Max: {2} | Avg: {1}"
     },
@@ -167,7 +167,7 @@
     },
     {
     "type": "gpu",
-    "key": "│      ╚ ",
+    "key": "│ ╠    ╚ ",
     "format": "{3}",
     "keyColor": "green"
     },
@@ -176,7 +176,7 @@
     "key": "│ ╠ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{1}x{2} @ {3}Hz"
+    "format": "{1} x {2} @ {3}Hz"
 		   /*HDR-compatible: {20}, HDR-Enabled: {15}*/
 		   /*Bits per color channel: {14} ppi:{13}"*/
     },
