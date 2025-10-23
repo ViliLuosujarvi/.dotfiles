@@ -59,7 +59,7 @@
     {
     "type": "Processes",
     "key": "│ ╠ ",
-    "keyColor": "31"
+    "keyColor": "31",
     "format": "Active Processes: {1}"
     },
     {
