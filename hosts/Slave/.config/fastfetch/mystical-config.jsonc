@@ -139,7 +139,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "min: {4}, max: {2}, avg: {1}"
+    "format": "Max: {2}, Avg: {1}"
     },
     {
     "type": "CPUCache",
