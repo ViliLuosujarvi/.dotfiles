@@ -133,7 +133,21 @@
     },
     "key": "│ ╠    ╚ ",
     "keyColor": "green",
-    "format": "{3} cores | {7} | {8}"
+    "format": "{3} Physical cores | {4} Logical cores"
+    },
+    {
+    "type": "cpu",
+    "showCoreCount": true,
+    "temp": true,
+    "percent": {
+	"type": 3,
+	"green": 50,
+	"yellow": 80,
+	"red": 93
+    },
+    "key": "│ ╠    ╚ ",
+    "keyColor": "green",
+    "format": "Max freq: {7} | {8}"
     },
     {
     "type": "CPUUsage",
