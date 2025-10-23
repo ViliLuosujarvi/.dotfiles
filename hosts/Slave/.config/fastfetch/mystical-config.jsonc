@@ -104,7 +104,7 @@
     "format": "{1}{2}/n{6}"
     },
     {
-    "type": "Board"
+    "type": "Board",
     "key": "│ ╠ ",
     "keyColor": "green",
     "format": "{1}{2}{3} {4}"
