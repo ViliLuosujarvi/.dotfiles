@@ -214,7 +214,7 @@
     "key": " ",
     /*"keyColor": "#FFEB4D",*/
     /*"keyColor": "#FFFFFF",*/
-    "format": "  {1}",
+    "format": "  {1}",
     "timeout": 2000
     },
     {
