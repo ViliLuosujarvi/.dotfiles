@@ -42,6 +42,7 @@
     },
     {
     "type": "bios",
+    "keyColor": "31"
     "format": "{5} {3} {1}"
     },
     {
@@ -116,7 +117,7 @@
 	"red": 93
     },
     "key": "│ ├󰻠",
-    "keyColor": "green"
+    "keyColor": "green",
     "format": "{1}{2}/n {8}  {3}{7}"
     },
     {
@@ -126,11 +127,11 @@
 	"green": 50,
 	"yellow": 80,
 	"red": 93
-    }
+    },
     "format": "avg: {6} - {1}"
     },
     {
-    "type": "CPUCache"
+    "type": "CPUCache",
     "format": "result" {1}, sum: {2}"
     },
     {
