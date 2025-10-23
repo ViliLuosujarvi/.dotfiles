@@ -139,7 +139,7 @@
     "type": "CPUCache",
     "key": "│ ╠ ",
     "keyColor": "green",
-    /*"format": " {2}"*/
+    "format": " {2}"
     },
     {
     "type": "gpu",
@@ -169,14 +169,14 @@
     },
     {
     "type": "display",
-    "key": "│         ╚ ",
+    "key": "│       ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
     "format": " primary:{9}, HDR-enabled: {15}, compat: {20}"
     },
     {
     "type": "display",
-    "key": "│         ╚ ",
+    "key": "│       ╚ ",
     "keyColor": "green",
     "format": " Bits per color channel: {14} ppi:{13}"
     },
