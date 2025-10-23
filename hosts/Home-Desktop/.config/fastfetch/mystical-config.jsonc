@@ -114,7 +114,7 @@
     "temp": true,
     "key": "│ ╠    ╚ ",
     "keyColor": "blue",
-    "format": "{3} Cores | {4} Logical Cores"
+    "format": "{3} Cores | {4} Logical Cores | {8}"
     },
     {
     "type": "cpu",
@@ -122,7 +122,7 @@
     "temp": true,
     "key": "│ ╠    ╚ ",
     "keyColor": "blue",
-    "format": "Max: {7} | Base: {6}  | {8}"
+    "format": "Max: {7} | Base: {6}"
     },
     {
     "type": "CPUUsage",
