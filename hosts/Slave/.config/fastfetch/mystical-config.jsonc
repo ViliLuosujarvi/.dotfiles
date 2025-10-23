@@ -147,12 +147,6 @@
     "keyColor": "green",
     "format": "Max: {2} | Avg: {1}"
     },
-/*    {
-    "type": "CPUCache",
-    "key": "│ ╠    ╚ ",
-    "keyColor": "green",
-    "format": "CPU cache: {2}"
-    },/*
     {
     "type": "gpu",
     "percent": {
