@@ -206,7 +206,7 @@
     "type": "sound",
     "key": " AUDIO",
     "format": "{2:22} {5} {3}",
-    "keyColor": "green",
+    "keyColor": "light)green",
     "percent": {
 	"type": 9,
 	"green": "99",
@@ -215,12 +215,12 @@
     {
     "type": "player",
     "key": "│ ╠ ",
-    "keyColor": "green"
+    "keyColor": "light_green"
     },
     {
     "type": "media",
     "key": "│ ╠ ",
-    "keyColor": "green"
+    "keyColor": "light_green"
     },
     {
     "type": "weather",
