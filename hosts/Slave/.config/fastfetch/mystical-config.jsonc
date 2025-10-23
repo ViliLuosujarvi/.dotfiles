@@ -176,7 +176,7 @@
     "key": "│ ╠ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{6}: "
+    "format": "{6}"
     },
     {
     "type": "display",
