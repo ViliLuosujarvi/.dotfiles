@@ -100,7 +100,7 @@
     "type": "host",
     "key": " 󰌢 SYSTEM ",
     "keyColor": "green",
-    /*"fallback": "Cool build bro! 😎"*/
+    "fallback": "Cool build bro! 😎"
     "format": "{1}{2}/n{6}"
     },
     {
@@ -108,12 +108,6 @@
     "key": "│ ╠ ",
     "keyColor": "green",
     "format": "{1} | {3}"
-    },
-    {
-    "type": "Board",
-    "key": "│      ╚ ",
-    "keyColor": "green",
-    "format": "{4}"
     },
     {
     "type": "TPM",
