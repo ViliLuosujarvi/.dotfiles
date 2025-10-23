@@ -211,7 +211,7 @@
     },
     {
     "type": "weather",
-    /*"key": "",*/
+    "key": " ",
     /*"keyColor": "#FFEB4D",*/
     /*"keyColor": "#FFFFFF",*/
     "format": "  {1}",
