@@ -148,7 +148,7 @@
     },
     {
     "type": "loadavg",
-    "key": "│ ├ "
+    "key": "│ ├ ",
     "format": "loadavg's: {1} : 1 min, {3} : 15 min"
     },
     {
