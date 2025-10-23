@@ -29,8 +29,7 @@
       },
       "ndigits": 2
     },		/* 󰑃 */
-   "separator": "~> ",
-   "separatorColor": "magenta"
+   "separator": "~> "
 },
 "modules": [
     "break",
