@@ -139,8 +139,8 @@
     "type": "CPUUsage",
     "percent": {
 	"type": 9,
-	"green": 50,
-	"yellow": 80,
+	"green": 80,
+	"yellow": 860,
 	"red": 93
     },
     "key": "│ ╠    ╚ ",
