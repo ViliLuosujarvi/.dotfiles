@@ -182,7 +182,7 @@
     {
     "type": "sound",
     "key": " AUDIO",
-    "format": "{2:18} {5} {3}",
+    "format": "{2:22} {5} {3}",
     "keyColor": "magenta",
     "percent": {
 	"type": 9,
