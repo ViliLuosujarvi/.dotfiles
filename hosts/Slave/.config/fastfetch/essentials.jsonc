@@ -1,0 +1,225 @@
+
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+    /*"source": "/home/nansus/.config/fastfetch/Mad_Hatter.txt",*/
+    "source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_3",
+  "color": {
+     /*"1": "green"*/
+     "1": "magenta"
+  },
+  "padding": {
+     "top": 1
+  }
+},
+"display": {
+	
+    "bar": {
+      "charElapsed": "/",
+      "charTotal": "/",
+      "width": 6
+    },
+
+    "percent": {
+      "type": 3,
+      "color": {
+        "green": "green",
+        "yellow": "light_yellow",
+	"red": "light_red"
+      },
+      "ndigits": 2
+    },
+		/* 󰑃 */
+   "separator": "~> "
+},
+"modules": [
+    "break",
+    {
+    "type": "os",
+    "key": " DISTRO",
+    "keyColor": "31"
+    },
+    {
+    "type": "bios",
+    "key": "│ ╠ ",
+    "keyColor": "31",
+    "format": "{5} {1}"
+    },
+    {
+    "type": "kernel",
+    "key": "│ ╠ ",
+    "keyColor": "31"
+    },
+    {
+    "type": "packages",
+    "key": "│ ╠ ",
+    "keyColor": "31"
+    },
+    {
+    "type": "Processes",
+    "key": "│ ╠ ",
+    "keyColor": "31",
+    "format": "Active Processes: {1}"
+    },
+    {
+    "type": "wm",
+    "key": " DE/WM",
+    "keyColor": "blue"
+    },
+    {
+    "type": "wmtheme",
+    "key": "│ ╠ ",
+    "keyColor": "blue"
+    },
+    {
+    "type": "icons",
+    "key": "│ ╠ ",
+    "keyColor": "blue"
+    },
+    {
+        "type": "terminalfont",
+        "key": "│ ╠ ",
+        "keyColor": "blue",
+    },
+    {
+    "type": "host",
+    "key": " 󰌢 SYSTEM ",
+    "keyColor": "green",
+    "fallback": "Cool build bro! 😎",
+    "format": "{1}{2}/n{6}"
+    },
+    {
+    "type": "Board",
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{1} | {3}"
+    },
+    {
+    "type": "TPM",
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{1} | {2}"
+    },
+    {
+    "type": "cpu",
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{1}:"
+    },
+    {
+    "type": "cpu",
+    "showCoreCount": true,
+    "temp": true,
+    "percent": {
+	"type": 3,
+	"green": 50,
+	"yellow": 80,
+	"red": 93
+    },
+    "key": "│ ╠    ╚ ",
+    "keyColor": "green",
+    "format": "{3} Cores | {7} | {8}"
+    },
+    {
+    "type": "CPUUsage",
+    "percent": {
+	"type": 9,
+	"green": 50,
+	"yellow": 80,
+	"red": 93
+    },
+    "key": "│ ╠    ╚ ",
+    "keyColor": "green",
+    "format": "Max: {2} | Avg: {1}"
+    },
+    {
+    "type": "gpu",
+    "percent": {
+	"type": 9,
+	"green": 50,
+	"yellow": 80,
+	"red": 93
+    },
+    "key": "│ ╠ ",
+    "format": "{1} {2}",
+    "keyColor": "green"
+    },
+    {
+    "type": "gpu",
+    "key": "│ ╠    ╚ ",
+    "format": "{3}",
+    "keyColor": "green"
+    },
+    {
+    "type": "display",
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{6}",
+    },
+    {
+    "type": "display",
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{1} x {2} @ {3}Hz",
+    },
+    {
+    "type": "memory",
+    "percent": {
+	"type": 3,
+	"green": 50,
+	"yellow": 80,
+	"red": 93
+    },
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{1}/{2} {4}   "
+    },
+    {
+    "type": "swap",
+    "percent": {
+	"type": 3,
+	"green": 50,
+	"yellow": 80,
+	"red": 93
+    },
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{1}/{2} {4}   "
+    },
+    {
+    "type": "uptime",
+    "key": "│ ╠ ",
+    "keyColor": "green"
+    },
+    {
+    "type": "sound",
+    "key": " AUDIO",
+    "format": "{2:12} {5} {3}",
+    "keyColor": "magenta",
+    "percent": {
+	"type": 9,
+	"green": "99",
+    }
+    },
+    {
+    "type": "player",
+    "key": "│ ╠ ",
+    "keyColor": "magenta"
+    },
+    {
+    "type": "media",
+    "key": "│ ╠ ",
+    "keyColor": "magenta"
+    },
+    {
+    "type": "weather",
+    "keyColor": "light_yellow",
+    "timeout": 2000
+    },
+    {
+    "type": "custom",
+    "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "
+    },
+    "break",
+    ]
+}
