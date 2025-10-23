@@ -69,56 +69,56 @@
     {
     "type": "wm",
     "key": " DE/WM",
-    "keyColor": "blue"
+    "keyColor": "magenta"
     },
     {
     "type": "wmtheme",
     "key": "│ ╠ ",
-    "keyColor": "blue"
+    "keyColor": "magenta"
     },
     {
     "type": "icons",
     "key": "│ ╠ ",
-    "keyColor": "blue"
+    "keyColor": "magenta"
     },
     {
         "type": "cursor",
         "key": "│ ╠ ",
-        "keyColor": "blue",
+        "keyColor": "magenta",
     },
     {
         "type": "terminalfont",
         "key": "│ ╠ ",
-        "keyColor": "blue",
+        "keyColor": "magenta",
     },
     {
     "type": "terminal",
     "key": "│ ╠ ",
-    "keyColor": "blue"
+    "keyColor": "magenta"
     },
     {
     "type": "host",
     "key": " 󰌢 SYSTEM ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "fallback": "Cool build bro! 😎",
     "format": "{1}{2}/n{6}"
     },
     {
     "type": "Board",
     "key": "│ ╠ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "{1} | {3}"
     },
     {
     "type": "TPM",
     "key": "│ ╠ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "{1} | {2}"
     },
     {
     "type": "cpu",
     "key": "│ ╠ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "{1}:"
     },
     {
@@ -126,7 +126,7 @@
     "showCoreCount": true,
     "temp": true,
     "key": "│ ╠    ╚ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "{3} Cores | {7} | {8}"
     },
     {
@@ -138,38 +138,38 @@
 	"red": 94
     },
     "key": "│ ╠    ╚ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "Max: {2} | Avg: {1}"
     },
     {
     "type": "gpu",
     "key": "│ ╠ ",
     "format": "{1} {2}",
-    "keyColor": "magenta"
+    "keyColor": "blue"
     },
     {
     "type": "gpu",
     "key": "│ ╠    ╚ ",
     "format": "{3}",
-    "keyColor": "magenta"
+    "keyColor": "blue"
     },
     {
     "type": "display",
     "key": "│ ╠ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "{6}",
     },
     {
     "type": "display",
     "key": "│ ╠    ╚ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     /*"compactType": "original-with-refresh-rate"*/
     "format": "{1} x {2}"
     },
     {
     "type": "display",
     "key": "│ ╠    ╚ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     /*"compactType": "original-with-refresh-rate"*/
     "format": "{3}Hz"
     },
@@ -182,7 +182,7 @@
 	"red": 93
     },
     "key": "│ ╠ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "{1}/{2} {4}   "
     },
     {
@@ -194,13 +194,13 @@
 	"red": 93
     },
     "key": "│ ╠ ",
-    "keyColor": "magenta",
+    "keyColor": "blue",
     "format": "{1}/{2} {4}   "
     },
     {
     "type": "uptime",
     "key": "│ ╠ ",
-    "keyColor": "magenta"
+    "keyColor": "blue"
     },
     {
     "type": "sound",
