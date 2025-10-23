@@ -125,12 +125,6 @@
     "type": "cpu",
     "showCoreCount": true,
     "temp": true,
-    "percent": {
-	"type": 3,
-	"green": 50,
-	"yellow": 70,
-	"red": 90
-    },
     "key": "│ ╠    ╚ ",
     "keyColor": "magenta",
     "format": "{3} Cores | {7} | {8}"
@@ -139,9 +133,9 @@
     "type": "CPUUsage",
     "percent": {
 	"type": 9,
-	"green": 80,
-	"yellow": 860,
-	"red": 93
+	"green": 83,
+	"yellow": 89,
+	"red": 94
     },
     "key": "│ ╠    ╚ ",
     "keyColor": "magenta",
@@ -149,12 +143,6 @@
     },
     {
     "type": "gpu",
-    "percent": {
-	"type": 9,
-	"green": 50,
-	"yellow": 80,
-	"red": 93
-    },
     "key": "│ ╠ ",
     "format": "{1} {2}",
     "keyColor": "magenta"
