@@ -51,6 +51,11 @@
     "keyColor": "31"
     },
     {
+    "type": "shell",
+    "key": "│ ╠ ",
+    "keyColor": "31"
+    },
+    {
     "type": "packages",
     "key": "│ ╠ ",
     "keyColor": "31"
@@ -60,11 +65,6 @@
     "key": "│ ╠ ",
     "keyColor": "31",
     "format": "Active Processes: {1}"
-    },
-    {
-    "type": "shell",
-    "key": "│ ╠ ",
-    "keyColor": "31"
     },
     {
     "type": "wm",
@@ -183,7 +183,7 @@
     "key": "│ ╠    ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "refresh rate: {3}Hz"
+    "format": "{3}Hz"
     },
     {
     "type": "memory",
