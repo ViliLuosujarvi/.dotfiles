@@ -139,7 +139,7 @@
     "type": "CPUCache",
     "key": "│ ╠ ",
     "keyColor": "green",
-    /&"format": " {2}"*/
+    /*"format": " {2}"*/
     },
     {
     "type": "gpu",
