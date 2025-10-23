@@ -25,8 +25,7 @@
       "type": 3,
       "color": {
         "green": "green",
-        "yellow": "light_yellow",
-	"red": "light_red"
+        "yellow": "green"
       },
       "ndigits": 2
     },
@@ -48,11 +47,6 @@
     {
     "type": "packages",
     "key": "│ ├󰏖",
-    "keyColor": "31"
-    },
-    {
-    "type": "Processes",
-    "key": "│ ├ ",
     "keyColor": "31"
     },
     {
@@ -100,31 +94,15 @@
     "type": "cpu",
     "showCoreCount": true,
     "temp": true,
-    "percent": {
-	"type": 3,
-	"green": 50,
-	"yellow": 80,
-	"red": 93
-    }
     "key": "│ ├󰻠",
     "keyColor": "green"
     },
     {
     "type": "gpu",
-    "percent": {
-	"type": 3,
-	"green": 50,
-	"yellow": 80,
-	"red": 93
-    }
     "key": "│ ├󰻑",
     "format": "{2}",
     "keyColor": "green"
     },
-    {
-    "type": "loadavg"
-    "key": "│ ├ "
-    }.
     {
             "type": "display",
     "key": "│ ├󰍹",
@@ -133,23 +111,11 @@
     },
     {
     "type": "memory",
-    "percent": {
-	"type": 3,
-	"green": 50,
-	"yellow": 80,
-	"red": 93
-    }
     "key": "│ ├󰾆",
     "keyColor": "green"
     },
     {
     "type": "swap",
-    "percent": {
-	"type": 3,
-	"green": 50,
-	"yellow": 80,
-	"red": 93
-    }
     "key": "│ ├󰓡",
     "keyColor": "green"
     },
