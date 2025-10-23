@@ -212,8 +212,7 @@
     {
     "type": "weather",
     "key": " ",
-    /*"keyColor": "#FFEB4D",*/
-    /*"keyColor": "#FFFFFF",*/
+    /*is a lil' snowman :holding back tears:*/   
     "format": "  {1}",
     "timeout": 2000
     },
