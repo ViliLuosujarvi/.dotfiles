@@ -40,12 +40,6 @@
     "keyColor": "31"
     },
     {
-    "type": "bios",
-    "key": "│ ╠ ",
-    "keyColor": "31",
-    "format": "{5} {1}"
-    },
-    {
     "type": "kernel",
     "key": "│ ╠ ",
     "keyColor": "31"
@@ -149,12 +143,6 @@
     "key": "│ ╠    ╚ ",
     "format": "{3}",
     "keyColor": "green"
-    },
-    {
-    "type": "display",
-    "key": "│ ╠ ",
-    "keyColor": "green",
-    "format": "{6}",
     },
     {
     "type": "display",
