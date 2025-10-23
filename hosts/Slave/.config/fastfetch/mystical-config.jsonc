@@ -201,7 +201,7 @@
 	"red": 93
     },
     "key": "│ ╠ ",
-    "keyColor": "green"
+    "keyColor": "green",
     "format": "{4} {1}/{2}"
     },
     {
