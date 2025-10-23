@@ -222,8 +222,7 @@
     "percent": {
 	"type": 9,
 	"green": 100,
-	"yellow": 115,
-	"red": 116
+	"red": 100
     }
     },
     {
