@@ -100,7 +100,7 @@
     "type": "host",
     "key": " 󰌢 SYSTEM ",
     "keyColor": "green",
-    "fallback": "Cool build bro! 😎"
+    "fallback": "Cool build bro! 😎",
     "format": "{1}{2}/n{6}"
     },
     {
