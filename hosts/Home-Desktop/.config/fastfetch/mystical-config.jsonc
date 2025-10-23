@@ -211,7 +211,7 @@
     },
     {
     "type": "weather",
-    "key": "  Weather"
+    "key": "  Weather",
     "keyColor": "light_yellow",
     "timeout": 2000
     },
