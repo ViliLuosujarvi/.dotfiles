@@ -131,7 +131,7 @@
     {
     "type": "gpu",
     "key": "│ ╠ ",
-    "format": "{1} {2}",
+    "format": "{1} {2}:",
     "keyColor": "blue"
     },
     {
