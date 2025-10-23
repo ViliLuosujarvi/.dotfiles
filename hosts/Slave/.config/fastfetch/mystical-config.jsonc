@@ -127,9 +127,9 @@
     "temp": true,
     "percent": {
 	"type": 3,
-	"green": 50,
-	"yellow": 81,
-	"red": 93
+	"green": 75,
+	"yellow":75,
+	"red": 90
     },
     "key": "│ ╠    ╚ ",
     "keyColor": "magenta",
