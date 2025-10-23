@@ -168,6 +168,13 @@
 		   /*Bits per color channel: {14} ppi:{13}"*/
     },
     {
+    "type": "display",
+    "key": "│     ╚ ",
+    "keyColor": "green",
+    /*"compactType": "original-with-refresh-rate"*/
+    "format": "  primary:{9}, HDR-enabled: {15}, compat: {20}"
+    },
+    {
     "type": "memory",
     "percent": {
 	"type": 9,
