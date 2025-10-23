@@ -107,7 +107,7 @@
     "type": "Board",
     "key": "│ ╠ ",
     "keyColor": "blue",
-    "format": "{1} {2} | {3}"
+    "format": "{1} {2}"
     },
     {
     "type": "TPM",
