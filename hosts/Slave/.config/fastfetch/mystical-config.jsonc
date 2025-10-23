@@ -145,8 +145,7 @@
 	"red": 93
     },
     "key": "│ ├󰻑",
-    "format": "{1}{2}
-		   {4}   {5} {8} / {7}",
+    "format": "{1}{2}   {4}   {5} {8} / {7}",
     "keyColor": "green"
     },
     {
@@ -159,10 +158,9 @@
     "key": "│ ├󰍹",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{6} -> primary:{9} :
-		   {1} @ {3}
-		   HDR-compatible: {20}, HDR-Enabled: {15}
-		   Bits per color channel: {14} ppi:{13}"
+    "format": "{1} @ {3}  primary:{9}, HDR-enabled: {15}, compat: {20}"
+		   /*HDR-compatible: {20}, HDR-Enabled: {15}*/
+		   /*Bits per color channel: {14} ppi:{13}"*/
     },
     {
     "type": "memory",
