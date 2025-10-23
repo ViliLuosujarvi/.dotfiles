@@ -149,7 +149,7 @@
     },
     {
     "type": "CPUCache",
-    "key": "│ ╠    ╚",
+    "key": "│ ╠    ╚ ",
     "keyColor": "green",
     "format": "CPU cache: {2}"
     },
@@ -182,14 +182,14 @@
     },
     {
     "type": "display",
-    "key": "│      ╚ ",
+    "key": "│ ╠    ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
     "format": "primary:{9}"
     },
     {
     "type": "display",
-    "key": "│      ╚ ",
+    "key": "│ ╠    ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
     "format": "HDR-enbld:{15} | comptbl:{20}"
