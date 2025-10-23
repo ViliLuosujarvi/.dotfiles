@@ -218,7 +218,7 @@
     "type": "sound",
     "key": " AUDIO",
     "format": "{2:12} {5} {3}",
-    "keyColor": "magenta"
+    "keyColor": "magenta",
     "percent": {
 	"type": 9,
 	"green": 100,
