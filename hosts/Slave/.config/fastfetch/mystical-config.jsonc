@@ -219,6 +219,11 @@
     "key": " AUDIO",
     "format": "{2:12} {5} {3}",
     "keyColor": "magenta"
+    "percent": {
+	"type": 9,
+	"green": 100,
+	"yellow": 115,
+	"red": 116
     },
     {
     "type": "player",
