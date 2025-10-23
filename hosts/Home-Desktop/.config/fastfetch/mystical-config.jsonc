@@ -213,7 +213,7 @@
     "type": "weather",
     "key": "  Weather",
     /*"keyColor": "#FFEB4D",*/
-    "keyColor": "white"
+    "keyColor": "white",
     "timeout": 2000
     },
     {
