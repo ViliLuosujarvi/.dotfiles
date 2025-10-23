@@ -47,11 +47,11 @@
 
 	# annoying as hell to have .dotfiles and .dotnet
 	# in a same place.
-	alias .d='.dotfiles'
-	alias .system='.dotfiles/system/'
-	alias .home-desktop='.dotfiles/hosts/Home-Desktop/'
-	alias .laptop='.dotfiles/hosts/Laptop/'
-	alias .slave='.dotfiles/hosts/Slave'
+	alias .d='cd .dotfiles'
+	alias .system='cd .dotfiles/system/'
+	alias .home-desktop='cd .dotfiles/hosts/Home-Desktop/'
+	alias .laptop='cd .dotfiles/hosts/Laptop/'
+	alias .slave='cd .dotfiles/hosts/Slave'
 
         source <(fzf --zsh);
         HISTFILE=~/.zsh_history;
