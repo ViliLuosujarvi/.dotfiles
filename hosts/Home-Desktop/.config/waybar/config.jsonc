@@ -65,7 +65,7 @@
 
     "disk": {
         "interval": 30,
-        "format": "󰋊  {percentage_used}%",
+        "format": "󰋊 {percentage_used}%",
         "path": "/",
         "tooltip": true,
         "unit": "GB",
@@ -117,7 +117,7 @@
     },
 
     "memory": {
-        "format": " {percentage}%  {swapPercentage}%",
+        "format": " {percentage}%   {swapPercentage}%",
         "tooltip-format": "{used:0.1f}GB / {total:0.1f}GB  {swapUsed}GB / {swapTotal}GB",
         "interval": 1
     },
