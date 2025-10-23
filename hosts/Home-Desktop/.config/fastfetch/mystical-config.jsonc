@@ -211,9 +211,10 @@
     },
     {
     "type": "weather",
-    "key": "  Weather",
+    "key": "",
     /*"keyColor": "#FFEB4D",*/
-    "keyColor": "#FFFFFF",
+    /*"keyColor": "#FFFFFF",*/
+    "format": "{1}"
     "timeout": 2000
     },
     {
