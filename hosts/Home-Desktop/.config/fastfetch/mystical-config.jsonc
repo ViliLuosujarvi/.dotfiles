@@ -106,7 +106,7 @@
     "type": "TPM",
     "key": "│ ╠ ",
     "keyColor": "blue",
-    "format": "{1} | {2}"
+    "format": "{2}"
     },
     {
     "type": "cpu",
