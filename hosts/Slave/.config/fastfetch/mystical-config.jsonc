@@ -108,8 +108,8 @@
     },
     {
     "type": "cpu",
-    "showCoreCount": true,
-    "temp": true,
+    /*"showCoreCount": true,*/
+    /*"temp": true,*/
     "percent": {
 	"type": 3,
 	"green": 50,
@@ -118,21 +118,24 @@
     },
     "key": "│ ├󰻠",
     "keyColor": "green",
-    "format": "{1}{2}/n {8}  {3}{7}"
+    "format": "{1}{2}
+		    {8}  {3}{7}"
     },
     {
     "type": "CPUUsage",
     "percent": {
-	"type": 1,
+	"type": 9,
 	"green": 50,
 	"yellow": 80,
 	"red": 93
     },
-    "format": "avg: {6} - {1}"
+    "keyColor": "green"
+    "format": "avg: {1}"
     },
     {
     "type": "CPUCache",
-    "format": "result: {1}, sum: {2}"
+    "keyColor": "green",
+    "format": "    sum: {2}"
     },
     {
     "type": "gpu",
@@ -143,19 +146,24 @@
 	"red": 93
     },
     "key": "│ ├󰻑",
-    "format": "{1}{2}/n {4}   {5} {8} / {7}",
+    "format": "{1}{2}
+		   {4}   {5} {8} / {7}",
     "keyColor": "green"
     },
     {
     "type": "loadavg",
     "key": "│ ├ ",
-    "format": "loadavg's: {1} : 1 min, {3} : 15 min"
+    "format": "loadavg's: {1}/1 min, {3}/15 min"
     },
     {
     "type": "display",
     "key": "│ ├󰍹",
     "keyColor": "green",
-    "compactType": "original-with-refresh-rate"
+    /*"compactType": "original-with-refresh-rate"*/
+    "format": "{6} -> primary:{9} :
+		   {1} @ {3}
+		   HDR-compatible: {20}, HDR-Enabled: {15}
+		   Bits per color channel: {14} ppi:{13}"
     },
     {
     "type": "memory",
