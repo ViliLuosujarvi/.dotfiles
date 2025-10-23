@@ -111,8 +111,8 @@
     },
     {
     "type": "cpu",
-    /*"showCoreCount": true,*/
-    /*"temp": true,*/
+    "showCoreCount": true,
+    "temp": true,
     "percent": {
 	"type": 3,
 	"green": 50,
@@ -121,7 +121,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "{2}: ({3}C) {7}HZ {8}"
+    "format": "{1}: ({3} cores) {7}Hz {8}"
     },
     {
     "type": "CPUUsage",
