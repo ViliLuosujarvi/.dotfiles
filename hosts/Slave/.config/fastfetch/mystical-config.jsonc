@@ -44,7 +44,7 @@
     "type": "bios",
     "key": "│ ╠ ",
     "keyColor": "31",
-    "format": "{5} {3} {1}"
+    "format": "{5} {1}"
     },
     {
     "type": "kernel",
@@ -60,6 +60,7 @@
     "type": "Processes",
     "key": "│ ╠ ",
     "keyColor": "31"
+    "format": "Active Processes: {1}"
     },
     {
     "type": "shell",
