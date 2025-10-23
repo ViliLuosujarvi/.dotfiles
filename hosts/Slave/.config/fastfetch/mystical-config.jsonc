@@ -110,6 +110,12 @@
     "format": "{1}{2}{3} {4}"
     },
     {
+    "type": "TPM",
+    "key": "│ ╠ ",
+    "keyColor": "green",
+    "format": "{1} | {2}"
+    },
+    {
     "type": "cpu",
     "key": "│ ╠ ",
     "keyColor": "green",
@@ -127,7 +133,7 @@
     },
     "key": "│      ╚ ",
     "keyColor": "green",
-    "format": "({3} cores) {7}Hz {8}"
+    "format": "{3} cores | {7} | {8}"
     },
     {
     "type": "CPUUsage",
@@ -139,7 +145,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "Max: {2}, Avg: {1}"
+    "format": "Max: {2} | Avg: {1}"
     },
     {
     "type": "CPUCache",
@@ -179,7 +185,7 @@
     "key": "│      ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "primary:{9}, HDR-enabled: {15}, compat: {20}"
+    "format": "primary:{9} | HDR-enbld:{15} | comptbl:{20}"
     },
     {
     "type": "memory",
@@ -191,7 +197,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "{4} {1}/{2}"
+    "format": "{1}/{2} {4}"
     },
     {
     "type": "swap",
@@ -203,7 +209,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "{4} {1}/{2}"
+    "format": "{1}/{2} {4}"
     },
     {
     "type": "uptime",
