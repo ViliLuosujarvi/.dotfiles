@@ -184,7 +184,7 @@
     },
     {
     "type": "host",
-    "key": "󰌢 SYSTEM ",
+    "key": "│ ╠ ",
     "keyColor": "blue",
     "fallback": "Cool build bro! 😎",
     "format": "{1}{2}"
