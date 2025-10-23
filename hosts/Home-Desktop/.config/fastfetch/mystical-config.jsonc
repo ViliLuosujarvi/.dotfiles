@@ -36,7 +36,7 @@
     "break",
     {
     "type": "os",
-    "key": " DISTRO",
+    "key": " DISTRO ",
     "keyColor": "31"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
     "type": "wm",
-    "key": " DE/WM",
+    "key": " DE/WM ",
     "keyColor": "magenta"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
     "type": "sound",
-    "key": " AUDIO",
+    "key": " AUDIO ",
     "format": "{2:22} {5} {3}",
     "keyColor": "light_green",
     "percent": {
@@ -211,6 +211,7 @@
     },
     {
     "type": "weather",
+    "key": "  Weather"
     "keyColor": "light_yellow",
     "timeout": 2000
     },
