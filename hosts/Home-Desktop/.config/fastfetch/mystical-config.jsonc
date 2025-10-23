@@ -103,12 +103,6 @@
     "format": "{1} {2}"
     },
     {
-    "type": "TPM",
-    "key": "│ ╠ ",
-    "keyColor": "blue",
-    "format": "{2}"
-    },
-    {
     "type": "cpu",
     "key": "│ ╠ ",
     "keyColor": "blue",
@@ -181,6 +175,12 @@
     "type": "uptime",
     "key": "│ ╠ ",
     "keyColor": "blue"
+    },
+    {
+    "type": "TPM",
+    "key": "│ ╠ ",
+    "keyColor": "blue",
+    "format": "{2}"
     },
     {
     "type": "host",
