@@ -140,7 +140,7 @@
     "type": "CPUCache",
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": " {2}"
+    "format": "CPU cache: {2}"
     },
     {
     "type": "gpu",
@@ -151,7 +151,13 @@
 	"red": 93
     },
     "key": "│ ╠ ",
-    "format": "{1}{2}{4}{5}",
+    "format": "{1}{2}",
+    "keyColor": "green"
+    },
+    {
+    "type": "gpu",
+    "key": "│    ╚ ",
+    "format": "{3} {19} : {15}",
     "keyColor": "green"
     },
     {
