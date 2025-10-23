@@ -128,7 +128,7 @@
 	"yellow": 80,
 	"red": 93
     },
-    "keyColor": "green"
+    "keyColor": "green",
     "format": "avg: {1}"
     },
     {
