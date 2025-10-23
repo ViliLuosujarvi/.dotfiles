@@ -114,7 +114,7 @@
     "temp": true,
     "key": "│ ╠    ╚ ",
     "keyColor": "blue",
-    "format": "{3} Cores | {4} Logical  | {5} online | {9}|{10]  | {7} | {8}"
+    "format": "{3} Cores | {4} Logical  | {5} online | {9} | {10}  | {7} | {8}"
     },
     {
     "type": "CPUUsage",
