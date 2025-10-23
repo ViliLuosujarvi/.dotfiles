@@ -195,7 +195,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "{1}/{2} {4}"
+    "format": "{1}/{2} {4}   "
     },
     {
     "type": "swap",
@@ -207,7 +207,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "{1}/{2} {4}"
+    "format": "{1}/{2} {4}   "
     },
     {
     "type": "uptime",
