@@ -42,7 +42,7 @@
     },
     {
     "type": "bios",
-    "keyColor": "31"
+    "keyColor": "31",
     "format": "{5} {3} {1}"
     },
     {
