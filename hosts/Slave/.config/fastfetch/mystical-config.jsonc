@@ -147,12 +147,12 @@
     "keyColor": "green",
     "format": "Max: {2} | Avg: {1}"
     },
-    {
+/*    {
     "type": "CPUCache",
     "key": "│ ╠    ╚ ",
     "keyColor": "green",
     "format": "CPU cache: {2}"
-    },
+    },/*
     {
     "type": "gpu",
     "percent": {
@@ -176,7 +176,7 @@
     "key": "│ ╠ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{1} x {2} @ {3}Hz"
+    "format": "{6]:"
 		   /*HDR-compatible: {20}, HDR-Enabled: {15}*/
 		   /*Bits per color channel: {14} ppi:{13}"*/
     },
@@ -185,14 +185,14 @@
     "key": "│ ╠    ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "primary:{9}"
+    "format": "{1} x {2}"
     },
     {
     "type": "display",
     "key": "│ ╠    ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "HDR-enbld:{15} | comptbl:{20}"
+    "format": "refresh rate: {3}Hz"
     },
     {
     "type": "memory",
