@@ -132,7 +132,7 @@
     },
     {
     "type": "CPUCache",
-    "format": "result" {1}, sum: {2}"
+    "format": "result: {1}, sum: {2}"
     },
     {
     "type": "gpu",
