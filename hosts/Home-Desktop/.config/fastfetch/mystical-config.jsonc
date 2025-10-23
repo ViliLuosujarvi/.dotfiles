@@ -1,5 +1,5 @@
 /*don't forget to adde this to .zshrc:*/
-/*fastfetch -c ~/.dotfiles/hosts/Home-Desktop/.config/fastfetch/mystical-config.jsonc --color-separator magenta*/
+/*fastfetch -c ~/.dotfiles/hosts/Home-Desktop/.config/fastfetch/mystical-config.jsonc --color-separator 31*/
 
 {
 "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
