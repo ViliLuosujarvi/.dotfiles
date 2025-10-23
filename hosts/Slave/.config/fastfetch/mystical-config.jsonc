@@ -18,7 +18,7 @@
     "bar": {
       "charElapsed": "/",
       "charTotal": "/",
-      "width": 10
+      "width": 4
     },
 
     "percent": {
@@ -39,6 +39,10 @@
     "type": "os",
     "key": " DISTRO",
     "keyColor": "31"
+    },
+    {
+    "type": "bios",
+    "format": "{5} {3} {1}"
     },
     {
     "type": "kernel",
@@ -94,7 +98,12 @@
     "type": "host",
     "key": " 󰌢 SYSTEM ",
     "keyColor": "green",
-    "fallback": "Cool build bro! 😎"
+    /*"fallback": "Cool build bro! 😎"*/
+    "format": "{1}{2}/n{6}"
+    },
+    {
+    "type": "Board",
+    "format": "{1}{2}{3}/n{4}"
     },
     {
     "type": "cpu",
@@ -108,6 +117,21 @@
     },
     "key": "│ ├󰻠",
     "keyColor": "green"
+    "format": "{1}{2}/n {8}  {3}{7}"
+    },
+    {
+    "type": "CPUUsage",
+    "percent": {
+	"type": 1,
+	"green": 50,
+	"yellow": 80,
+	"red": 93
+    }
+    "format": "avg: {6} - {1}"
+    },
+    {
+    "type": "CPUCache"
+    "format": "result" {1}, sum: {2}"
     },
     {
     "type": "gpu",
@@ -118,12 +142,13 @@
 	"red": 93
     },
     "key": "│ ├󰻑",
-    "format": "{2}",
+    "format": "{1}{2}/n {4}   {5} {8} / {7}",
     "keyColor": "green"
     },
     {
     "type": "loadavg",
     "key": "│ ├ "
+    "format": "loadavg's: {1} : 1 min, {3} : 15 min"
     },
     {
     "type": "display",
@@ -140,7 +165,8 @@
 	"red": 93
     },
     "key": "│ ├󰾆",
-    "keyColor": "green"
+    "keyColor": "green",
+    "format": "{4} {1} / {2}({3})"
     },
     {
     "type": "swap",
