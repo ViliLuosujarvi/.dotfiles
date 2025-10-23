@@ -64,7 +64,7 @@
     "type": "Processes",
     "key": "│ ╠ ",
     "keyColor": "31",
-    "format": "Active Processes: {1}"
+    "format": "{1} Active processes"
     },
     {
     "type": "wm",
