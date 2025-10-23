@@ -221,8 +221,7 @@
     "keyColor": "magenta",
     "percent": {
 	"type": 9,
-	"green": "99",
-	"red": 100
+	"green": "100",
     }
     },
     {
