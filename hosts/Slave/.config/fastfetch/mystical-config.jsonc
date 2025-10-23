@@ -185,7 +185,14 @@
     "key": "│      ╚ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "primary:{9} | HDR-enbld:{15} | comptbl:{20}"
+    "format": "primary:{9}"
+    },
+    {
+    "type": "display",
+    "key": "│      ╚ ",
+    "keyColor": "green",
+    /*"compactType": "original-with-refresh-rate"*/
+    "format": "HDR-enbld:{15} | comptbl:{20}"
     },
     {
     "type": "memory",
