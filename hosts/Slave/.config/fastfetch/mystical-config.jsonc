@@ -143,13 +143,13 @@
 	"yellow": 80,
 	"red": 93
     },
-    "key": "│ ╠ ",
+    "key": "│      ╚",
     "keyColor": "green",
     "format": "Max: {2} | Avg: {1}"
     },
     {
     "type": "CPUCache",
-    "key": "│ ╠ ",
+    "key": "│      ╚",
     "keyColor": "green",
     "format": "CPU cache: {2}"
     },
