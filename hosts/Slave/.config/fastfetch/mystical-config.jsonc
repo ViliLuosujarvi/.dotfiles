@@ -122,7 +122,7 @@
     "keyColor": "green"
     },
     {
-    "type": "loadavg"
+    "type": "loadavg",
     "key": "│ ├ "
     }.
     {
