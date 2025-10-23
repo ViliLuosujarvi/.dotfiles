@@ -23,11 +23,11 @@
     },
 
     "percent": {
-      "type": 3,
+      "type": 9,
       "color": {
         "green": "green",
         "yellow": "green",
-	"red": "light_red"
+	"red": "green"
       },
       "ndigits": 2
     },		/* 󰑃 */
