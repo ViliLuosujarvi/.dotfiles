@@ -118,8 +118,7 @@
     },
     "key": "│ ├󰻠",
     "keyColor": "green",
-    "format": "{1}{2}
-		    {8}  {3}{7}"
+    "format": "{1}{2}  {8}  {3}{7}"
     },
     {
     "type": "CPUUsage",
