@@ -176,9 +176,7 @@
     "key": "│ ╠ ",
     "keyColor": "green",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{6}:"
-		   /*HDR-compatible: {20}, HDR-Enabled: {15}*/
-		   /*Bits per color channel: {14} ppi:{13}"*/
+    "format": "{6}: "
     },
     {
     "type": "display",
