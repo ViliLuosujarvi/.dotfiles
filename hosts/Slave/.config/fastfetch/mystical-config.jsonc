@@ -116,7 +116,7 @@
 	"green": 50,
 	"yellow": 80,
 	"red": 93
-    }
+    },
     "key": "│ ├󰻑",
     "format": "{2}",
     "keyColor": "green"
@@ -126,7 +126,7 @@
     "key": "│ ├ "
     }.
     {
-            "type": "display",
+    "type": "display",
     "key": "│ ├󰍹",
     "keyColor": "green",
     "compactType": "original-with-refresh-rate"
@@ -138,7 +138,7 @@
 	"green": 50,
 	"yellow": 80,
 	"red": 93
-    }
+    },
     "key": "│ ├󰾆",
     "keyColor": "green"
     },
@@ -149,7 +149,7 @@
 	"green": 50,
 	"yellow": 80,
 	"red": 93
-    }
+    },
     "key": "│ ├󰓡",
     "keyColor": "green"
     },
