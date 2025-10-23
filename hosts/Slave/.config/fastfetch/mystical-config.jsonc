@@ -139,7 +139,7 @@
     "type": "CPUCache",
     "key": "│ ╠ ",
     "keyColor": "green",
-    "format": "    sum: {2}"
+    "format": "  CPU cahce sum: {2}"
     },
     {
     "type": "gpu",
@@ -150,7 +150,7 @@
 	"red": 93
     },
     "key": "│ ╠ ",
-    "format": "{1}{2}{4}{5} {8}/{7}",
+    "format": "{1}{2}{4}{5}",
     "keyColor": "green"
     },
     {
