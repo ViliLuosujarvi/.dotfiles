@@ -24,13 +24,14 @@
       "type": 3,
       "color": {
         "green": "green",
-        "yellow": "light_yellow",
+        "yellow": "green",
 	"red": "light_red"
       },
       "ndigits": 2
     },
 		/* 󰑃 */
-   "separator": "~> "
+   "separator": "~> ",
+   "separatorColor": "magenta"
 },
 "modules": [
     "break",
