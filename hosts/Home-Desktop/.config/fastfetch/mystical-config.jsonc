@@ -145,7 +145,7 @@
     "key": "│ ╠ ",
     "keyColor": "blue",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{1} x {2} @ {3}Hz"
+    "format": "{1} x {2} @ {3}Hz {6}"
     },
     {
     "type": "memory",
