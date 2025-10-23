@@ -218,7 +218,7 @@
     },
     {
     "type": "weather",
-    "keyColor": "light_yellow"
+    "keyColor": "light_yellow",
     "timeout": 2000
     },
     {
