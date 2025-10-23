@@ -45,6 +45,14 @@
         alias lla='ls -la'
         alias lt='ls --tree'
 
+	# annoying as hell to have .dotfiles and .dotnet
+	# in a same place.
+	alias .d='.dotfiles'
+	alias .system='.dotfiles/system/'
+	alias .home-desktop='.dotfiles/hosts/Home-Desktop/'
+	alias .laptop='.dotfiles/hosts/Laptop/'
+	alias .slave='.dotfiles/hosts/Slave'
+
         source <(fzf --zsh);
         HISTFILE=~/.zsh_history;
         HISTSIZE=10000;
