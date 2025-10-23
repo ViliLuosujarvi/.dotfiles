@@ -97,15 +97,8 @@
     "keyColor": "magenta"
     },
     {
-    "type": "host",
-    "key": " 󰌢 SYSTEM ",
-    "keyColor": "blue",
-    "fallback": "Cool build bro! 😎",
-    "format": "{1}{2}/n{6}"
-    },
-    {
     "type": "Board",
-    "key": "│ ╠ ",
+    "key": "󰌢 SYSTEM ",
     "keyColor": "blue",
     "format": "{1} {2}"
     },
@@ -157,21 +150,8 @@
     "type": "display",
     "key": "│ ╠ ",
     "keyColor": "blue",
-    "format": "{6}",
-    },
-    {
-    "type": "display",
-    "key": "│ ╠    ╚ ",
-    "keyColor": "blue",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{1} x {2}"
-    },
-    {
-    "type": "display",
-    "key": "│ ╠    ╚ ",
-    "keyColor": "blue",
-    /*"compactType": "original-with-refresh-rate"*/
-    "format": "{3}Hz"
+    "format": "{1} x {2} @ {3}Hz"
     },
     {
     "type": "memory",
@@ -201,6 +181,13 @@
     "type": "uptime",
     "key": "│ ╠ ",
     "keyColor": "blue"
+    },
+    {
+    "type": "host",
+    "key": "󰌢 SYSTEM ",
+    "keyColor": "blue",
+    "fallback": "Cool build bro! 😎",
+    "format": "{1}{2}"
     },
     {
     "type": "sound",
