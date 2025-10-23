@@ -127,8 +127,8 @@
     "temp": true,
     "percent": {
 	"type": 3,
-	"green": 75,
-	"yellow":75,
+	"green": 50,
+	"yellow": 70,
 	"red": 90
     },
     "key": "│ ╠    ╚ ",
