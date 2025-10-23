@@ -220,8 +220,8 @@
     "format": "{2:12} {5} {3}",
     "keyColor": "magenta",
     "percent": {
-	"type": 3,
-	"green": "100",
+	"type": 9,
+	"green": "99",
     }
     },
     {
