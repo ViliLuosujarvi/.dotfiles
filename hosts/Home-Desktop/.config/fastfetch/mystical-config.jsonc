@@ -201,11 +201,11 @@
     {
     "type": "sound",
     "key": " AUDIO ",
-    "format": "{2:22} {5} {3}",
+    "format": "{2:22} {5}",
     "keyColor": "light_green",
     "percent": {
-	"type": 9,
-	"green": "99",
+	"type": 3,
+	"green": "100",
     }
     },
     {
