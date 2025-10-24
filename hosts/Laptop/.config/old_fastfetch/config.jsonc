@@ -1,18 +1,11 @@
-/* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
-
 {
 "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 "logo": {
 "color": {
 "1": "magenta"
 },
-/*"source": "/home/nansus/.config/fastfetch/chesire-cat.txt",*/
-/*"source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_3",*/
-"source": "/home/nansus/.config/fastfetch/testing_no_room",
-
-/*"color": {*/ 
-     /*"1": "magenta"*/ 
-        /* },*/
+/*"source": "/home/nansus/.config/fastfetch/somethin-somethin.jpg",*/
+"source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_3",
 "padding": {
 "top": 1
 }
@@ -109,11 +102,11 @@
     "key": "│ ├󰅐",
     "keyColor": "green"
     },
-    /*{*/
-    /*"type": "display",*/
-    /*"key": "│ └󰍹",*/
-    /*"keyColor": "green"*/
-    /*},*/
+    {
+    "type": "display",
+    "key": "│ └󰍹",
+    "keyColor": "green"
+    },
     {
     "type": "sound",
     "key": " AUDIO",
