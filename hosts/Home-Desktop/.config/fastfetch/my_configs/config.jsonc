@@ -3,16 +3,12 @@
 {
 "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 "logo": {
+/*"source": "/home/nansus/.config/fastfetch/Mad_Hatter.txt",*/
+"source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_3",
 "color": {
-"1": "magenta"
-},
-/*"source": "/home/nansus/.config/fastfetch/chesire-cat.txt",*/
-/*"source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_3",*/
-"source": "/home/nansus/.config/fastfetch/testing_no_room",
-
-/*"color": {*/ 
-     /*"1": "magenta"*/ 
-        /* },*/
+     /*"1": "green"*/
+     "1": "magenta"
+         },
 "padding": {
 "top": 1
 }
@@ -74,8 +70,9 @@
     },
     {
     "type": "host",
-    "key": "󰌢 SYSTEM",
-    "keyColor": "green"
+    "key": " 󰌢 SYSTEM ",
+    "keyColor": "green",
+    "fallback": "Cool build bro! 😎"
     },
     {
     "type": "cpu",
@@ -109,11 +106,11 @@
     "key": "│ ├󰅐",
     "keyColor": "green"
     },
-    /*{*/
-    /*"type": "display",*/
-    /*"key": "│ └󰍹",*/
-    /*"keyColor": "green"*/
-    /*},*/
+    {
+    "type": "display",
+    "key": "│ └󰍹",
+    "keyColor": "green"
+    },
     {
     "type": "sound",
     "key": " AUDIO",
