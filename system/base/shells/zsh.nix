@@ -53,11 +53,6 @@
 	alias .laptop='cd .dotfiles/hosts/Laptop/'
 	alias .slave='cd .dotfiles/hosts/Slave'
 
-	# and now for a good run some common 
-	# git aliases aswell.
-	#alias ga='git add'
-	#alias gc='git commit --verbose' 
-
         source <(fzf --zsh);
         HISTFILE=~/.zsh_history;
         HISTSIZE=800;
