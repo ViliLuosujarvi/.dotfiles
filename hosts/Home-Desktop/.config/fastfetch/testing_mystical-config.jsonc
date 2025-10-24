@@ -72,32 +72,32 @@
     {
     "type": "wm",
     "key": " DE/WM ",
-    "keyColor": "magenta"
+    "keyColor": "light_yellow"
     },
     {
     "type": "wmtheme",
     "key": "/│/ ╠ ",
-    "keyColor": "magenta"
+    "keyColor": "light_yellow"
     },
     {
     "type": "icons",
     "key": "/│/ ╠ ",
-    "keyColor": "magenta"
+    "keyColor": "light_yellow"
     },
     {
         "type": "cursor",
         "key": "/│/ ╠ ",
-        "keyColor": "magenta",
+        "keyColor": "light_yellow",
     },
     {
         "type": "terminalfont",
         "key": "/│/ ╠ ",
-        "keyColor": "magenta",
+        "keyColor": "light_yellow",
     },
     {
     "type": "terminal",
     "key": "/│/ ╠ ",
-    "keyColor": "magenta"
+    "keyColor": "light_yellow"
     },
     {
     "type": "Board",
