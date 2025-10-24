@@ -1,9 +1,13 @@
+/*don't forget to adde this to .zshrc:*/
+/*fastfetch -c ~/.dotfiles/hosts/Home-Desktop/.config/fastfetch/mystical-config.jsonc --color-separator 31*/
 
 {
 "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 "logo": {
     /*"source": "/home/nansus/.config/fastfetch/Mad_Hatter.txt",*/
-    "source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_3",
+    /*"source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_4",*/
+    "source": "/home/nansus/.config/fastfetch/testing_no_room",
+
   "color": {
      /*"1": "green"*/
      "1": "magenta"
@@ -21,22 +25,21 @@
     },
 
     "percent": {
-      "type": 3,
+      "type": 9,
       "color": {
         "green": "green",
-        "yellow": "light_yellow",
-	"red": "light_red"
+        "yellow": "green",
+	"red": "red"
       },
       "ndigits": 2
-    },
-		/* 󰑃 */
+    },		/* 󰑃 */
    "separator": "~> "
 },
 "modules": [
     "break",
     {
     "type": "os",
-    "key": " DISTRO",
+    "key": " DISTRO ",
     "keyColor": "31"
     },
     {
@@ -64,11 +67,11 @@
     "type": "Processes",
     "key": "│ ╠ ",
     "keyColor": "31",
-    "format": "Active Processes: {1}"
+    "format": "{1} Active processes"
     },
     {
     "type": "wm",
-    "key": " DE/WM",
+    "key": " DE/WM ",
     "keyColor": "magenta"
     },
     {
@@ -97,23 +100,10 @@
     "keyColor": "magenta"
     },
     {
-    "type": "host",
-    "key": " 󰌢 SYSTEM ",
-    "keyColor": "blue",
-    "fallback": "Cool build bro! 😎",
-    "format": "{1}{2}/n{6}"
-    },
-    {
     "type": "Board",
-    "key": "│ ╠ ",
+    "key": "󰌢 SYSTEM ",
     "keyColor": "blue",
     "format": "{1} {2}"
-    },
-    {
-    "type": "TPM",
-    "key": "│ ╠ ",
-    "keyColor": "blue",
-    "format": "{1} | {2}"
     },
     {
     "type": "cpu",
@@ -127,7 +117,15 @@
     "temp": true,
     "key": "│ ╠    ╚ ",
     "keyColor": "blue",
-    "format": "{3} Cores | {7} | {8}"
+    "format": "{3} Cores | {4} Logical Cores | {8}"
+    },
+    {
+    "type": "cpu",
+    "showCoreCount": true,
+    "temp": true,
+    "key": "│ ╠    ╚ ",
+    "keyColor": "blue",
+    "format": "Max: {7} | Base: {6}"
     },
     {
     "type": "CPUUsage",
@@ -144,7 +142,7 @@
     {
     "type": "gpu",
     "key": "│ ╠ ",
-    "format": "{1} {2}",
+    "format": "{1} {2}:",
     "keyColor": "blue"
     },
     {
@@ -157,21 +155,8 @@
     "type": "display",
     "key": "│ ╠ ",
     "keyColor": "blue",
-    "format": "{6}",
-    },
-    {
-    "type": "display",
-    "key": "│ ╠    ╚ ",
-    "keyColor": "blue",
     /*"compactType": "original-with-refresh-rate"*/
-    "format": "{1} x {2}"
-    },
-    {
-    "type": "display",
-    "key": "│ ╠    ╚ ",
-    "keyColor": "blue",
-    /*"compactType": "original-with-refresh-rate"*/
-    "format": "{3}Hz"
+    "format": "{1} x {2} @ {3}Hz | {6}"
     },
     {
     "type": "memory",
@@ -203,13 +188,26 @@
     "keyColor": "blue"
     },
     {
+    "type": "TPM",
+    "key": "│ ╠ ",
+    "keyColor": "blue",
+    "format": "{2}"
+    },
+    {
+    "type": "host",
+    "key": "│ ╠ ",
+    "keyColor": "blue",
+    "fallback": "Cool build bro! 😎",
+    "format": "{1}{2}"
+    },
+    {
     "type": "sound",
-    "key": " AUDIO",
-    "format": "{2:22} {5} {3}",
+    "key": " AUDIO ",
+    "format": "{2:22} {5}",
     "keyColor": "light_green",
     "percent": {
-	"type": 9,
-	"green": "99",
+	"type": 3,
+	"green": "100",
     }
     },
     {
@@ -224,7 +222,9 @@
     },
     {
     "type": "weather",
-    "keyColor": "light_yellow",
+    "key": " ",
+    /*is a lil' snowman :holding back tears:*/   
+    "format": "  {1}",
     "timeout": 2000
     },
     {
@@ -236,8 +236,9 @@
     
     /*Slightly stronger pastel*/
     /*"format": "\u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;212m  \u001b[38;5;207m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;212m  \u001b[38;5;207m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;212m  \u001b[38;5;207m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;212m  \u001b[38;5;207m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;212m  \u001b[38;5;207m  \u001b[0m"*/
-
-    "format": "\u001b[38;5;99m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;164m  \u001b[38;5;213m  \u001b[38;5;219m  \u001b[38;5;159m  \u001b[38;5;123m  \u001b[38;5;99m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;164m  \u001b[38;5;213m  \u001b[38;5;219m  \u001b[38;5;159m  \u001b[38;5;123m  \u001b[38;5;99m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[0m"
+    
+    /*Best color so far and here one  */
+    "format": "\u001b[38;5;99m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;164m  \u001b[38;5;213m  \u001b[38;5;219m  \u001b[38;5;159m  \u001b[38;5;123m  \u001b[38;5;99m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[38;5;164m  \u001b[38;5;213m  \u001b[38;5;219m  \u001b[38;5;159m  \u001b[38;5;123m  \u001b[38;5;99m  \u001b[38;5;117m  \u001b[38;5;120m  \u001b[0m"
     },
     "break",
     ]
