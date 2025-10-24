@@ -44,28 +44,28 @@
     },
     {
     "type": "bios",
-    "key": "/│/ ╠ ",
+    "key": "│/ ╠ ",
     "keyColor": "31",
     "format": "{5} {1}"
     },
     {
     "type": "kernel",
-    "key": "\│\ ╠ ",
+    "key": "│/ ╠ ",
     "keyColor": "31"
     },
     {
     "type": "shell",
-    "key": "/│/ ╠ ",
+    "key": "│/ ╠ ",
     "keyColor": "31"
     },
     {
     "type": "packages",
-    "key": "\│\ ╠ ",
+    "key": "│/ ╠ ",
     "keyColor": "31"
     },
     {
     "type": "Processes",
-    "key": "/│/ ╠ ",
+    "key": "│/ ╠ ",
     "keyColor": "31",
     "format": "{1} Active processes"
     },
