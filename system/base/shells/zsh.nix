@@ -53,10 +53,15 @@
 	alias .laptop='cd .dotfiles/hosts/Laptop/'
 	alias .slave='cd .dotfiles/hosts/Slave'
 
+	# and now for a good run some common 
+	# git aliases aswell.
+	alias ga='git add'
+	alias gc
+
         source <(fzf --zsh);
         HISTFILE=~/.zsh_history;
-        HISTSIZE=10000;
-        SAVEHIST=10000;
+        HISTSIZE=800;
+        SAVEHIST=800;
         setopt appendhistory;
         '';
       }; 
