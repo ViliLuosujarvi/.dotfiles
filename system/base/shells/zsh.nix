@@ -55,7 +55,7 @@
 
 	# and now for a good run some common 
 	# git aliases aswell.
-	alias ga='git add'
+	#alias ga='git add'
 	#alias gc='git commit --verbose' 
 
         source <(fzf --zsh);
