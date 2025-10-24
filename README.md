@@ -11,4 +11,4 @@ Also, no install scripts here, at the moment it's rsync or nothing. 🥹
   when I've been trying to get some functionality working for days or weeks, Gskartwii has given a lot of good
   advice and explanation of what is going on, big mcthankies from mcspankies! )
 
-<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/945fbee0-e5d8-4367-b2aa-4179f660e0a8" />
+<img width="2552" height="1595" alt="cover_photo" src="https://github.com/user-attachments/assets/c6c84bbe-bbb4-4fb7-909d-805538325019" />
