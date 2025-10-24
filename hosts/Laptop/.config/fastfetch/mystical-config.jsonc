@@ -168,7 +168,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "blue",
-    "format": "{1}/{2} {4}   "
+    "format": "{1}/{2}   {4}   "
     },
     {
     "type": "swap",
@@ -180,7 +180,7 @@
     },
     "key": "│ ╠ ",
     "keyColor": "blue",
-    "format": "{1}/{2} {4}   "
+    "format": "{1}/{2}        {4}   "
     },
     {
     "type": "uptime",
