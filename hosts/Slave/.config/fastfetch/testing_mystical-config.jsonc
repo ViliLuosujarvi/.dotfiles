@@ -6,7 +6,7 @@
 "logo": {
     /*"source": "/home/nansus/.config/fastfetch/Mad_Hatter.txt",*/
     /*"source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_4",*/
-    "source": "/home/nansus/.config/fastfetch/testing_no_room",
+    "source": "/home/nansus/.config/fastfetch/testing_no_room_v2",
 
   "color": {
      /*"1": "green"*/
@@ -44,60 +44,60 @@
     },
     {
     "type": "bios",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "31",
     "format": "{5} {1}"
     },
     {
     "type": "kernel",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "31"
     },
     {
     "type": "shell",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "31"
     },
     {
     "type": "packages",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "31"
     },
     {
     "type": "Processes",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "31",
     "format": "{1} Active processes"
     },
     {
     "type": "wm",
     "key": " DE/WM ",
-    "keyColor": "magenta"
+    "keyColor": "light_yellow"
     },
     {
     "type": "wmtheme",
-    "key": "│ ╠ ",
-    "keyColor": "magenta"
+    "key": "/│/ ╠ ",
+    "keyColor": "light_yellow"
     },
     {
     "type": "icons",
-    "key": "│ ╠ ",
-    "keyColor": "magenta"
+    "key": "/│/ ╠ ",
+    "keyColor": "light_yellow"
     },
     {
         "type": "cursor",
-        "key": "│ ╠ ",
-        "keyColor": "magenta",
+        "key": "/│/ ╠ ",
+        "keyColor": "light_yellow",
     },
     {
         "type": "terminalfont",
-        "key": "│ ╠ ",
-        "keyColor": "magenta",
+        "key": "/│/ ╠ ",
+        "keyColor": "light_yellow",
     },
     {
     "type": "terminal",
-    "key": "│ ╠ ",
-    "keyColor": "magenta"
+    "key": "/│/ ╠ ",
+    "keyColor": "light_yellow"
     },
     {
     "type": "Board",
@@ -107,7 +107,7 @@
     },
     {
     "type": "cpu",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "blue",
     "format": "{1}:"
     },
@@ -115,7 +115,7 @@
     "type": "cpu",
     "showCoreCount": true,
     "temp": true,
-    "key": "│ ╠    ╚ ",
+    "key": "/│/ ╠    ╚ ",
     "keyColor": "blue",
     "format": "{3} Cores | {4} Logical Cores | {8}"
     },
@@ -123,7 +123,7 @@
     "type": "cpu",
     "showCoreCount": true,
     "temp": true,
-    "key": "│ ╠    ╚ ",
+    "key": "/│/ ╠    ╚ ",
     "keyColor": "blue",
     "format": "Max: {7} | Base: {6}"
     },
@@ -135,25 +135,25 @@
 	"yellow": 89,
 	"red": 94
     },
-    "key": "│ ╠    ╚ ",
+    "key": "/│/ ╠    ╚ ",
     "keyColor": "blue",
     "format": "Max: {2} | Avg: {1}"
     },
     {
     "type": "gpu",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "format": "{1} {2}:",
     "keyColor": "blue"
     },
     {
     "type": "gpu",
-    "key": "│ ╠    ╚ ",
+    "key": "/│/ ╠    ╚ ",
     "format": "{3}",
     "keyColor": "blue"
     },
     {
     "type": "display",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "blue",
     /*"compactType": "original-with-refresh-rate"*/
     "format": "{1} x {2} @ {3}Hz | {6}"
@@ -166,9 +166,9 @@
 	"yellow": 80,
 	"red": 93
     },
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "blue",
-    "format": "{1}/{2} {4}   "
+    "format": "{1}/{2}  {4}   "
     },
     {
     "type": "swap",
@@ -178,24 +178,24 @@
 	"yellow": 80,
 	"red": 93
     },
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "blue",
-    "format": "{1}/{2} {4}   "
+    "format": "{1}/{2}       {4}   "
     },
     {
     "type": "uptime",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "blue"
     },
     {
     "type": "TPM",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "blue",
     "format": "{2}"
     },
     {
     "type": "host",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "blue",
     "fallback": "Cool build bro! 😎",
     "format": "{1}{2}"
@@ -212,12 +212,12 @@
     },
     {
     "type": "player",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "light_green"
     },
     {
     "type": "media",
-    "key": "│ ╠ ",
+    "key": "/│/ ╠ ",
     "keyColor": "light_green"
     },
     {
@@ -227,6 +227,7 @@
     "format": "  {1}",
     "timeout": 2000
     },
+    "break",
     {
     "type": "custom",
     /*"format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "*/
