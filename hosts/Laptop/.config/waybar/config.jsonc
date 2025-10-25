@@ -140,8 +140,8 @@
     "battery": {
         "states": {
             "good": 95,
-            "warning": 30,
-            "critical": 15
+            "warning": 35,
+            "critical": 20
         },
         "format": "{icon} {capacity}%",
         "format-charging": "󰂄 {capacity}%",
@@ -197,7 +197,7 @@
     "backlight": {
       "interval": 1,
       "device": "intel_backlight",
-      "format": "{icon} {percent}%",
+      "format": "{icon}{percent}%",
       "format-icons": [
 	//"",
 	//"",
@@ -246,7 +246,7 @@
      //"interval": 5
 
     "custom/nvidia": {
-     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s   %s%%  \\uf2db %s%%  \\uf2c9 %s°C\", $1, $2, $3, $4}'",
+     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s  %s%% \\uf2db %s%% \\uf2c9 %s°C\", $1, $2, $3, $4}'",
      "interval": 1
 
 
