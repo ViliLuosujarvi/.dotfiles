@@ -55,8 +55,8 @@
 
         source <(fzf --zsh);
         HISTFILE=~/.zsh_history;
-        HISTSIZE=800;
-        SAVEHIST=800;
+        HISTSIZE=10000;
+        SAVEHIST=10000;
         setopt appendhistory;
         '';
       }; 
