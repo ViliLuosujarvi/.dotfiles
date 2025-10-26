@@ -249,7 +249,7 @@
 
 
     "custom/nvidia": {
-      "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s   %s%%  \\uf2db %s%% \\uf2c9 %s°C\", $1, $2, $3, $4}'",
+      "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s   %s%%  \\uf2db %s%%  \\uf2c9 %s°C\", $1, $2, $3, $4}'",
       "interval": 1
 
 	//"exec": "nvidia-smi --query-gpu=pstate,utilization.gpu,temperature.gpu --format=csv,noheader,nounits",
