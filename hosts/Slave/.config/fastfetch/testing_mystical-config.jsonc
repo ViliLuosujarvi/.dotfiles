@@ -220,13 +220,13 @@
     "key": "/│/ ╠ ",
     "keyColor": "light_green"
     },
-    {
-    "type": "weather",
-    "key": " ",
+    /*{*/
+    /*"type": "weather",*/
+    /*"key": " ",*/
     /*is a lil' snowman :holding back tears:*/   
-    "format": "  {1}",
-    "timeout": 2000
-    },
+    /*"format": "  {1}",*/
+    /*"timeout": 2000*/
+    /*},*/
     "break",
     {
     "type": "custom",
