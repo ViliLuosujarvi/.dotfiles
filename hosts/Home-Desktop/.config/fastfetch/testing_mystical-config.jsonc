@@ -46,7 +46,7 @@
     "type": "bios",
     "key": "/│/ ╠ ",
     "keyColor": "31",
-    "format": "{5} {1}"
+    "format": "{5}"
     },
     {
     "type": "kernel",
