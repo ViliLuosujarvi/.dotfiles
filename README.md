@@ -2,7 +2,9 @@ Nothing too fancy here, just trying to upkeep couple of my computers and at the 
 things regarding servers, programming and in general just about linux and nixos in particular. But please do take a look
 of the configs if you happen to enjoy any stylistic implementations. 😎  Also don't mind me having this as my 
 artistic canvas that might be messy at times but if ever need be I'll clean it up. My goal is to have clean code that is
-easy to use but comments that might end up rambling way too extensively for no apparent reason. XD
+easy to use but comments that might end up rambling way too extensively for no apparent reason. XD ALso worth mentioning, 
+if push is made with commit message like "yeah" or "yuh" it's most likely been removal of unnessecary # or corrrected 
+mispelling somewhere. 
 
 Also, no install scripts here, at the moment it's rsync or nothing. 🥹
 
