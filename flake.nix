@@ -160,7 +160,7 @@
           };
         };
 	# Basic configuration for Slave machine
-	# to run ML calculations
+	# to run ML calculations (hence the name xd)
         Slave = lib.nixosSystem {
           inherit system;
           modules = [
