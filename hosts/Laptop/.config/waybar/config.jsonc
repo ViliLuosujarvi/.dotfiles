@@ -106,14 +106,14 @@
     },
 
     "cpu": {
-        "format": "CPU: 󰘚  {usage}%",
+        "format": "CPU: 󰘚 {usage}%",
         "tooltip": true,
         "interval": 1
     },
 
     "memory": {
 	// 󰍛
-        "format": "  {percentage}%   {swapPercentage}%",
+        "format": " {percentage}%   {swapPercentage}%",
         "tooltip-format": "{used:0.1f}GB / {total:0.1f}GB  {swapUsed}GB / {swapTotal}GB",
         "interval": 1
     },
@@ -246,7 +246,7 @@
      //"interval": 5
 
     "custom/nvidia": {
-     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s  %s%% \\uf2db  %s%% \\uf2c9 %s°C\", $1, $2, $3, $4}'",
+     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s  %s%% \\uf2db %s%% \\uf2c9 %s°C\", $1, $2, $3, $4}'",
      "interval": 1
 
 
