@@ -15,6 +15,7 @@
       ../../system/base/networking.nix
       ../../system/base/locale.nix
       ../../system/base/screen_shot.nix
+      ../../system/base/pipewire.nix
 
 	# hostname
       ../../system/base/hostnames/Home-Desktop.nix
