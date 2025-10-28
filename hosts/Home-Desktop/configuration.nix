@@ -9,7 +9,6 @@
       # ----  Base  ----
       ../../system/base/boot.nix
       ../../system/base/gnome_lockscreen.nix
-      ../../system/base/keymap.nix
       ../../system/base/unfree_software.nix
       ../../system/base/fonts.nix
       ../../system/base/hyprland.nix
@@ -35,7 +34,6 @@
       ../../system/app/libreOffice.nix
       #../../system/app/vscode.nix
       ../../system/app/browser/firefox.nix
-      ../../system/app/mysql.nix
       ../../system/app/spotify.nix
 
       # ---- games ----
