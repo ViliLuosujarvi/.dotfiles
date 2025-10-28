@@ -6,7 +6,7 @@
 "logo": {
     /*"source": "/home/nansus/.config/fastfetch/Mad_Hatter.txt",*/
     /*"source": "/home/nansus/.config/fastfetch/chesire_cat_with_text_4",*/
-    "source": "/home/nansus/.config/fastfetch/testing_no_room_v2",
+    "source": "/home/nansus/.config/fastfetch/testing_no_room_v3",
 
   "color": {
      /*"1": "green"*/
@@ -220,6 +220,13 @@
     "key": "/│/ ╠ ",
     "keyColor": "light_green"
     },
+    /*{*/
+    /*"type": "weather",*/
+    /*"key": " ",*/
+    /*is a lil' snowman :holding back tears:*/   
+    /*"format": "  {1}",*/
+    /*"timeout": 2000*/
+    /*},*/
     "break",
     {
     "type": "custom",
