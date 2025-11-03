@@ -1,7 +1,7 @@
 { config, pkgs, lib, inputs, system, ... }:
 
 {
-6;9u imports =
+imports =
     [ 
       # ---- Hardware ----
       ./Laptop-hw.nix
