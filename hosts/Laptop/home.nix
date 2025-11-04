@@ -68,11 +68,11 @@
     
     # theme options
     dracula-theme.theme-dracula
-    silofy.hackthebox
-    thorerik.hacker-theme
+    #silofy.hackthebox
+    #thorerik.hacker-theme
 
     # Basic ML
-    vscodevim.vim
+    #vscodevim.vim
     ms-python.python
     ms-toolsai.jupyter
     
@@ -81,7 +81,7 @@
     mechatroner.rainbow-csv
    
     # miscellaneous
-    tekumara.typos-vscode
+    #tekumara.typos-vscode
     ];
   };
 
