@@ -6,7 +6,7 @@
     "margin-left": 12,
     "margin-right": 12,
     "spacing": 8,
-    "output": ["eDP-1, HDMI-A-1"],
+    "output": ["eDP-1", "HDMI-A-1"],
     "modules-left": ["clock", "hyprland/workspaces"],
     //"modules-center": ["clock", "custom/weather"],
     "modules-right": ["network", "group/system-info", "disk", "memory", "custom/nvidia", "group/cpu_info", "battery", "tray"],
