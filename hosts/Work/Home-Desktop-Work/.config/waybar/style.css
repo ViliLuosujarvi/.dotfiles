@@ -1,74 +1,67 @@
+/* Global settings */
 * {
-	font-size: 20px;
-	font-family: monospace;
+    font-size: 16px;
+    font-family: monospace;
+    color: #ffffff;
 }
 
+/* Transparent bar background */
 window#waybar {
-	background: #292b2e;
-	color: #fdf6e3;
+    background: transparent;
 }
 
-#custom-right-arrow-dark,
-#custom-left-arrow-dark {
-	color: #1a1a1a;
-}
-#custom-right-arrow-light,
-#custom-left-arrow-light {
-	color: #292b2e;
-	background: #1a1a1a;
-}
-
+/* Transparent and clean modules */
 #workspaces,
-#clock.1,
-#clock.2,
-#clock.3,
+#clock,
 #pulseaudio,
 #memory,
 #cpu,
 #battery,
 #disk,
 #tray {
-	background: #1a1a1a;
+    background: transparent;
+    padding: 0 10px;
 }
 
+/* Workspace buttons */
 #workspaces button {
-	padding: 0 2px;
-	color: #fdf6e3;
+    padding: 0 6px;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
 }
+
 #workspaces button.focused {
-	color: #268bd2;
-}
-#workspaces button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
-}
-#workspaces button:hover {
-	background: #1a1a1a;
-	border: #1a1a1a;
-	padding: 0 3px;
+    border-bottom: 2px solid #ffffff;
 }
 
-#pulseaudio {
-	color: #268bd2;
-}
-#memory {
-	color: #2aa198;
-}
-#cpu {
-	color: #6c71c4;
-}
-#battery {
-	color: #859900;
-}
-#disk {
-	color: #b58900;
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
 
+/* Arrows — make them transparent and white */
+#custom-right-arrow-dark,
+#custom-left-arrow-dark,
+#custom-right-arrow-light,
+#custom-left-arrow-light {
+    color: #ffffff;
+    background: transparent;
+}
+
+/* Icons and text modules */
 #clock,
 #pulseaudio,
 #memory,
 #cpu,
 #battery,
 #disk {
-	padding: 0 10px;
+    color: #ffffff;
+    background: transparent;
+}
+
+/* Consistent spacing for tray icons */
+#tray {
+    padding: 0 6px;
 }
