@@ -15,9 +15,43 @@
   home.packages = with pkgs; [
 	git
 	gh
-	kitty
+	#kitty
+	# faster grep
 	ripgrep
+
+	# screenshots
+	#grimblast
+
+	#hyprshot
+	#hyprpicker
+
+	# photo modification
+	#gimp
+
+	# image viewer
+	#swayimg
   ];
+
+  programs.kitty = {
+    enable = true;
+    font = {
+      name = "FiraCode Nerd Font";
+      size = 10;
+    };
+  };
+  
+  # Enable Fira Code as default font
+  fonts.fontconfig = {
+    enable = true;
+    defaultFonts = {
+      #monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
+    
+      serif = [ "Fira Serif Nerd Font" ];
+      sansSerif = [ "Fira Code Nerd Font" ];
+      monospace = [ "Fira Code Nerd Font" ];
+      emoji = [ "Noto Color Emoji" ];
+      };
+  };
 
   #Enable git
   programs.git = {
@@ -26,17 +60,19 @@
     userEmail = "vili.luosujarvi@edu.lapinamk.fi";
   };
 
+  # Enable vscode
   programs.vscode = {
   enable = true;
+  # and extensions
   extensions = with pkgs.vscode-extensions; [
     
     # theme options
     dracula-theme.theme-dracula
-    silofy.hackthebox
-    thorerik.hacker-theme
+    #silofy.hackthebox
+    #thorerik.hacker-theme
 
     # Basic ML
-    vscodevim.vim
+    #vscodevim.vim
     ms-python.python
     ms-toolsai.jupyter
     
@@ -45,8 +81,20 @@
     mechatroner.rainbow-csv
    
     # miscellaneous
-    tekumara.typos-vscode
+    #tekumara.typos-vscode
     ];
+  };
+
+  # Enable DirEnv
+  programs = {
+    direnv = {
+      enable = true;
+      #enableZshIntegration = true;
+      nix-direnv.enable = true;
+    };
+
+    #bash.enable = true;
+    #zsh.enable = true;
   };
 
   home.file = {
