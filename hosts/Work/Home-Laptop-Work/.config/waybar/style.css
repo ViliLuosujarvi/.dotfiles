@@ -1,180 +1,77 @@
-/* ---------- BASE / OVERRIDES ---------- */
+/* ---------- GLOBAL ---------- */
 * {
-    box-sizing: border-box;
-    font-family: monospace, monospace;
+    font-family: monospace;
+    font-size: 16px;
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    color: #ffffff !important;        /* force all text to plain white */
-    font-size: 16px;                 /* balanced default text size */
 }
 
-/* Apply to both possible selectors used by different builds/themes */
-window#waybar,
-#waybar,
-.window#waybar,
-.bar { 
-    background: transparent !important;  /* fully transparent bar background */
-    border: none !important;
-    box-shadow: none !important;
-    height: 32px;                        /* consistent bar height */
-    line-height: 32px;                   /* vertically center text */
-    color: #ffffff !important;
+/* ---------- BAR CONTAINER ---------- */
+window#waybar {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    min-height: 32px;
 }
 
-/* Layout containers (left/center/right) */
-.left,
-.center,
-.right,
-#waybar > .left,
-#waybar > .center,
-#waybar > .right {
-    background: transparent !important;
-    height: 32px;
-    display: flex;
-    align-items: center;
-}
-
-/* Generic module styling */
-.module,
-.module button,
+/* ---------- MODULES ---------- */
 #workspaces,
-#tray,
 #clock,
 #pulseaudio,
 #memory,
 #cpu,
 #battery,
-#disk {
-    background: transparent !important;
-    color: #ffffff !important;
-    padding: 0 10px;          /* balanced horizontal spacing */
-    height: 32px;
-    display: inline-flex;
-    align-items: center;
-    font-size: 15px;          /* module text slightly smaller than base */
-    line-height: 1;
+#disk,
+#tray {
+    background: transparent;
+    color: #ffffff;
+    padding: 0 10px;
+    min-height: 32px;
 }
 
-/* Tray items often nested differently—make them consistent */
-#tray,
-#tray .tray-item,
-.tray,
-.tray .tray-item {
-    background: transparent !important;
-    padding: 0 6px !important;
-    height: 32px;
-    display: inline-flex;
-    align-items: center;
-    color: #ffffff !important;
-}
-
-/* Workspace buttons - compact & proportional */
+/* ---------- WORKSPACES ---------- */
 #workspaces button {
-    background: transparent !important;
-    color: #ffffff !important;
-    border: none !important;
-    padding: 4px 8px !important;
+    background: transparent;
+    color: #ffffff;
+    border: none;
     margin: 0 2px;
-    height: 24px;
-    line-height: 24px;
-    display: inline-flex;
-    align-items: center;
+    padding: 2px 8px;
     border-radius: 4px;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    vertical-align: middle;
 }
 
-/* Focused workspace - subtle white underline instead of heavy background */
 #workspaces button.focused {
-    color: #ffffff !important;
-    box-shadow: none !important;
-    outline: none !important;
     border-bottom: 2px solid #ffffff;
-    padding-bottom: 2px;
+    padding-bottom: 0;
 }
 
-/* Hover state */
-#workspaces button:hover,
-.module:hover,
-.tray .tray-item:hover {
-    background: rgba(255,255,255,0.06) !important;
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.08);
 }
 
-/* Make sure any module-specific ids don't reintroduce backgrounds */
+/* ---------- ICONS / CUSTOM ---------- */
 #custom-right-arrow-dark,
 #custom-left-arrow-dark,
 #custom-right-arrow-light,
-#custom-left-arrow-light,
-#workspaces,
-#clock,
-#pulseaudio,
-#memory,
-#cpu,
-#battery,
-#disk {
-    background: transparent !important;
-    color: #ffffff !important;
+#custom-left-arrow-light {
+    background: transparent;
+    color: #ffffff;
 }
 
-/* Ensure clock variations target same style */
-#clock.1, #clock.2, #clock.3 { 
-    background: transparent !important;
-    color: #ffffff !important;
+/* ---------- TRAY ---------- */
+#tray {
+    padding: 0 6px;
 }
 
-/* Ensure padding consistency for common modules */
-#clock,
-#pulseaudio,
-#memory,
-#cpu,
-#battery,
-#disk {
-    padding: 0 12px !important;
+/* ---------- CLOCK VARIANTS ---------- */
+#clock.1,
+#clock.2,
+#clock.3 {
+    background: transparent;
+    color: #ffffff;
 }
 
-/* SVG / icon color fix: fill & stroke */
-svg,
-svg * {
-    fill: #ffffff !important;
-    stroke: #ffffff !important;
-}
-
-/* font-icon classes (e.g. FontAwesome, Material Icons) */
-.icon,
-.fa,
-.material-icons,
-i {
-    color: #ffffff !important;
-}
-
-/* Make sure images in tray maintain bar height */
-#tray img,
-.tray img {
-    height: 20px;
-    width: auto;
-    vertical-align: middle;
-    filter: none !important;
-}
-
-/* Reduce oversized borders or outlines from modules */
-button,
-a,
-input {
-    background: transparent !important;
-    border: none !important;
-    outline: none !important;
-}
-
-/* Optional: slightly reduce spacing between modules for a tighter, proportional look */
-.left > .module + .module,
-.center > .module + .module,
-.right > .module + .module {
+/* ---------- OPTIONAL: Slight spacing between modules ---------- */
+#waybar > box > * + * {
     margin-left: 6px;
-}
-
-/* Final defensive fallback for anything that still draws a dark box */
-[style*="background"],
-[style*="background-color"] {
-    background: transparent !important;
 }
