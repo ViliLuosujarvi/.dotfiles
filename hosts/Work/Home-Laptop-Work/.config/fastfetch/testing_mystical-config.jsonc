@@ -45,28 +45,28 @@
     {
     "type": "bios",
     "key": "/│/ ╠ ",
-    "keyColor": ""magenta",
+    "keyColor": "magenta",
     "format": "{5}"
     },
     {
     "type": "kernel",
     "key": "/│/ ╠ ",
-    "keyColor": ""magenta"
+    "keyColor": "magenta"
     },
     {
     "type": "shell",
     "key": "/│/ ╠ ",
-    "keyColor": ""magenta"
+    "keyColor": "magenta"
     },
     {
     "type": "packages",
     "key": "/│/ ╠ ",
-    "keyColor": ""magenta"
+    "keyColor": "magenta"
     },
     {
     "type": "Processes",
     "key": "/│/ ╠ ",
-    "keyColor": ""magenta",
+    "keyColor": "magenta",
     "format": "{1} Active processes"
     },
     {
@@ -92,7 +92,7 @@
     {
         "type": "terminalfont",
         "key": "/│/ ╠ ",
-        "keyColor": ""magenta",
+        "keyColor": "magenta",
     },
     {
     "type": "terminal",
