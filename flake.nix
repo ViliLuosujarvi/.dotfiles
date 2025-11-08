@@ -1,14 +1,14 @@
 {
   # might be too much to describe what happens in description
-  description = "NanSuS' flake for my own computers and servers";
+  description = "flake for my computers and servers";
 
   # pkgs imported from git and such
   inputs = {
     # nix pkgs
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
 
-    # Home-mnanger and it is set to follow smae nixplgs version
-    # as nixpkgs.url has been set to follow
+    # Home-mnanger and it is set to follow same nixpkgs version
+    # as nixpkgs.url has been set to.
     home-manager.url = "github:nix-community/home-manager/release-25.05";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
@@ -32,8 +32,8 @@
       inputs.hyprlang.follows = "hyprland/hyprlang";
     };
 
-    # Import hyprland even tough I am pretty sure
-    # that I know in my heart that this doens't do shit
+    # Import hyprland even tough I know in my heart that
+    # this doens't do shit
     # in my configuration because I have been so lazy to 
     # not change hyprland.nix file in system/base/ :(
     hyprland = {
@@ -42,7 +42,8 @@
     };
 
     # not in use at the moment, could be just
-    # removed from this file entirely
+    # removed from this file entirely, 
+    # will be here just temporarily (clueless)
     hyprlang = {
       url = "github:hyprwm/hyprlang";
       inputs.system.follows = "system";

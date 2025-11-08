@@ -1,6 +1,7 @@
 { config, pkgs, lib, inputs, system, ... }:
 
 {
+
   imports =
     [ 
       # ---- Hardware ----
@@ -17,7 +18,7 @@
       ../../system/base/screen_shot.nix
       ../../system/base/pipewire.nix
 
-	# hostname
+      # ---- hostname ----
       ../../system/base/hostnames/Home-Desktop.nix
 	
       # ---- Shell ----
@@ -33,7 +34,6 @@
       ../../system/app/discord.nix
       ../../system/app/thunar.nix
       ../../system/app/libreOffice.nix
-      #../../system/app/vscode.nix
       ../../system/app/browser/firefox.nix
       ../../system/app/spotify.nix
 
