@@ -304,7 +304,7 @@ window#waybar {
 }
 
 #tray {
-    background-color: alpha(@color8, 0.6);
+    /*background-color: alpha(@color8, 0.6);*/
     border-radius: 10px;
     padding: 0 8px;
     margin-left: 4px;
