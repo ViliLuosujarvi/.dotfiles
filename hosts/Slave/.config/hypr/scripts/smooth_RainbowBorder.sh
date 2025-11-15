@@ -8,7 +8,7 @@ function random_hex() {
 }
 
 # rainbow colors only for active window
-hyprctl keyword general:col.active_border $(random_hex)  $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex)  290deg
+hyprctl keyword general:col.active_border $(random_hex)  $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex) $(random_hex)  320deg
 																				         # original value 270
 
 # rainbow colors for inactive window (uncomment to take effect)
