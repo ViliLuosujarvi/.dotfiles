@@ -192,14 +192,14 @@ window#waybar {
 }
 
 #clock {
-    background: alpha(@color8, 0.7);
+   /* background: alpha(@color8, 0.7);*/
     border-radius: 12px;
     padding: 0 12px;
     margin: 2px 6px;
     color: @color7;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
-    font-size: 13px;
+    font-size: 14px;
 }
 
 /*#custom-weather {
