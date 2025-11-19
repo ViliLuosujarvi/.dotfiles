@@ -1,0 +1,12 @@
+$terminal = kitty
+$fileManager = dolphin
+$menu = wofi --show drun
+
+# Autostart necessary processes
+exec-once = [workspace 1 silent] $terminal
+#exec-once = [workspace 1 silent] $terminal
+exec-once = [workspace 3 silent] $terminal
+exec-once = nm-applet
+#exec-once = waybar
+exec-once = waybar -c ~/.dotfiles/hosts/Home-Desktop/.config/waybar/multi_output_config.jsonc
+exec-once = hyprpaper
