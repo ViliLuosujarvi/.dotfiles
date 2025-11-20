@@ -196,10 +196,9 @@ window#waybar {
     border-radius: 12px;
     padding: 0 8px;
     margin: 2px 6px;
-    color: @color7;
+    color: @color13;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
-    border-bottom: 1px solid @color7;
     font-size: 15px;
 }
 
