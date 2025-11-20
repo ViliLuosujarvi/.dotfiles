@@ -199,8 +199,7 @@ window#waybar {
     color: @color7;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
-    border-bottom: 3px;
-    animation: rainbow-border 30s infinite linear;
+    border-bottom: 3px solid white ;
     font-size: 15px;
 }
 
