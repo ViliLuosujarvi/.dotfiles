@@ -199,7 +199,7 @@ window#waybar {
     color: @color7;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
-    border-bottom: 3px solid white ;
+    border-bottom: 2px solid @color7;
     font-size: 15px;
 }
 
