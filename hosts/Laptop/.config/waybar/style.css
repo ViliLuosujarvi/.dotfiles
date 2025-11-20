@@ -194,8 +194,8 @@ window#waybar {
 #clock {
     /*background: alpha(@color8, 0.7);*/
     border-radius: 12px;
-    padding: 0 12px;
-    margin: 0px 6px;
+    padding: 0 8px;
+    margin: 2px 6px;
     color: @color7;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
