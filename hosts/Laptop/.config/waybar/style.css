@@ -160,7 +160,7 @@ window#waybar {
 
 #workspaces button {
     padding: 0 8px;
-    background: alpha(@color8, 0.8);
+    background: alpha(@color8, 0.4);
     color: @color12; /*@color12*/
     border-radius: 12px;
     margin: 2px;
