@@ -195,8 +195,8 @@ window#waybar {
    /* background: alpha(@color8, 0.7);*/
     border-radius: 12px;
     padding: 0 12px;
-    margin: 2px 6px;
-    color: @color7;
+    margin: 0px 6px;
+    color: @color15;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
     font-size: 14px;
