@@ -305,9 +305,9 @@ window#waybar {
 
 #tray {
     /*background-color: alpha(@color8, 0.6);*/
-    border-radius: 5px;
-    padding: 0 3px;
-    margin-left: 4px;
+    border-radius: 2px;
+    padding: 0 2px;
+    margin-left: 2px;
 }
 
 #tray > .passive {
