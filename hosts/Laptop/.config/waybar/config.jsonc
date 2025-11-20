@@ -158,8 +158,8 @@
         //"format-disconnected": "󰯡 Offline",
         //"format-alt": "{bandwidthUpBits} 󰁝 {bandwidthDownBits}"
 
-	"format-wifi" : "󰖩  {bandwidthDownBits} ({signalStrength}%)",
-        "format-ethernet": "󰈀  {bandwidthDownBits:8}",
+	"format-wifi" : "󰖩  {bandwidthUpBits}||{bandwidthDownBits}  ({signalStrength}%)",
+        "format-ethernet": "󰈀   {bandwidthUpBits:8} ||  {bandwidthDownBits:8}",
         "format-disconnected" : "󰯡  no network",
         "interval": 1,
         "tooltip": false
