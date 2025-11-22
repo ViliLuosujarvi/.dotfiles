@@ -9,6 +9,7 @@
 
       # ----  Base  ----
       ../../system/base/boot.nix
+      ../../system/base/graceful_boot.nix
       ../../system/base/gnome_lockscreen.nix
       ../../system/base/unfree_software.nix
       ../../system/base/fonts.nix
