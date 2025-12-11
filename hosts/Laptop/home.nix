@@ -15,23 +15,11 @@
   home.packages = with pkgs; [
 	git
 	gh
-	#kitty
 	# faster grep
 	ripgrep
-
-	# screenshots
-	#grimblast
-
-	#hyprshot
-	#hyprpicker
-
-	# photo modification
-	#gimp
-
-	# image viewer
-	#swayimg
   ];
 
+  # Kitty config :3
   programs.kitty = {
     enable = true;
     font = {
@@ -64,7 +52,7 @@
   programs.vscode = {
   enable = true;
   # and extensions
-  extensions = with pkgs.vscode-extensions; [
+  profiles.default.extensions = with pkgs.vscode-extensions; [
     
     # theme options
     dracula-theme.theme-dracula

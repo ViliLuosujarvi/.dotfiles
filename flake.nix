@@ -138,7 +138,7 @@
         Home-Laptop = lib.nixosSystem {
           inherit system;
           modules = [
-             "${self}/hosts/Laptop/configuration.nix"
+            "${self}/hosts/Laptop/configuration.nix"
 	    nixos-hardware.nixosModules.lenovo-legion-16ithg6
       	    ./system/base/shells/zsh.nix
 	    sops-nix.nixosModules.sops
@@ -151,7 +151,7 @@
         Home-Laptop-Work = lib.nixosSystem {
           inherit system;
           modules = [
-             "${self}/hosts/Work/Home-Laptop-Work/configuration.nix"
+           "${self}/hosts/Work/Home-Laptop-Work/configuration.nix"
 	   nixos-hardware.nixosModules.lenovo-legion-16ithg6
       	   ./system/base/shells/zsh.nix
 	   sops-nix.nixosModules.sops
@@ -165,7 +165,7 @@
         Slave = lib.nixosSystem {
           inherit system;
           modules = [
-             "${self}/hosts/Slave/configuration.nix"
+            "${self}/hosts/Slave/configuration.nix"
       	    ./system/base/shells/zsh.nix
 	    sops-nix.nixosModules.sops
 	    

@@ -17,7 +17,8 @@ imports =
       ../../system/base/locale.nix
       ../../system/base/screen_shot.nix
       ../../system/base/pipewire.nix
-      # system hostname
+
+      # ---- hostname ----
       ../../system/base/hostnames/Laptop.nix
 
       # ---- Shell ----
