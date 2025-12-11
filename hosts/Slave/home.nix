@@ -44,7 +44,7 @@
 
   programs.vscode = {
   enable = true;
-  extensions = with pkgs.vscode-extensions; [
+  profiles.default.extensions = with pkgs.vscode-extensions; [
     
     # theme options
     dracula-theme.theme-dracula
