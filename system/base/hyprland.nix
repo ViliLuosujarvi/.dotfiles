@@ -13,7 +13,7 @@ environment.systemPackages = with pkgs; [
      # that I tend to utilize as
      # "base" for hyprland system
      # always, choose yourself ig
-     kitty
+#     kitty
      waybar
      hyprpaper
 #     wpaperd
