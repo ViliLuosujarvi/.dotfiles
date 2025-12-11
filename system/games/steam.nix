@@ -15,6 +15,6 @@
   programs.gamemode.enable = true;
 
   # Additional 32bit graphics driver
-  hardware.graphics.driSupport32Bit = true;
+  hardware.opengl.driSupport32Bit = true;
 
 }
