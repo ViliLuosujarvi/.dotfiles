@@ -37,6 +37,7 @@
       ../../system/app/libreOffice.nix
       ../../system/app/browser/firefox.nix
       ../../system/app/spotify.nix
+      ../../system/app/FreeCAD.nix
 
       # ---- games ----
       ../../system/games/steam.nix
