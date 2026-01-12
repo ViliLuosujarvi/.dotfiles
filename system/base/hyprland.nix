@@ -21,7 +21,7 @@ environment.systemPackages = with pkgs; [
      swaybg
      swww
      nerdfetch
-     rofi-wayland
+     rofi
      brightnessctl
      fastfetch
      wallust
