@@ -5,7 +5,7 @@
   # pkgs imported from git and such
   inputs = {
     # nix pkgs
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
 
     # Home-mnanger and it is set to follow same nixpkgs version
     # as nixpkgs.url has been set to.
