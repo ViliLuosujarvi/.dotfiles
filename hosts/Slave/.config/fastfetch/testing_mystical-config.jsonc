@@ -17,12 +17,14 @@
   }
 },
 "display": {
-	
+
     "bar": {
-      "charElapsed": "/",
+      "char": {
+	"elapsed": "/"
+      },
       "charTotal": "/",
       "width": 6
-    },
+    },	
 
     "percent": {
       "type": 9,
