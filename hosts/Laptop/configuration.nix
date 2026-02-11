@@ -59,6 +59,8 @@ imports =
      openssl
      pciutils
 
+     openconnect
+     xdg-desktop-portal-gnome
      # Personally needed software
      gh
      git
