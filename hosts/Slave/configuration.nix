@@ -14,7 +14,7 @@
       ../../system/base/fonts.nix
       ../../system/base/hyprland.nix
       ../../system/base/networking.nix
-      ../../system/base/locale.nix
+      ../../system/base/locale/Finnish_locale.nix
 
       # ----- Games -----
       ../../system/games/tailscale.nix
