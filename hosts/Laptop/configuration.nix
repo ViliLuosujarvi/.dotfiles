@@ -38,6 +38,7 @@ imports =
       ../../system/app/browser/firefox.nix
       ../../system/app/spotify.nix
       ../../system/app/FreeCAD.nix
+      ../../system/app/VirtualBox.nix
 
       # ---- games ----
       ../../system/games/steam.nix
