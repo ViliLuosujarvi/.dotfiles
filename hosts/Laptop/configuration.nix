@@ -39,8 +39,9 @@ imports =
       ../../system/app/browser/firefox.nix
       ../../system/app/spotify.nix
       ../../system/app/FreeCAD.nix
-      ../../system/app/virt-manager.nix
-      ../../system/app/VirtualBox.nix
+      #../../system/app/virt-manager.nix
+      #../../system/app/VirtualBox.nix
+      ../../system/app/Docker.nix
 
       # ---- games ----
       ../../system/games/steam.nix
