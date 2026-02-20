@@ -1,7 +1,5 @@
-# In /etc/nixos/configuration.nix
-virtualisation.docker = {
-  enable = true;
-};
+# install Docker
+virtualisation.docker.enable = true;
 
-# Optional: Add your user to the "docker" group to run docker without sudo
+# add user to 
 users.users.nansus.extraGroups = [ "docker" ];
