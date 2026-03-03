@@ -42,6 +42,7 @@ imports =
       #../../system/app/virt-manager.nix
       #../../system/app/VirtualBox.nix
       ../../system/app/Docker.nix
+      ../../system/app/Qemu.nix
 
       # ---- games ----
       ../../system/games/steam.nix
