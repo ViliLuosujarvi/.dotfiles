@@ -48,7 +48,7 @@
 	# annoying as hell to have .dotfiles and .dotnet
 	# in a same place.
 	alias .d='cd .dotfiles'
-	alias .system='cd .dotfiles/system/'
+	alias .s='cd .dotfiles/system/'
 	alias .home-desktop='cd .dotfiles/hosts/Home-Desktop/'
 	alias .laptop='cd .dotfiles/hosts/Laptop/'
 	alias .slave='cd .dotfiles/hosts/Slave'
