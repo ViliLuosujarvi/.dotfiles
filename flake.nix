@@ -188,7 +188,7 @@
 	Pentesting = lib.nixosSystem {
 	  inherit system;
 	  modules = [
-	     "${self}/hosts/Work/Pentesting/configuration.nix"
+	     "${self}/hosts/Pentesting/configuration.nix"
 	     nixos-hardware.nixosModules.lenovo-legion-16ithg6
              ./system/base/shells/pentesting_env_zsh.nix
 	     sops-nix.nixosModules.sops
@@ -264,7 +264,7 @@
         "nansus@Pentesting" = inputs.home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           modules = [
-	      	"${self}/hosts/Work/Pentesting/home.nix"
+	      	"${self}/hosts/Pentesting/home.nix"
   	      	basics
           ];
         };
