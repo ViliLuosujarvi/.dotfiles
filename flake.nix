@@ -184,6 +184,23 @@
             inherit inputs pkgs;
           };
         };
+	# Pentesting, mainly for Qemu purposes
+	Pentesting = lib.nixosSystem {
+	  inherit system;
+	  modules = [
+	     "${self}/hosts/Work/Pentesting/configuration.nix"
+	     nixos-hardware.nixosModules.lenovo-legion-16ithg6
+             ./system/base/shells/pentesting_env_zsh.nix
+	     sops-nix.nixosModules.sops
+	  ];
+	  specialArgs = {
+	    inherit inputs pkgs;
+	  };
+	};
+
+
+
+
       };
 
       # Home configuration for Home-Desktop Laptop and Slave.
@@ -241,6 +258,14 @@
           modules = [
 	      	"${self}/hosts/Slave/home.nix"
 		basics
+          ];
+        };
+
+        "nansus@Pentesting" = inputs.home-manager.lib.homeManagerConfiguration {
+          inherit pkgs;
+          modules = [
+	      	"${self}/hosts/Work/Pentesting/home.nix"
+  	      	basics
           ];
         };
       };
