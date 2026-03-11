@@ -47,17 +47,17 @@
 
 	# annoying as hell to have .dotfiles and .dotnet
 	# in a same place.
-	alias .d='cd .dotfiles'
-	alias .s='cd .dotfiles/system/'
+	alias .d='cd ; cd .dotfiles'
+	alias .s='cd ; cd .dotfiles/system/'
 
 	# Annoying as hell to also have swaybg and swatimg
 	alias .sw='swayimg'
 
 	# And here just to ease my workflow,
 	# some aliases to jump to computer configs
-	alias .home-desktop='cd .dotfiles/hosts/Home-Desktop/'
-	alias .laptop='cd .dotfiles/hosts/Laptop/'
-	alias .slave='cd .dotfiles/hosts/Slave'
+	alias .home-desktop='cd ; cd .dotfiles/hosts/Home-Desktop/'
+	alias .laptop='cd ; cd .dotfiles/hosts/Laptop/'
+	alias .slave='cd ; cd .dotfiles/hosts/Slave'
 
 	alias .dc='cd ; cd .dotfiles/hosts/Home-Desktop/.config/'
 	alias .lc='cd ; cd .dotfiles/hosts/Laptop/.config/'
