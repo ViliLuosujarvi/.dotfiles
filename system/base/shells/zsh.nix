@@ -49,10 +49,21 @@
 	# in a same place.
 	alias .d='cd .dotfiles'
 	alias .s='cd .dotfiles/system/'
+
+	# Annoying as hell to also have swaybg and swatimg
+	alias .sw='swayimg'
+
+	# And here just to ease my workflow,
+	# some aliases to jump to computer configs
 	alias .home-desktop='cd .dotfiles/hosts/Home-Desktop/'
 	alias .laptop='cd .dotfiles/hosts/Laptop/'
 	alias .slave='cd .dotfiles/hosts/Slave'
 
+	alias .dc='cd ; cd .dotfiles/hosts/Home-Desktop/.config/'
+	alias .lc='cd ; cd .dotfiles/hosts/Laptop/.config/'
+	alias .sc='cd ; cd .dotfiles/hosts/Slave/.config/'
+
+	# History files
         source <(fzf --zsh);
         HISTFILE=~/.zsh_history;
         HISTSIZE=10000;
