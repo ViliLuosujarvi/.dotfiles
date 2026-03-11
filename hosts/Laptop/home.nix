@@ -44,9 +44,14 @@
   #Enable git
   programs.git = {
     enable = true;
-    userName  = "ViliLuosujarvi";
-    userEmail = "vili.luosujarvi@edu.lapinamk.fi";
-  };
+    user = {
+       Name =  "ViliLuosujarvi";
+       Email = "vili.luosujarvi@edu.lapinamk.fi";
+    };
+
+    #userName  = "ViliLuosujarvi";
+    #userEmail = "vili.luosujarvi@edu.lapinamk.fi";
+  #};
 
   # Enable vscode
   programs.vscode = {
