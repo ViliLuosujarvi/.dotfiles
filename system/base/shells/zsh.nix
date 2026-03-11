@@ -51,8 +51,8 @@
 	alias .s='cd ; cd .dotfiles/system/'
 
 	# Annoying as hell to also have swaybg and swayimg
-	alias sw='swayimg'
-	alias sc='cd ; cd school_stuff/Fontys_2026/'
+	alias .si='swayimg'
+	alias .f='cd ; cd school_stuff/Fontys_2026/'
 
 
 	# And here just to ease my workflow,
