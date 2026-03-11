@@ -30,7 +30,7 @@ imports =
       ../../system/hardware/systemd.nix
       ../../system/hardware/opengl.nix
       ../../system/hardware/time_syncd.nix
-      ../../system/hardware/roccat.nix
+      #../../system/hardware/roccat.nix
 
       # ---- App ----
       ../../system/app/discord.nix
@@ -66,7 +66,8 @@ imports =
      pciutils
 
      openconnect
-     xdg-desktop-portal-gnome
+     #xdg-desktop-portal-gnome
+
      # Personally needed software
      gh
      git
