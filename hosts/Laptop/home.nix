@@ -47,11 +47,11 @@
     user = {
        Name =  "ViliLuosujarvi";
        Email = "vili.luosujarvi@edu.lapinamk.fi";
-    };
+    }
 
     #userName  = "ViliLuosujarvi";
     #userEmail = "vili.luosujarvi@edu.lapinamk.fi";
-  #};
+  };
 
   # Enable vscode
   programs.vscode = {
