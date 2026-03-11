@@ -44,11 +44,12 @@
   #Enable git
   programs.git = {
     enable = true;
-    user = {
-       Name =  "ViliLuosujarvi";
-       Email = "vili.luosujarvi@edu.lapinamk.fi";
+    settings = {
+       user = {
+          Name =  "ViliLuosujarvi";
+          Email = "vili.luosujarvi@edu.lapinamk.fi";
+       };
     };
-
     #userName  = "ViliLuosujarvi";
     #userEmail = "vili.luosujarvi@edu.lapinamk.fi";
   };
