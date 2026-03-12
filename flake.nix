@@ -24,8 +24,8 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     # For easier /nix/store workflow
-    nix-index-database.url = "github:nix-community/nix-index-database";
-    nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
+    #nix-index-database.url = "github:nix-community/nix-index-database";
+    #nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
 
     # prettier cursor, change with your
     # own preference as they can be found
@@ -113,7 +113,7 @@
              nixos-hardware.nixosModules.lenovo-legion-t526amr5
              ./system/base/shells/zsh.nix
 	     sops-nix.nixosModules.sops
-	     nix-index-database.nixosModules.default
+	     #nix-index-database.nixosModules.default
 
 	     # remember to run this on host machine:
 	     # systemctl --user enable auto-fix-vscode-server.service
@@ -147,7 +147,7 @@
 	    nixos-hardware.nixosModules.lenovo-legion-16ithg6
       	    ./system/base/shells/zsh.nix
 	    sops-nix.nixosModules.sops
-	    nix-index-database.nixosModules.default
+	    #nix-index-database.nixosModules.default
           ];
           specialArgs = {
             inherit inputs pkgs;
@@ -161,7 +161,7 @@
 	   nixos-hardware.nixosModules.lenovo-legion-16ithg6
       	   ./system/base/shells/zsh.nix
 	   sops-nix.nixosModules.sops
-	   nix-index-database.nixosModules.default
+	   #nix-index-database.nixosModules.default
           ];
           specialArgs = {
             inherit inputs pkgs;
@@ -175,7 +175,7 @@
             "${self}/hosts/Slave/configuration.nix"
       	    ./system/base/shells/zsh.nix
 	    sops-nix.nixosModules.sops
-	    nix-index-database.nixosModules.default
+	    #nix-index-database.nixosModules.default
 	    
 	    # in case you are wondering, Slave machine
 	    # is declader in it's configuration.nix as 
@@ -200,6 +200,7 @@
 	     nixos-hardware.nixosModules.lenovo-legion-16ithg6
              ./system/base/shells/pentesting_env_zsh.nix
 	     sops-nix.nixosModules.sops
+	     #nix-index-database.nixosModules.default
 	  ];
 	  specialArgs = {
 	    inherit inputs pkgs;
