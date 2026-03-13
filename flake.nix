@@ -113,7 +113,7 @@
              nixos-hardware.nixosModules.lenovo-legion-t526amr5
              ./system/base/shells/zsh.nix
 	     sops-nix.nixosModules.sops
-	     #nix-index-database.nixosModules.default
+	     nix-index-database.nixosModules.default
 
 	     # remember to run this on host machine:
 	     # systemctl --user enable auto-fix-vscode-server.service
@@ -143,10 +143,12 @@
         Home-Laptop = lib.nixosSystem {
           inherit system;
           modules = [
-            "${self}/hosts/Laptop/configuration.nix"
-	    nixos-hardware.nixosModules.lenovo-legion-16ithg6
-      	    ./system/base/shells/zsh.nix
-	    sops-nix.nixosModules.sops
+	    ./system/nixosConfiguration_user_modules/Laptop-modules.nix
+
+            #"${self}/hosts/Laptop/configuration.nix"
+	    #nixos-hardware.nixosModules.lenovo-legion-16ithg6
+      	    #./system/base/shells/zsh.nix
+	    #sops-nix.nixosModules.sops
 	    #nix-index-database.nixosModules.default
           ];
           specialArgs = {
