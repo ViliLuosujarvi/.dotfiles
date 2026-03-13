@@ -37,17 +37,6 @@
 /* @define-color color14 #a3be8c; */
 /* @define-color color15 #b48ead; */
 
-
-/*@keyframes rainbow-border {
-    0% { border-top-color: red; }
-    16% { border-top-color: orange; }
-    33% { border-top-color: yellow; }
-    50% { border-top-color: green; }
-    66% { border-top-color: blue; }
-    83% { border-top-color: indigo; }
-    100% { border-top-color: violet; }
-}*/
-
 @keyframes rainbow-border {
     0% { 
         border-top-color: @color16;  
@@ -219,7 +208,7 @@ window#waybar {
 #temperature,
 #network,
 #pulseaudio,
-#microphone,
+/*#microphone,*/
 #tray {
     background: transparent;
     padding: 0 4px;
@@ -230,7 +219,7 @@ window#waybar {
 }
 
 #battery {
-    border-bottom-color: @color9; 
+    border-bottom-color: @color3; 
     font-weight: bold;
 }
 
@@ -255,15 +244,15 @@ window#waybar {
 
 #cpu,
 #temperature {
-    border-bottom-color: @color4; /* USed to be @color4*/
+    border-bottom-color: @color13; /* USed to be @color4*/
 }
 
 #custom-nvidia {
-    border-bottom-color: @color13; /* Used to be @color16 */
+    border-bottom-color: @color16; /* Used to be @color16 */
 }
 
 #memory {
-    border-bottom-color: @color6; /*used to be @color13*/
+    border-bottom-color: @color4; /*used to be @color13*/
 }
 
 #temperature {
@@ -278,7 +267,7 @@ window#waybar {
 }
 
 #network {
-    border-bottom-color: @color16; /* USed to be @color6*/
+   /* border-bottom-color: @color16;  USed to be @color6*/
 }
 
 #network.disconnected {
@@ -289,15 +278,20 @@ window#waybar {
 
 #pulseaudio,
 #backlight {
-    border-bottom-color: @color3;    
+    border-bottom-color: @color2;    
 }
 
 #microphone {
-    color: @color1;
-    border-bottom-color: @color3;
+    color: @color2;
+    border-bottom-color: @color2;
 }
 
-#microphone.muted {
+/*#microphone.muted {*/
+    /*color: @color7;*/
+    /*border-bottom-color: @color3;*/
+/*}*/
+
+#microphone.source-muted {
     color: @color7;
 }
 
@@ -310,6 +304,7 @@ window#waybar {
 #tray {
     /*background-color: alpha(@color8, 0.6);*/
     border-radius: 2px;
+    border-bottom-color: @color9;
     padding: 0 2px;
     margin-left: 2px;
 }
@@ -325,7 +320,7 @@ window#waybar {
 }
 
 #disk {
-    border-bottom-color: @color2;  /*used to be @color13 */
+    border-bottom-color: @color6;  /*used to be @color13 */
 }
 
 #system-info {

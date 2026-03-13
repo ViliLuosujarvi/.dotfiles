@@ -159,8 +159,8 @@
         //"format-disconnected": "󰯡 Offline",
         //"format-alt": "{bandwidthUpBits} 󰁝 {bandwidthDownBits}"
 
-	"format-wifi" : "󰖩   {bandwidthUpBits}   {bandwidthDownBits} ({signalStrength}%)",
-        "format-ethernet": "󰈀   {bandwidthUpBits:8}   {bandwidthDownBits:8}",
+	"format-wifi" : "󰖩   {bandwidthUpBits}   {bandwidthDownBits} ({signalStrength}%)"            
+        "format-ethernet": "󰈀   {bandwidthUpBits:8}   {bandwidthDownBits:8}"           ,
         "format-disconnected" : "󰯡  no network",
         "interval": 1,
         "tooltip": false
@@ -198,7 +198,7 @@
     "backlight": {
       "interval": 1,
       "device": "intel_backlight",
-      "format": "{icon} {percent}%",
+      "format": "{icon}{percent}%",
       "format-icons": [
 	//"",
 	//"",
