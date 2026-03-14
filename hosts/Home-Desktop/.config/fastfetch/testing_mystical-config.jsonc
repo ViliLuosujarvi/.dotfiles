@@ -203,6 +203,11 @@
     "format": "{1}{2}"
     },
     {
+     "type": "command",
+     "key": "Host",
+     "text": "cat /sys/devices/virtual/dmi/id/product_name 2>/dev/null || echo 'Cool build bro! 😎'"
+    },
+    {
     "type": "sound",
     "key": " AUDIO ",
     "format": "{2:22} {5}",

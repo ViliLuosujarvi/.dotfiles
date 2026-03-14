@@ -201,8 +201,13 @@
     "type": "host",
     "key": "/│/ ╠ ",
     "keyColor": "blue",
-    "fallback": "Cool build bro! 😎",
+    /*"fallback": "Cool build bro! 😎",*/
     "format": "{1}{2}"
+    },
+    {
+     "type": "command",
+     "key": "Host",
+     "text": "cat /sys/devices/virtual/dmi/id/product_name 2>/dev/null || echo 'Cool build bro! 😎'"
     },
     {
     "type": "sound",
