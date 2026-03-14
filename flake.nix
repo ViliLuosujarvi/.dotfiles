@@ -152,7 +152,7 @@
 	    #nix-index-database.nixosModules.default
           ];
           specialArgs = {
-            inherit inputs pkgs;
+            inherit self inputs;
           };
         };
 	# Work configuration for home Laptop
