@@ -51,7 +51,7 @@
 	alias .s='cd ; cd .dotfiles/system/'
 
 	# Annoying as hell to also have swaybg and swayimg
-	alias .si='swayimg'
+	alias img='swayimg -f'
 	alias .f='cd ; cd school_stuff/Fontys_2026/'
 
 

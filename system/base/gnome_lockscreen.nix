@@ -7,9 +7,9 @@
   # to contrast the colorful interior.
 
   # Enable gnome based lockscreen
-  services.xserver = {
+  services.displayManager = {
      enable = true;
-     displayManager.gdm.enable = true;
+     gdm.enable = true;
 
   };
 

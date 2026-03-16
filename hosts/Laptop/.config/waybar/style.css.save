@@ -43,118 +43,64 @@
         border-top-color: @color16;  
         border-left-color: @color16; 
         border-right-color: @color16;
-	border-bottom-color: @color16;
     }
 
     16.67% { 
         border-top-color: @color13;  
         border-left-color: @color13; 
         border-right-color: @color13;
-	border-bottom-color: @color13;    
-}
+    }
 
     33.33% { 
         border-top-color: @color4;   
         border-left-color: @color4; 
         border-right-color: @color4;
-	border-bottom-color: @color4;
     }
 
     50% { 
         border-top-color: @color6;   
         border-left-color: @color6; 
         border-right-color: @color6;
-	border-bottom-color: @color6;
     }
 
     66.67% { 
         border-top-color: @color2;   
         border-left-color: @color2; 
         border-right-color: @color2;
-	border-bottom-color:@color2;
     }
 
     83.33% { 
         border-top-color: @color9;   
         border-left-color: @color9; 
         border-right-color: @color9;
-	border-bottom-color: @color9;
     }
 
     100% { 
         border-top-color: @color16;  
         border-left-color: @color16; 
         border-right-color: @color16;
-	border-bottom-color: @color16;
-    }
-}
-
-/* Rainbow border for only the active
-   workspace window so the can't doesn't
-   look so bright with pink outline*/
-@keyframes active-kitty-rainbow-border {
-    0% { 
-        border-top-color: @color13;  
-        border-left-color: @color13; 
-        border-right-color: @color13;
-        border-bottom-color: @color13;
-    }
-
-    20% { 
-        border-top-color: @color4;   
-        border-left-color: @color4; 
-        border-right-color: @color4;
-        border-bottom-color: @color4;
-    }
-
-    40% { 
-        border-top-color: @color6;   
-        border-left-color: @color6; 
-        border-right-color: @color6;
-        border-bottom-color: @color6;
-    }
-
-    60% { 
-        border-top-color: @color2;   
-        border-left-color: @color2; 
-        border-right-color: @color2;
-        border-bottom-color: @color2;
-    }
-
-    80% { 
-        border-top-color: @color9;   
-        border-left-color: @color9; 
-        border-right-color: @color9;
-        border-bottom-color: @color9;
-    }
-
-    100% { 
-        border-top-color: @color13;  
-        border-left-color: @color13; 
-        border-right-color: @color13;
-        border-bottom-color: @color13;
     }
 }
 
 /*Generic element of rainbow text color*/
 @keyframes rainbow-text {
-    0% { color: alpha(@color16, 0.9); }
+    0% { color: @color16; }
     16.67% { color: @color13; }
     33.33% { color: @color4; }
     50% { color: @color6; }
     66.67% { color: @color2; }
     83.33% { color: @color9; }
-    100% { color: alpha(@color16, 0.9); }
+    100% { color: @color16; }
 }
 
 
 /*rainbow border, static kitty color*/
 @keyframes kitty_cat_rainbow {
     0% { 
-        border-top-color: alpha(@color16, 0.80);  
-        border-left-color: alpha(@color16, 0.80); 
-        border-right-color: alpha(@color16, 0.80);
-	border-bottom-color: alpha(@color16, 0.80);
+        border-top-color: @color16;  
+        border-left-color: @color16; 
+        border-right-color: @color16;
+	border-bottom-color: @color16;
 	color: @color4;
     }
 
@@ -183,26 +129,26 @@
 	}
 
     66.67% { 
-        border-top-color: alpha(@color2, 0.9);   
-        border-left-color: alpha(@color2, 0.9); 
-        border-right-color: alpha(@color2, 0.9);
-	border-bottom-color: alpha(@color2, 0.9);
+        border-top-color: @color2;   
+        border-left-color: @color2; 
+        border-right-color: @color2;
+	border-bottom-color: @color2;
     	color: @color4; 
 	}
 
     83.33% { 
-        border-top-color: alpha(@color9, 0.8);   
-        border-left-color: alpha(@color9, 0.8); 
-        border-right-color: alpha(@color9, 0.8);
-	border-bottom-color: alpha(@color9,0.8);
+        border-top-color: @color9;   
+        border-left-color: @color9; 
+        border-right-color: @color9;
+	border-bottom-color: @color9;
     	color: @color13;
 	}
 
     100% { 
-        border-top-color: alpha(@color16, 0.75);  
-        border-left-color: alpha(@color16, 0.75); 
-        border-right-color: alpha(@color16, 0.75);
-	border-bottom-color: alpha(@color16, 0.75);
+        border-top-color: @color16;  
+        border-left-color: @color16; 
+        border-right-color: @color16;
+	border-bottom-color: @color16;
     	color: @color4;
 	}
 
@@ -213,9 +159,9 @@
   slightly customized rainbow color*/
 @keyframes fav-color-rainbow {
     /*0% { color: @color16; }*/
-    0% { color: alpha(@color13, 0.9); }
-    50% { color: alpha(@color4, 0.9); }
-    100% { color: alpha(@color13, 0.9); }
+    0% { color: @color13; }
+    50% { color: @color4; }
+    100% { color: @color13; }
 }
 
 
@@ -293,7 +239,7 @@ window#waybar {
     margin: 2px;
     /*box-shadow: inset 0 -1px 0 @color10;*/
     /*border-bottom: 2px solid #dc322f;*/
-    animation: kitty_cat_rainbow 120s infinite ease-in-out;
+    animation: kitty_cat_rainbow 90s infinite ease-in-out;
     /*animation: rainbow-text 30s infinite linear;*/
 }
 
@@ -303,11 +249,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-    /*animation: none;*/
-    animation: active-kitty-rainbow-border 40s infinite ease-in-out;
     background: alpha(@color4, 0.10);
-    opacity: 85;
-    color: shade(@color16, 1.3);
+    color: @color7;
     /*box-shadow: inset 0 -2px 0 @color4;*/
 }
 
@@ -371,7 +314,7 @@ window#waybar {
 
 #battery.charging, #battery.plugged {
     color: @color7;
-    background-color: alpha(@color2, 0.15);
+    background-color: alpha(@color9, 0.15);
     border-radius: 10px;
 }
 
@@ -395,9 +338,8 @@ window#waybar {
 }
 
 #custom-nvidia {
-    border-bottom-color: alpha(@color16, 0.9); /* Used to be @color16 */
-    opacity: 85;
-    color: shade(@color16, 1.3);
+    border-bottom-color: @color16; /* Used to be @color16 */
+    color: @color16
 }
 
 #memory {
@@ -439,7 +381,7 @@ window#waybar {
     border-radius: 10px;
 }
 
-#microphone.source {
+#pulseaudio#microphone {
     border-bottom-color: @color1;
     color: @color1;
 }

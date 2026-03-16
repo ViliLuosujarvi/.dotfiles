@@ -10,7 +10,7 @@
     "modules-left": ["clock", "hyprland/workspaces"],
     //"modules-center": ["clock", "custom/weather"],
     //"modules-right": ["network", "group/system-info", "disk", "memory", "custom/nvidia", "group/cpu_info", "battery", "tray"],
-      "modules-right": ["network", "custom/nvidia", "group/cpu_info", "memory" ,"disk", "group/system-info", "battery", "tray"],
+      "modules-right": ["network", "custom/nvidia", "group/cpu_info", "memory" ,"disk", "group/system-info", "pulseaudio#microphone", "battery", "tray"],
 
 
 
@@ -236,7 +236,7 @@
 	"orientation": "horizontal",
 	"modules": [
 		"pulseaudio",
-		"pulseaudio#microphone",
+		//"pulseaudio#microphone",
 		"backlight"
 	]
     },
