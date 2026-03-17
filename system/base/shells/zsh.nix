@@ -51,7 +51,9 @@
 	alias .s='cd ; cd .dotfiles/system/'
 
 	# Annoying as hell to also have swaybg and swayimg
-	alias img='swayimg -f'
+	alias img='swayimg -f' # My dumb ass strugling with this for ten minutes
+			       # just to remember this file isn't governed by home.nix :|
+					# Remember to rebuild !!
 	alias .f='cd ; cd school_stuff/Fontys_2026/'
 
 
