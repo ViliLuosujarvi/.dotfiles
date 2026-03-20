@@ -214,18 +214,18 @@
 @keyframes fav-color-rainbow {
     /*0% { color: @color16; }*/
     0% {
-	 opacity: 85;
+	 opacity: 75;
 	 color: shade(@color13, 0.75);
 	 }
 
     50% { 
-	opacity: 85;
+	opacity: 75;
 	color: shade(@color4, 0.75);
 	}
 
     100% { 
-	 opacity: 85;
-	 color: shade(@color13, 0.75); 
+	 opacity: 75;
+	 color: shade(@color13, 0.60); 
 	}
 }
 
@@ -437,7 +437,7 @@ window#waybar {
 
 #network {
    /* border-bottom-color: @color16;  USed to be @color6*/
-    animation: fav-color-rainbow 270s infinite ease-in-out;   
+    animation: fav-color-rainbow 210s infinite ease-in-out;   
 }
 
 #network.disconnected {

@@ -101,10 +101,11 @@
 
     "clock": {
 	"interval": 1,
-       "format": "{:%H:%M:%OS       %d/%m}",
+       "format": "{:%H:%M:%OS       %d/%m   %U}",
         "format-alt": "{:%Y-%m-%d}",
         "tooltip-format": "<big>{:%A, %B %d, %Y}</big>\n<small>{calendar}</small>",
-        "calendar": {
+        /*"rotate": 180*/
+	"calendar": {
             "mode": "month",
             "weeks-pos": "right",
             "on-scroll": 1,
