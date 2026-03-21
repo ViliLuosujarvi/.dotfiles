@@ -1,9 +1,9 @@
 /* Define Solarized Dark colors */
 @define-color color0 #002b36; /* Base03 (Dark background color)  */
 @define-color color1 #dc322f; /* Red */
-/*@define-color color2 #859900; /* Green */
+/*@define-color color2 #859900;  Green */
 @define-color color2 #39ff14; /* Neon Green */
-/*@define-color color3 #b58900; /* Yellow */
+/*@define-color color3 #b58900;  Yellow */
 @define-color color3 #ffd300; /* Neon Yellow */
 @define-color color4 #268bd2; /* Blue */
 @define-color color5 #d33682; /* Magenta */
@@ -156,7 +156,7 @@
 
 /* Rainbow border for only the active
    workspace window so the can't doesn't
-   look so bright with pink outline*/
+   look so bright with pink outline */
 @keyframes active-kitty-rainbow-border {
     0% { 
         border-top-color: @color13;  
