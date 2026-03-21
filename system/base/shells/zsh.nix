@@ -54,7 +54,7 @@
 	alias img='swayimg -f' # My dumb ass strugling with this for ten minutes
 			       # just to remember this file isn't governed by home.nix :|
 					# Remember to rebuild !!
-	alias .f='cd ; cd school_stuff/Fontys_2026/'
+	alias .f='cd ; cd school_stuff/Fontys_2026/MA-CSE_2026'
 
 
 	# And here just to ease my workflow,
