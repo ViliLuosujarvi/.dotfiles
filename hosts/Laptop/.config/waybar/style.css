@@ -2,15 +2,15 @@
 @define-color color0 #002b36; /* Base03 (Dark background color)  */
 @define-color color1 #dc322f; /* Red */
 /*@define-color color2 #859900;  Green */
-@define-color color2 #39ff14; /* Neon Green */
+@define-color color2 #00e676;  /*#39ff14 Neon Green */
 /*@define-color color3 #b58900;  Yellow */
-@define-color color3 #ffd300; /* Neon Yellow */
-@define-color color4 #268bd2; /* Blue */
-@define-color color5 #d33682; /* Magenta */
-@define-color color6 #2aa198; /* Cyan */
+@define-color color3 #ffea00;  /*#ffd300  Neon Yellow */
+@define-color color4 #3da5ff;  /*#268bd2  Blue */
+@define-color color5 #7c7cff;  /*#d33682  Magenta */
+@define-color color6 #00d4c7;  /*#2aa198 Cyan */
 @define-color color7 #eee8d5; /* Light background (Base2) */
 @define-color color8 #073642; /* Darker background (Base02) */
-@define-color color9 #cb4b16; /* Orange */
+@define-color color9 #ff6d00;  /*#cb4b16  Orange */
 @define-color color10 #586e75; /* Base01 (Soft dark gray) */
 @define-color color11 #657b83; /* Base00 (Neutral gray */
 @define-color color12 #839496; /* Base0 (Light gray */
@@ -290,7 +290,7 @@
 
     100% { 
 	 opacity: 75;
-	 color: shade(@color13, 0.60); 
+	 color: shade(@color13, 0.67); 
 	}
 }
 
@@ -406,7 +406,7 @@ window#waybar {
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
     font-size: 15px;
-    animation: fav-color-rainbow 270s infinite ease-in-out;
+    animation: fav-color-rainbow 210s infinite ease-in-out;
 }
 
 /*#custom-weather {
