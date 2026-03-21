@@ -1,8 +1,10 @@
 /* Define Solarized Dark colors */
 @define-color color0 #002b36; /* Base03 (Dark background color)  */
 @define-color color1 #dc322f; /* Red */
-@define-color color2 #859900; /* Green */
-@define-color color3 #b58900; /* Yellow */
+/*@define-color color2 #859900; /* Green */
+@define-color color2 #39ff14; /* Neon Green */
+/*@define-color color3 #b58900; /* Yellow */
+@define-color color3 #ffd300; /* Neon Yellow */
 @define-color color4 #268bd2; /* Blue */
 @define-color color5 #d33682; /* Magenta */
 @define-color color6 #2aa198; /* Cyan */
@@ -38,7 +40,7 @@
 /* @define-color color15 #b48ead; */
 
 /*Generic element rainbow border*/
-@keyframes rainbow-border {
+/*@keyframes rainbow-border {
     0% { 
         border-top-color: @color16;  
         border-left-color: @color16; 
@@ -87,7 +89,70 @@
         border-right-color: @color16;
 	border-bottom-color: @color16;
     }
+}*/
+
+/* Same as before but testing to add yellow to
+   the sequence */
+@keyframes rainbow-border {
+0% { 
+    border-top-color: @color16;  
+    border-left-color: @color16; 
+    border-right-color: @color16;
+    border-bottom-color: @color16;
+    }
+
+16.67% { 
+    border-top-color: @color13;  
+    border-left-color: @color13; 
+    border-right-color: @color13;
+    border-bottom-color: @color13;    
+    }
+
+33.33% { 
+    border-top-color: @color4;   
+    border-left-color: @color4; 
+    border-right-color: @color4;
+    border-bottom-color: @color4;
+    }
+
+50% { 
+    border-top-color: @color6;   
+    border-left-color: @color6; 
+    border-right-color: @color6;
+    border-bottom-color: @color6;
+    }
+
+66.67% { 
+    border-top-color: @color2;   
+    border-left-color: @color2; 
+    border-right-color: @color2;
+    border-bottom-color: @color2;
+    }
+
+83.33% { 
+    border-top-color: @color3;   
+    border-left-color: @color3; 
+    border-right-color: @color3;
+    border-bottom-color: @color3;
+    }
+
+91.67% { 
+    border-top-color: @color9;   
+    border-left-color: @color9; 
+    border-right-color: @color9;
+    border-bottom-color: @color9;
+    }
+
+100% { 
+    border-top-color: @color16;  
+    border-left-color: @color16; 
+    border-right-color: @color16;
+    border-bottom-color: @color16;
+    }
 }
+
+
+
 
 /* Rainbow border for only the active
    workspace window so the can't doesn't

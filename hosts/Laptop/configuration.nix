@@ -18,8 +18,8 @@ imports =
       #../../system/base/locale.nix
       ../../system/base/locale/Netherlands_locale.nix
       ../../system/base/screen_shot.nix
-      #../../system/base/pipewire.nix
-      ../../system/base/pulseAudio.nix
+      ../../system/base/pipewire.nix
+      #../../system/base/pulseAudio.nix
 
       # ---- hostname ----
       ../../system/base/hostnames/Laptop.nix
