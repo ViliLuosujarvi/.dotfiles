@@ -41,16 +41,22 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 #RPS1='%{$reset_color%} %{$fg[grey]%}%D{[ %X ]} '
 
 # Main prompt
-PROMPT='
-  %F{magenta}%n%f @ %F{magenta}%m%f $(git_prompt_info) $(virtualenv_prompt_info)%{$fg[green]%}%~
-    %{$fg[yellow]%}%1~ %{$fg[magenta]%}%(!..  ->) %{$reset_color%}'
+PROMPT='  
+  %{$fg[green]%}           
+   %F{magenta}%n%f @ %F{magenta}%m%f $(git_prompt_info) $(virtualenv_prompt_info)%{$fg[green]%}%~ %{$fg[red]%}
+%{$fg[blue]%}    %{$fg[yellow]%}%1~  %{$fg[magenta]%}%(!..  ->) %{$reset_color%}'
 					    # 
+# %{$fg[green]%}             
+# /
+# %{$fg[magenta]%}             
+# %{$fg[green]%}  
+
 # Resets color idk
 PROMPT2='%{$fg[gray]%}\ %{$reset_color%}'
 
 # Right side of the prompt
 #RPS1='%{$fg[blue]%}%D{[ %H:%M ]} %{$reset_color%} ${return_code}'
-RPS1='${return_code} %{$reset_color%} %{$fg[cyan]%}%D{  %H:%M }'
+RPS1='${return_code} %{$reset_color%} %{$fg[blue]%}%D{  %H:%M }'
 #RPS1='%{$fg[cyan]%}%D{[ %H:%M ]} %{$reset_color%}'
 
 
