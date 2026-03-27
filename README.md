@@ -18,6 +18,3 @@ Also, no install scripts here, at the moment it's rsync or nothing. 🥹
 
 <img width="2560" height="1600" alt="cover_photo" src="https://github.com/user-attachments/assets/5d4b8c7a-6e31-4bef-9059-c6e4cbb24c9b" />
 
-
-
-<img width="2560" height="1600" alt="cover_photo" src="https://github.com/user-attachments/assets/73c53bd7-16f8-4416-8327-7d45631f45b5" />
