@@ -199,13 +199,13 @@
     "keyColor": "blue",
     "format": "{2}"
     },
-    {
+    /*{
     "type": "host",
     "key": "/│/ ╠ ",
     "keyColor": "blue",
-    /*"fallback": "Cool build bro! 😎",*/
+    "fallback": "Cool build bro! 😎",
     "format": "{1}{2}"
-    },
+    },*/
     {
      "type": "command",
      "key": "Host",

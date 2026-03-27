@@ -55,7 +55,7 @@
 			       # just to remember this file isn't governed by home.nix :|
 					# Remember to rebuild !!
 	alias .f='cd ; cd school_stuff/Fontys_2026/MA-CSE_2026'
-
+	alias pic='hyprshot -zm region'
 
 	# And here just to ease my workflow,
 	# some aliases to jump to computer configs

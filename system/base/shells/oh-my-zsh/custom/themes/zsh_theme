@@ -44,8 +44,8 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 PROMPT='  
   %{$fg[green]%}           
    %F{magenta}%n%f @ %F{magenta}%m%f $(git_prompt_info) $(virtualenv_prompt_info)%{$fg[green]%}%~ %{$fg[red]%}
-%{$fg[blue]%}    %{$fg[yellow]%}%1~  %{$fg[magenta]%}%(!..  ->) %{$reset_color%}'
-					    # 
+%{$fg[blue]%}    %{$fg[yellow]%}%1~  %{$fg[magenta]%}%(!..$) %{$reset_color%}'
+					    #   ->
 # %{$fg[green]%}             
 # /
 # %{$fg[magenta]%}             
