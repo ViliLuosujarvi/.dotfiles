@@ -54,6 +54,9 @@ imports =
       # ---- Security ----
       ../../system/security/automount.nix
       ../../system/security/firewall.nix
+
+      # proxy
+      ../../system/security/mitmproxy_cert.nix
      ];
 
 
@@ -65,6 +68,7 @@ imports =
      networkmanagerapplet
      openssl
      pciutils
+     net-tools
 
      openconnect
      #xdg-desktop-portal-gnome
