@@ -56,7 +56,7 @@ imports =
       ../../system/security/firewall.nix
 
       # proxy
-      ../../system/security/mitmproxy_cert.nix
+      #../../system/security/mitmproxy_cert.nix
      ];
 
 
