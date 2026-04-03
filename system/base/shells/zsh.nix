@@ -20,7 +20,6 @@
 	plugins = ["git"
 		 "gh"
 		 "git-prompt"
-		 "git-plugin"
 		 "github"
 		 "gitignore" 
 		 "virtualenv" 
