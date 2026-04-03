@@ -25,7 +25,7 @@
 		 "virtualenv" 
 		 "direnv"	
 		 "fastfile"
-		 "zsh-interactive-cd"
+		 #"zsh-interactive-cd"
 		];
 	theme = "";
 	# good ones been:
