@@ -2,7 +2,7 @@
 
 {
 
-   services.emacs = {
+   programs.emacs = {
       enable = true;
       defaultEditor = true;      
       package = pkgs.emacs-pgtk;
@@ -54,11 +54,10 @@
             sass-mode
             rainbow-mode
    	    ];
-
+	    
+	    extraConfig = ''
+		(setq treesit-auto-install 'prompt)
+		'';
 	};
 
-  	environment.systemPackages = with pkgs; [
-    	   tree-sitter
-    	   tree-sitter-grammars
-  	   ];
 }
