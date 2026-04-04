@@ -93,7 +93,7 @@
 
    programs.emacs = {
       enable = true;
-      defaultEditor = true;      
+      #defaultEditor = true;      
       package = pkgs.emacs-pgtk;
       extraPackages =
           epkgs: with epkgs; [
@@ -104,11 +104,11 @@
             corfu
             hotfuzz
             orderless
-            evil
-            evil-collection
-            evil-snipe
-            evil-owl
-            evil-vimish-fold
+            #evil
+            #evil-collection
+            #evil-snipe
+            #evil-owl
+            #evil-vimish-fold
             dashboard
             doom-themes
             doom-modeline
