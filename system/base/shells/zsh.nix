@@ -46,14 +46,14 @@
 
 	# NixOS aliases
 	alias hmsn='home-manager switch --flake .#nansus@Home-Laptop'
-	alias hms='home-manager switch --flake .#'
+	alias hms ='home-manager switch --flake .#'
 
 	alias nrsn='sudo nixos-rebuild switch --flake .#Home-Laptop'
-	alias nrs='sudo nixos-rebuild switch --flake .#'
+	alias nrs ='sudo nixos-rebuild switch --flake .#'
 
 	alias nfu='nix flake update'
 
-	alias ncg='nix-collect-garbage --delete-older-than'
+	alias ncg ='nix-collect-garbage --delete-older-than'
 	alias ncgo='nix-collect-garbage --d'
 
         # Set-up icons for files/folders in terminal using lsd
@@ -79,7 +79,7 @@
 			       # just to remember this file isn't governed by home.nix :|
 					# Remember to rebuild !!
 	alias .f='cd ; cd school_stuff/Fontys_2026/MA-CSE_2026'
-	alias pic='hyprshot -zm region -o'
+	alias .T='cd ; cd school_stuff/Thesis'	
 
 	# And here just to ease my workflow,
 	# some aliases to jump to computer configs
