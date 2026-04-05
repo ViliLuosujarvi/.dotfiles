@@ -46,13 +46,14 @@
 
 	# NixOS aliases
 	alias update='home-manager switch --flake .#nansus@Home-Laptop'
-	alias hms ='home-manager switch --flake .#'
+	alias hms='home-manager switch --flake .#'
 	# update, upgrade easier to remember xd
 	alias upgrade='sudo nixos-rebuild switch --flake .#Home-Laptop'
-	alias nrs ='sudo nixos-rebuild switch --flake .#'
+	alias nrs='sudo nixos-rebuild switch --flake .#'
 	alias nfu='nix flake update'
-	alias ncg ='nix-collect-garbage --delete-older-than'
+	alias ncg='nix-collect-garbage --delete-older-than'
 	alias ncgo='nix-collect-garbage --d'
+	alias nd='nix develop'
 
         # Set-up icons for files/folders in terminal using lsd
         alias ls='lsd'
