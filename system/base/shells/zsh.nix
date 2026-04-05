@@ -42,7 +42,7 @@
       promptInit = ''
 	
 	# current custom zsh theme is stored here
-	source .dotfiles/system/base/shells/oh-my-zsh/custom/themes/zsh_theme
+	source ~/.dotfiles/system/base/shells/oh-my-zsh/custom/themes/zsh_theme
 
 	# NixOS aliases
 	alias update='home-manager switch --flake .#nansus@Home-Laptop'
