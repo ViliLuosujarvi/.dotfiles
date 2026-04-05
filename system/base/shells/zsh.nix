@@ -45,14 +45,12 @@
 	source .dotfiles/system/base/shells/oh-my-zsh/custom/themes/zsh_theme
 
 	# NixOS aliases
-	alias hmsn='home-manager switch --flake .#nansus@Home-Laptop'
+	alias update='home-manager switch --flake .#nansus@Home-Laptop'
 	alias hms ='home-manager switch --flake .#'
-
-	alias nrsn='sudo nixos-rebuild switch --flake .#Home-Laptop'
+	# update, upgrade easier to remember xd
+	alias upgrade='sudo nixos-rebuild switch --flake .#Home-Laptop'
 	alias nrs ='sudo nixos-rebuild switch --flake .#'
-
 	alias nfu='nix flake update'
-
 	alias ncg ='nix-collect-garbage --delete-older-than'
 	alias ncgo='nix-collect-garbage --d'
 
