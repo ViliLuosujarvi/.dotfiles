@@ -209,7 +209,18 @@
 	  };
 	};
 
-
+	# LiveUSB boot
+	LiveUSB = lib.nixosSystem {
+	   inherit system;
+	   modules = [
+	      "${self}/hosts/LiveUSB/liveusb.nix"
+	      "${nixpkgs}/nixos/modules/installer/cd-dvd/iso-image.nix"
+	   ];
+            specialArgs = {
+               hostname = "liveusb-nix";
+               inherit inputs nixpkgs;
+            };
+	};
 
 
       };
