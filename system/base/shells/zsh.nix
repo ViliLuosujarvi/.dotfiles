@@ -54,6 +54,7 @@
 	alias ncg='nix-collect-garbage --delete-older-than'
 	alias ncgo='nix-collect-garbage --d'
 	alias nd='nix develop'
+	alias ns='nix-shell'
 
         # Set-up icons for files/folders in terminal using lsd
         alias ls='lsd'
