@@ -17,7 +17,12 @@
 	gh
 	# faster grep
 	ripgrep
-  ];
+
+	# Firas tools - high importance!
+	net-tools
+	vim
+	neovim
+        ];
 
   # Kitty config :3
   programs.kitty = {
