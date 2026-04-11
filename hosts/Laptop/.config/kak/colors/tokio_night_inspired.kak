@@ -3,8 +3,8 @@ declare-option str bg "default"
 declare-option str subbg "default"
 
 declare-option str red "FF4A4A"
-declare-option str green "5CFF2A"
-declare-option str yellow "EAEA32"   #FFF04A,  E9DE65
+declare-option str green "EAEA32"   #5CFF2A
+declare-option str yellow "5CFF2A"   #FFF04A,  E9DE65,  #EAEA32
 declare-option str orange "FF7A1A"
 declare-option str blue "4AB3FF"
 declare-option str magenta "FF2FA3"
