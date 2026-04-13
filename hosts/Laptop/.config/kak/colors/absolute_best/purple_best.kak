@@ -50,13 +50,8 @@ declare-option str base0E 'rgb:8991bb'
 declare-option str base0F 'rgb:4d6fff'
 
 # additionals
-declare-option str baseAD01 'rgb:5191cc' # Blue (cursor) 
-declare-option str baseAD02 'rgb:fb008f' # Pink (selection) 
-declare-option str baseAD03 'rgb:ffd34d' # Yellow 
-declare-option str baseAD04 'rgb:c31684' # incert mode pink 
-declare-option str baseAD05 'rgb:7eff46' # bright green 
-
-
+declare-option str baseAD01 'rgb:5191cc'
+declare-option str baseAD02 'rgb:fb008f'
 
 # code
 
@@ -114,7 +109,7 @@ set-face global Error "%opt{base01},%opt{base08}"
 set-face global DiagnosticError "%opt{base08}"
 set-face global DiagnosticWarning "%opt{base0A}"
 set-face global StatusLine "%opt{base04},%opt{base02}"
-set-face global StatusLineMode "%opt{base01},%opt{baseAD05}"      #%opt{base0A},%opt{baseAD03}
+set-face global StatusLineMode "%opt{base0A},%opt{base02}"
 set-face global StatusLineInfo "%opt{base06},%opt{base02}"
 set-face global StatusLineValue "%opt{base04},%opt{base02}"
 set-face global StatusCursor "%opt{base02},%opt{base05}"
