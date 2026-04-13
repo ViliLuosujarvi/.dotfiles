@@ -114,7 +114,7 @@ set-face global Error "%opt{base01},%opt{base08}"
 set-face global DiagnosticError "%opt{base08}"
 set-face global DiagnosticWarning "%opt{base0A}"
 set-face global StatusLine "%opt{base04},%opt{base02}"
-set-face global StatusLineMode "%opt{base01},%opt{baseAD05}"      #%opt{base0A},%opt{baseAD03}
+set-face global StatusLineMode "%opt{baseAD05}"      #%opt{base0A},%opt{baseAD03},  %opt{base01},%opt{baseAD05}
 set-face global StatusLineInfo "%opt{base06},%opt{base02}"
 set-face global StatusLineValue "%opt{base04},%opt{base02}"
 set-face global StatusCursor "%opt{base02},%opt{base05}"
