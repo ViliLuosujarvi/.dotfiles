@@ -68,7 +68,7 @@ set-face global function "%opt{base0D}"
 set-face global identifier "%opt{base08}"
 set-face global string "%opt{base0B}"
 set-face global error "%opt{base08}"
-set-face global keyword "%opt{base0E}"
+set-face global keyword "%opt{base0F}+i"  #base0E
 set-face global operator "%opt{base05}"
 set-face global attribute "%opt{base09}"
 set-face global bracket "%opt{base05}+b"
@@ -114,7 +114,7 @@ set-face global Error "%opt{base01},%opt{base08}"
 set-face global DiagnosticError "%opt{base08}"
 set-face global DiagnosticWarning "%opt{base0A}"
 set-face global StatusLine "%opt{base04},%opt{base02}"
-set-face global StatusLineMode "%opt{baseAD05}"      #%opt{base0A},%opt{baseAD03},  %opt{base01},%opt{baseAD05}
+set-face global StatusLineMode "%opt{base0B}+i"      #%opt{base0A},%opt{baseAD03},  %opt{base01},%opt{baseAD05}
 set-face global StatusLineInfo "%opt{base06},%opt{base02}"
 set-face global StatusLineValue "%opt{base04},%opt{base02}"
 set-face global StatusCursor "%opt{base02},%opt{base05}"
