@@ -71,6 +71,7 @@
 	alias .d='cd ; cd .dotfiles'
 	alias .s='cd ; cd .dotfiles/system/'
 	alias .i='cd ; cd school_stuff/Info_for_NixOS'
+	alias .pt='cd ; cd .dotfiles/Pentesting/'
 
 	# Annoying as hell to also have swaybg and swayimg
 	alias img='swayimg -f' # My dumb ass strugling with this for ten minutes
