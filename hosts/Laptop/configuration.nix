@@ -25,6 +25,7 @@ imports =
       ../../system/base/hostnames/Laptop.nix
 
       # ---- Shell ----
+      # Changing this changes the shell :exploding_head:
       ../../system/base/shells/zsh.nix
 
       # ---- hardware ----
