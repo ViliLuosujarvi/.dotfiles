@@ -19,22 +19,33 @@
 	nerd-fonts.fira-mono
 	nerd-fonts.iosevka
 	nerd-fonts.mononoki
-	
+
+	cascadia-code
+	hack-font
+	inconsolata
+	source-code-pro
+
+	noto-fonts-emoji
+
 	corefonts
+
+	
   ];
 
 
    #set default fonts
    #(disclaimer; at the moment handled by home-manager
    #in home.nix of each computer)
-  fonts.fontconfig = {
-    enable = true;
-    defaultFonts = {
-      serif = [ "Fira Code" ];
-      sansSerif = [ "Fira Code" ];
-      monospace = [ "Fira Code" ];
-      emoji = [ "Noto Color Emoji" ];
-    };
-  };  
-
+   # Enable Fira Code as default font
+   fonts.fontconfig = {
+     enable = true;
+     defaultFonts = {
+       #monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
+     
+       serif = [ "Fira Serif Nerd Font" ];
+       sansSerif = [ "Fira Code Nerd Font" ];
+       monospace = [ "Fira Code Nerd Font" ];
+       emoji = [ "Noto Color Emoji" ];
+     `  };
+   };
 }
