@@ -12,7 +12,7 @@
 	font-awesome
 	#victor-mono
 	#iosevka-bin
-	#noto-fonts-color-emoji
+	noto-fonts-color-emoji
 
 	#nerdfonts
 	nerd-fonts.fira-code
@@ -24,8 +24,6 @@
 	hack-font
 	inconsolata
 	source-code-pro
-
-	noto-fonts-emoji
 
 	corefonts
 
