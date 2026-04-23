@@ -46,6 +46,6 @@
        sansSerif = [ "Fira Code Nerd Font" ];
        monospace = [ "Fira Code Nerd Font" ];
        emoji = [ "Noto Color Emoji" ];
-     `  };
+       };
    };
 }
