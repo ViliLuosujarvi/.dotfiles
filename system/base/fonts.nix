@@ -24,17 +24,17 @@
   ];
 
 
-  # set default fonts
-  # (disclaimer; at the moment handled by home-manager
-  # in home.nix of each computer)
-  #fonts.fontconfig = {
-  #  enable = true;
-  #  defaultFonts = {
-  #    serif = [ "Fira Code" ];
-  #    sansSerif = [ "Fira Code" ];
-  #    monospace = [ "Fira Code" ];
-  #    emoji = [ "Noto Color Emoji" ];
-  #  };
-  #};  
+   set default fonts
+   (disclaimer; at the moment handled by home-manager
+   in home.nix of each computer)
+  fonts.fontconfig = {
+    enable = true;
+    defaultFonts = {
+      serif = [ "Fira Code" ];
+      sansSerif = [ "Fira Code" ];
+      monospace = [ "Fira Code" ];
+      emoji = [ "Noto Color Emoji" ];
+    };
+  };  
 
 }
