@@ -24,9 +24,9 @@
   ];
 
 
-   set default fonts
-   (disclaimer; at the moment handled by home-manager
-   in home.nix of each computer)
+   #set default fonts
+   #(disclaimer; at the moment handled by home-manager
+   #in home.nix of each computer)
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
