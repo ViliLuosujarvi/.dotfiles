@@ -20,6 +20,7 @@
 	nerd-fonts.iosevka
 	nerd-fonts.mononoki
 	
+	corefonts
   ];
 
 
