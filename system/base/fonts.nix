@@ -55,9 +55,9 @@
 
        fonts.fontconfig.defaultFonts = {
        sansSerif = [ "Fira Code Nerd Font" ];
-       serif = [ "Xanh Mono" ];
+       serif = [ "Fira Code Nerd Font" ];
        monospace = [ "Hack Nerd Font" ];
-       #emoji = [ "Noto Color Emoji" ];
+       emoji = [ "Noto Color Emoji" ];
        };
 
     };
