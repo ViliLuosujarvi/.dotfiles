@@ -30,7 +30,7 @@
     #font = {
     #  name = "FiraCode Nerd Font";
     #  size = 10;
-    };
+    #};
   };
   
   # Enable Fira Code as default font
