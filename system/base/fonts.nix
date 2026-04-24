@@ -42,12 +42,12 @@
      
        #serif = [ "Fira Serif Nerd Font" ];
        #sansSerif = [ "Fira Code Nerd Font" ];
-       #monospace = [ "Fira Code Nerd Font" ];
+       monospace = [ "Fira Code Nerd Font" ];
        #emoji = [ "Noto Color Emoji" ];
 
         sansSerif = [ "Fira Code Nerd Font" ];
         serif = [ "Fira Serif Nerd Font" ];
-        monospace = [ "inconsolata" ];
+        #monospace = [ "inconsolata" ];
         emoji = [ "Noto Color Emoji" ];
 
        };
