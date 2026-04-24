@@ -50,8 +50,8 @@
         #monospace = [ "inconsolata" ];
         #emoji = [ "Noto Color Emoji" ];
 
-        serif = [ "Xanh Mono" ];
-        sansSerif = [ "Xanh Mono" ];
+        serif = [ "Source Code Pro" ];
+        sansSerif = [ "Source Code Pro" ];
         monospace = [ "Fira Code Nerd Font" ];
         emoji = [ "Noto Color Emoji" ];
 

@@ -17,44 +17,53 @@
 	//cute cats can be found here:
 	//https://emojidb.org/cat-ascii-emojis
     "hyprland/workspaces": {
-        "format": "{icon} {id}",
+        "format": "{icon}",
         "on-click": "activate",
         "all-outputs": true,
         "sort-by-number": true,
         "format-icons": {
-	"1": "  /\\_/\\  \n ~(≧▽≦)~  \n   >づづ  ",
-        "2": "  /\\_/\\  \n (• . •?)  \n  >づづ   ",
-        "3": "  /\\_/\\  \n   (ฅ• . •ฅ) ♡  \n  > づづ ",
-        "4": "  /\\_/\\  \n ( - ω - ) zzZ  \n  >  ⊃⊃ ",
-        "5": "  /\\_/\\  \n  (O_O;)  \n  >づづ  ",
-        "6": "  /\\_/\\  \n ( • ω • )  \n / づ ♡  ",
-        "7": "  /\\_/\\  \n  (¬‿¬)  \n  >づづ  ",
-        "8": "  /\\_/\\  \n (°w°)  \n  >づづ  ",
-        "9": "  /\\_/\\  \n  (≖_≖)  \n  >づづ  ",
-        "10": " /\\_/\\  \n (✿^‿^)  \n  >づづ ",
-        "urgent": "  /\\_/\\  \n (⊙﹏⊙;)  \n  >づづ  ",
-	"active": "  ∧,,,∧         ♡♡\n(  ̳• · • ̳)   you\n/    づ ♡ I love   ",
-	"default": "  /\\_/\\  \n (°w°)  \n  >づづ"
+	"1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "urgent": "Well Fuck \n  (⊙﹏⊙;)",
+	"active": "  ",
+	"default": ""
         }
     },
 
 // ----------------------
 
-	// old order of cats :3
+    // old order of cats :3
+//    "hyprland/workspaces": {
+//        "format": "{icon} {id}",
+//        "on-click": "activate",
+//        "all-outputs": true,
+//        "sort-by-number": true,
+//        "format-icons": {
+//	"1": "  /\\_/\\  \n ~(≧▽≦)~  \n   >づづ  ",
+//        "2": "  /\\_/\\  \n (• . •?)  \n  >づづ   ",
+//        "3": "  /\\_/\\  \n   (ฅ• . •ฅ) ♡  \n  > づづ ",
+//        "4": "  /\\_/\\  \n ( - ω - ) zzZ  \n  >  ⊃⊃ ",
+//        "5": "  /\\_/\\  \n  (O_O;)  \n  >づづ  ",
+//        "6": "  /\\_/\\  \n ( • ω • )  \n / づ ♡  ",
+//        "7": "  /\\_/\\  \n  (¬‿¬)  \n  >づづ  ",
+//        "8": "  /\\_/\\  \n (°w°)  \n  >づづ  ",
+//        "9": "  /\\_/\\  \n  (≖_≖)  \n  >づづ  ",
+//        "10": " /\\_/\\  \n (✿^‿^)  \n  >づづ ",
+//        "urgent": "  /\\_/\\  \n (⊙﹏⊙;)  \n  >づづ  ",
+//	"active": "  ∧,,,∧         ♡♡\n(  ̳• · • ̳)   you\n/    づ ♡ I love   ",
+//	"default": "  /\\_/\\  \n (°w°)  \n  >づづ"
+//        }
+//    },
 
-	//"1": "  /\\_/\\  \n (⌐■_■)  \n  >づづ  1",
-        //"2": "  /\\_/\\  \n (• . •?)  \n  >づづ   2",
-        //"3": "  /\\_/\\  \n ( - ω - ) zzZ  \n  >  ⊃⊃       3",
-        //"4": "  /\\_/\\  \n ~(≧▽≦)~  \n  >づづ  4",
-        //"5": "  /\\_/\\  \n (✿^‿^)  \n  >づづ  5",
-        //"6": "  /\\_/\\  \n (O_O;)  \n  >づづ  6",
-        //"7": "  /\\_/\\  \n ( • ω • )  \n / づ ♡   7",
-        //"8": "  /\\_/\\  \n (ฅ• . •ฅ)♡  \n  > づづ  8",
-        //"9": "  /\\_/\\  \n (≖_≖)  \n  >づづ  9",
-        //"10": "  /\\_/\\  \n (¬‿¬)  \n  >づづ  10",
-        //"urgent": "  /\\_/\\  \n (⊙﹏⊙;)  \n  >づづ  ",
-	//"active": "  ∧,,,∧\n(  ̳• · • ̳)\n/    づ♡ I love you",
-	//"default": "  /\\_/\\  \n (°w°)  \n  >づづ  "
+
 
 // -----------------------
 
@@ -101,7 +110,7 @@
 
     "clock": {
 	"interval": 1,
-       "format": "{:%H:%M:%OS       %d / %m   %U}",
+       "format": "{:%H:%M:%OS         %d / %m    %U}",
         "format-alt": "{:%Y-%m-%d}",
         "tooltip-format": "<big>{:%A, %B %d, %Y}</big>\n<small>{calendar}</small>",
         /*"rotate": 180*/
@@ -133,7 +142,7 @@
 
     "memory": {
 	// 󰍛
-        "format": " {percentage}%  {swapPercentage}%",
+        "format": " {percentage}%   {swapPercentage}%",
         "tooltip-format": "{used:0.1f}GB / {total:0.1f}GB  {swapUsed}GB / {swapTotal}GB",
         "interval": 1
     },
@@ -177,8 +186,8 @@
         //"format-disconnected": "󰯡 Offline",
         //"format-alt": "{bandwidthUpBits} 󰁝 {bandwidthDownBits}"
 
-	"format-wifi" : "󰖩   {bandwidthUpBytes:2}   {bandwidthDownBytes:2} ({signalStrength}%)   ",            
-        "format-ethernet": "󰈀   {bandwidthUpBytes:2}   {bandwidthDownBytes:2}   ",
+	"format-wifi" : "󰖩   {bandwidthUpBytes:2}    {bandwidthDownBytes:2} ({signalStrength}%)",            
+        "format-ethernet": "󰈀   {bandwidthUpBytes:2}    {bandwidthDownBytes:2}",
 	//"tooltip-format": "{ifname}:{ipaddr} / {cidr} | 󰖩 {essid} ({signalStrength}%)",
         //"format-linked": "󱘖 {ifname}",
 	"format-disconnected" : "󰯡  no network",
@@ -267,7 +276,7 @@
      //"interval": 5
 
     "custom/nvidia": {
-     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s  %s%% \\uf2db %s%% \\uf2c9 %s°C\", $1, $2, $3, $4}'",
+     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s   %s%%  \\uf2db %s%%  \\uf2c9 %s°C\", $1, $2, $3, $4}'",
      "interval": 1
 
 

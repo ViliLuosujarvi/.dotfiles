@@ -296,16 +296,6 @@
 
 
 
-* {
-    font-family: "JetBrainsMono Nerd Font", "CaskaydiaCove Nerd Font";
-    /* this for changing the kitty size :face_holding_back_tears: */
-    font-size: 13px;
-    font-weight: 500;
-    min-height: 0;
-     /*Atleast this works now, it does rainbow the texts*/
-    /*animation: rainbow-text 30s infinite ease-in-out;*/
-}
-
 window#waybar {
     background: transparent;
 }
@@ -359,10 +349,11 @@ window#waybar {
 #workspaces {
     margin: 0 4px;
     padding: 2px;
+    font-size: 17px;
 }
 
 #workspaces button {
-    padding: 0 8px;
+    padding: 0 4px;
     background: alpha(@color8, 0.3);
     /*color: @color12; @color12*/
     border-radius: 12px;
@@ -401,11 +392,11 @@ window#waybar {
 #clock {
     /*background: alpha(@color8, 0.7);*/
     border-radius: 12px;
-    padding: 0 8px;
-    margin: 0px 6px;
+    padding: 0 6px;
+    margin: 0px 3px;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
-    font-size: 15px;
+    font-size: 17px;
     animation: fav-color-rainbow 210s infinite ease-in-out;
 }
 
@@ -434,11 +425,11 @@ window#waybar {
 #microphone,
 #tray {
     background: transparent;
-    padding: 0 4px;
+    padding: 0 1px;
     margin: 0 2px;
     color: @color7;  /*used to be @color12*/
     border-bottom: 2px solid transparent;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /* ------------- Battery ------------- */
@@ -503,6 +494,7 @@ window#waybar {
 #network {
    /* border-bottom-color: @color16;  USed to be @color6*/
     animation: fav-color-rainbow 210s infinite ease-in-out;   
+    margin: 0 75px;
 }
 
 #network.disconnected {
@@ -603,7 +595,7 @@ window#waybar {
     /*color: color13;  used to be color: #00ff00 */
     background: #222;
     border-radius: 5px;
-    padding: 2px 8px;
+    padding: 2px 3px;
 }
 
 /* Warning (High Temp or Usage) */
