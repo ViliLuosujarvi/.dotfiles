@@ -24,6 +24,7 @@
 	hack-font
 	inconsolata
 	source-code-pro
+	nunito
 
 	corefonts
 
