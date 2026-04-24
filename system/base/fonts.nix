@@ -57,7 +57,7 @@
        sansSerif = [ "Fira Code Nerd Font" ];
        serif = [ "Xanh Mono" ];
        monospace = [ "Hack Nerd Font" ];
-       emoji = [ "Noto Color Emoji" ];
+       #emoji = [ "Noto Color Emoji" ];
        };
 
     };
