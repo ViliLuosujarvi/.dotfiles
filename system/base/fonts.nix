@@ -47,7 +47,7 @@
 
         sansSerif = [ "Manrope" ];
         serif = [ "Manrope" ];
-        monospace = [ "inconsolata" ];
+        monospace = [ "inconsolata Mono" ];
         emoji = [ "Noto Color Emoji" ];
 
        };
