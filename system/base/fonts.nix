@@ -25,10 +25,10 @@
 	hack-font
 	inconsolata
 	source-code-pro
-	google-fonts.nunito
+	google-fonts
 
 	corefonts
-
+	
 	
   ];
 
