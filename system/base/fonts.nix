@@ -13,25 +13,24 @@
 	#victor-mono
 	#iosevka-bin
 	noto-fonts-color-emoji
-        noto-fonts
-
-	google-fonts
 
 	#nerdfonts
 	nerd-fonts.fira-code
 	nerd-fonts.fira-mono
 	nerd-fonts.iosevka
 	nerd-fonts.mononoki
-        nerd-fonts.hack
-        
 
 	cascadia-code
 	hack-font
-	inconsolata
-	source-code-pro
-	corefonts
-        hack-font
+	#inconsolata
+	#source-code-pro
         manrope
+        hack-font
+        nerd-fonts.hack
+        noto-fonts
+	corefonts
+
+	
   ];
 
 
@@ -46,13 +45,11 @@
        #monospace = [ "Fira Code Nerd Font" ];
        #emoji = [ "Noto Color Emoji" ];
 
-       sansSerif = [ "Manrope" ];
-       serif = [ "Manrope" ];
-       monospace = [ "Hack Nerd Font" ];
-       emoji = [ "Noto Color Emoji" ];
-
+        sansSerif = [ "Manrope" ];
+        serif = [ "Manrope" ];
+        monospace = [ "Hack Nerd Font" ];
+        emoji = [ "Noto Color Emoji" ];
 
        };
-
    };
 }
