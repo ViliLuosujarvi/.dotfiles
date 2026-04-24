@@ -45,9 +45,9 @@
        #monospace = [ "Fira Code Nerd Font" ];
        #emoji = [ "Noto Color Emoji" ];
 
-        sansSerif = [ "Manrope" ];
-        serif = [ "Manrope" ];
-        monospace = [ "inconsolata Mono" ];
+        sansSerif = [ "Fira Code Nerd Font" ];
+        serif = [ "Fira Serif Nerd Font" ];
+        monospace = [ "inconsolata" ];
         emoji = [ "Noto Color Emoji" ];
 
        };
