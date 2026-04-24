@@ -13,31 +13,29 @@
 	#victor-mono
 	#iosevka-bin
 	noto-fonts-color-emoji
-	noto-fonts
 
 	#nerdfonts
 	nerd-fonts.fira-code
 	nerd-fonts.fira-mono
-	nerd-fonts.hack
 	nerd-fonts.iosevka
 	nerd-fonts.mononoki
+        nerd-fonts.hack
+        
+
 	cascadia-code
 	hack-font
 	inconsolata
 	source-code-pro
-	google-fonts
-	rubik
-
+	nunito
 	corefonts
-	
-	
+        hack-font
+        manrope
+        noto-fonts
+        noto-fonts-emoji
   ];
 
 
-   #set default fonts
-   #(disclaimer; at the moment handled by home-manager
-   #in home.nix of each computer)
-   # Enable Fira Code as default font
+  # Enable Fira Code as default font
    fonts.fontconfig = {
      enable = true;
      defaultFonts = {
@@ -48,16 +46,13 @@
        #monospace = [ "Fira Code Nerd Font" ];
        #emoji = [ "Noto Color Emoji" ];
 
-       #sansSerif = ["google-fonts" "Nunito" ];
-       #serif = [ "goole-fonts" "Nunito" ];
-       #monospace = [ "Hack Nerd Font" ];
-       #emoji = [ "Noto Color Emoji" ];
-
-       sansSerif = [ "Fira Code Nerd Font" ];
-       serif = [ "Fira Code Nerd Font" ];
+       sansSerif = [ "Manrope" ];
+       serif = [ "Manrope" ];
        monospace = [ "Hack Nerd Font" ];
        emoji = [ "Noto Color Emoji" ];
 
-    };
+
+       };
+
    };
 }
