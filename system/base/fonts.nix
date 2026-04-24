@@ -25,7 +25,7 @@
 	hack-font
 	inconsolata
 	source-code-pro
-	nunito
+	google-fonts.nunito
 
 	corefonts
 
@@ -42,10 +42,16 @@
      defaultFonts = {
        #monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
      
-       serif = [ "Fira Serif Nerd Font" ];
-       sansSerif = [ "Fira Code Nerd Font" ];
-       monospace = [ "Fira Code Nerd Font" ];
+       #serif = [ "Fira Serif Nerd Font" ];
+       #sansSerif = [ "Fira Code Nerd Font" ];
+       #monospace = [ "Fira Code Nerd Font" ];
+       #emoji = [ "Noto Color Emoji" ];
+
+       sansSerif = [ "Nunito" ];
+       serif = [ "Nunito" ];
+       monospace = [ "Hack Nerd Font" ];
        emoji = [ "Noto Color Emoji" ];
+
        };
    };
 }
