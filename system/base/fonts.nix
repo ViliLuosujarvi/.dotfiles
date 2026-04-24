@@ -40,15 +40,22 @@
      defaultFonts = {
        #monospace = [ "FiraCode Nerd Font" "DroidSansMono Nerd Font" "JetBrainsMono Nerd Font" ];
      
-       #serif = [ "Fira Serif Nerd Font" ];
-       #sansSerif = [ "Fira Code Nerd Font" ];
-       monospace = [ "Fira Code Nerd Font" ];
-       #emoji = [ "Noto Color Emoji" ];
+        #serif = [ "Fira Serif Nerd Font" ];
+        #sansSerif = [ "Fira Code Nerd Font" ];
+        #monospace = [ "Fira Code Nerd Font" ];
+        #emoji = [ "Noto Color Emoji" ];
 
-        sansSerif = [ "Fira Code Nerd Font" ];
-        serif = [ "Fira Serif Nerd Font" ];
+        #sansSerif = [ "Fira Code Nerd Font" ];
+        #serif = [ "Fira Serif Nerd Font" ];
         #monospace = [ "inconsolata" ];
+        #emoji = [ "Noto Color Emoji" ];
+
+        serif = [ "Xanh Mono" ];
+        sansSerif = [ "Xanh Mono" ];
+        monospace = [ "Fira Code Nerd Font" ];
         emoji = [ "Noto Color Emoji" ];
+
+
 
        };
    };
