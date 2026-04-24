@@ -13,6 +13,7 @@
 	#victor-mono
 	#iosevka-bin
 	noto-fonts-color-emoji
+        noto-fonts
 
 	#nerdfonts
 	nerd-fonts.fira-code
@@ -26,12 +27,9 @@
 	hack-font
 	inconsolata
 	source-code-pro
-	nunito
 	corefonts
         hack-font
         manrope
-        noto-fonts
-        noto-fonts-emoji
   ];
 
 
