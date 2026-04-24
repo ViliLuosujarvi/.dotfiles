@@ -26,6 +26,7 @@
 	inconsolata
 	source-code-pro
 	google-fonts
+	rubik
 
 	corefonts
 	
@@ -47,11 +48,18 @@
        #monospace = [ "Fira Code Nerd Font" ];
        #emoji = [ "Noto Color Emoji" ];
 
-       sansSerif = ["google-fonts" "Nunito" ];
-       serif = [ "goole-fonts" "Nunito" ];
+       #sansSerif = ["google-fonts" "Nunito" ];
+       #serif = [ "goole-fonts" "Nunito" ];
+       #monospace = [ "Hack Nerd Font" ];
+       #emoji = [ "Noto Color Emoji" ];
+
+       fonts.fontconfig.defaultFonts = {
+       sansSerif = [ "Fira Code Nerd Font" ];
+       serif = [ "Xanh Mono" ];
        monospace = [ "Hack Nerd Font" ];
        emoji = [ "Noto Color Emoji" ];
-
        };
+
+    };
    };
 }
