@@ -47,8 +47,8 @@
        #monospace = [ "Fira Code Nerd Font" ];
        #emoji = [ "Noto Color Emoji" ];
 
-       sansSerif = [ "Nunito" ];
-       serif = [ "Nunito" ];
+       sansSerif = ["google-fonts" "Nunito" ];
+       serif = [ "goole-fonts" "Nunito" ];
        monospace = [ "Hack Nerd Font" ];
        emoji = [ "Noto Color Emoji" ];
 
