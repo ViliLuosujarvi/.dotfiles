@@ -13,13 +13,14 @@
 	#victor-mono
 	#iosevka-bin
 	noto-fonts-color-emoji
+	noto-fonts
 
 	#nerdfonts
 	nerd-fonts.fira-code
 	nerd-fonts.fira-mono
+	nerd-fonts.hack
 	nerd-fonts.iosevka
 	nerd-fonts.mononoki
-
 	cascadia-code
 	hack-font
 	inconsolata
