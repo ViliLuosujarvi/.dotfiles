@@ -15,6 +15,8 @@
 	noto-fonts-color-emoji
         noto-fonts
 
+	google-fonts
+
 	#nerdfonts
 	nerd-fonts.fira-code
 	nerd-fonts.fira-mono
