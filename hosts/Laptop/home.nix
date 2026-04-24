@@ -27,9 +27,9 @@
   # Kitty config :3
   programs.kitty = {
     enable = true;
-    font = {
-      name = "FiraCode Nerd Font";
-      size = 10;
+    #font = {
+    #  name = "FiraCode Nerd Font";
+    #  size = 10;
     };
   };
   
