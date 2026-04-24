@@ -22,7 +22,7 @@
 
 	cascadia-code
 	hack-font
-	#inconsolata
+	inconsolata
 	#source-code-pro
         manrope
         hack-font
@@ -47,7 +47,7 @@
 
         sansSerif = [ "Manrope" ];
         serif = [ "Manrope" ];
-        monospace = [ "Hack Nerd Font" ];
+        monospace = [ "inconsolata" ];
         emoji = [ "Noto Color Emoji" ];
 
        };
