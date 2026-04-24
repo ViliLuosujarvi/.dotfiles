@@ -53,7 +53,6 @@
        #monospace = [ "Hack Nerd Font" ];
        #emoji = [ "Noto Color Emoji" ];
 
-       fonts.fontconfig.defaultFonts = {
        sansSerif = [ "Fira Code Nerd Font" ];
        serif = [ "Fira Code Nerd Font" ];
        monospace = [ "Hack Nerd Font" ];
