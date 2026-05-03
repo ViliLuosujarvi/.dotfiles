@@ -29,7 +29,6 @@
         nerd-fonts.hack
         noto-fonts
 	corefonts
-
 	
   ];
 
@@ -50,11 +49,16 @@
         #monospace = [ "inconsolata" ];
         #emoji = [ "Noto Color Emoji" ];
 
+	#SO far the best!!
         serif = [ "Source Code Pro" ];
         sansSerif = [ "Source Code Pro" ];
-        monospace = [ "Fira Code Nerd Font" ];
+        monospace = [ "Iosevka Nerd Font" ];   # monospace = [ "Iosevka Nerd Font" ];
         emoji = [ "Noto Color Emoji" ];
 
+        #serif = [ "Liberation Serif" ];
+        #sansSerif = [ "Cantarell" ];
+        #monospace = [ "Iosevka Nerd Font Mono" ];
+        #emoji = [ "Noto Color Emoji" ];
 
 
        };

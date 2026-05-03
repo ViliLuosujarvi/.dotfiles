@@ -20,6 +20,8 @@ imports =
       ../../system/base/screen_shot.nix
       ../../system/base/pipewire.nix
       ../../system/base/kakoune.nix
+      ../../system/base/foot/foot.nix
+      
 
       # ---- hostname ----
       ../../system/base/hostnames/Laptop.nix
@@ -45,7 +47,7 @@ imports =
       #../../system/app/virt-manager.nix
       #../../system/app/VirtualBox.nix
       ../../system/app/Docker.nix
-      ../../system/app/Qemu.nix
+      #../../system/app/Qemu.nix
 
       # ---- games ----
       ../../system/games/steam.nix

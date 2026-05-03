@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 51,
+    "height": 30,
     "margin-bottom": 2,
     "margin-left": 12,
     "margin-right": 12,
@@ -22,17 +22,17 @@
         "all-outputs": true,
         "sort-by-number": true,
         "format-icons": {
-	"1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6",
-        "7": "7",
-        "8": "8",
-        "9": "9",
-        "10": "10",
-        "urgent": "Well Fuck \n  (⊙﹏⊙;)",
+	"1": " 1 ",
+        "2": " 2 ",
+        "3": " 3 ",
+        "4": " 4 ",
+        "5": " 5 ",
+        "6": " 6 ",
+        "7": " 7 ",
+        "8": " 8 ",
+        "9": " 9 ",
+        "10": " 10 ",
+        "urgent": " Well Fuck \n  (⊙﹏⊙;) ",
 	"active": "  ",
 	"default": ""
         }
@@ -88,7 +88,7 @@
 
     "disk": {
         "interval": 30,
-        "format": "󰋊  {percentage_used}%",
+        "format": "󰋊 {percentage_used}%",
         "path": "/",
         "tooltip": true,
         "unit": "GB",
@@ -113,7 +113,7 @@
        "format": "{:%H:%M:%OS         %d / %m    %U}",
         "format-alt": "{:%Y-%m-%d}",
         "tooltip-format": "<big>{:%A, %B %d, %Y}</big>\n<small>{calendar}</small>",
-        /*"rotate": 180*/
+          /*"rotate": 180*/
 	"calendar": {
             "mode": "month",
             "weeks-pos": "right",
@@ -135,14 +135,14 @@
     },
 
     "cpu": {
-        "format": "CPU: 󰘚 {usage}%",
+        "format": "CPU:  󰘚 {usage}%",
         "tooltip": true,
         "interval": 1
     },
 
     "memory": {
 	// 󰍛
-        "format": " {percentage}%   {swapPercentage}%",
+        "format": " {percentage}%    {swapPercentage}%",
         "tooltip-format": "{used:0.1f}GB / {total:0.1f}GB  {swapUsed}GB / {swapTotal}GB",
         "interval": 1
     },
@@ -172,8 +172,8 @@
             "critical": 20
         },
         "format": "{icon} {capacity}%",
-        "format-charging": "󰂄 {capacity}%",
-        "format-plugged": "󰚥 {capacity}%",
+        "format-charging": " 󰂄{capacity}%  ",
+        "format-plugged": "󰚥 {capacity}% ",
         "format-alt": "{icon} {time}",
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
@@ -185,14 +185,14 @@
         //"format-linked": "󱘖 {ifname}",
         //"format-disconnected": "󰯡 Offline",
         //"format-alt": "{bandwidthUpBits} 󰁝 {bandwidthDownBits}"
-
-	"format-wifi" : "󰖩   {bandwidthUpBytes:2}    {bandwidthDownBytes:2} ({signalStrength}%)",            
-        "format-ethernet": "󰈀   {bandwidthUpBytes:2}    {bandwidthDownBytes:2}",
-	//"tooltip-format": "{ifname}:{ipaddr} / {cidr} | 󰖩 {essid} ({signalStrength}%)",
-        //"format-linked": "󱘖 {ifname}",
+											// 󰖩 
+	"format-wifi" : " {bandwidthUpBytes:2}     {bandwidthDownBytes:2}    {signalStrength}%  ",
+        "format-ethernet": " {bandwidthUpBytes:2}     {bandwidthDownBytes:2}    󰈀 ",
+	"tooltip-format": "{ifname}:{ipaddr} / {cidr} | 󰖩 {essid} ({signalStrength}%)",
+        "format-linked": "󱘖 {ifname}",
 	"format-disconnected" : "󰯡  no network",
         "interval": 1,
-        "tooltip": false,
+        "tooltip": true,
     },
 
     "pulseaudio": {
@@ -213,8 +213,8 @@
 
     "pulseaudio#microphone": {
 	"format": "{format_source}",
-	"format-source": "",
-	"format-source-muted": " ",
+	"format-source": "  ",
+	"format-source-muted": "  ",
 	//"on-click": "$HOME/.config/hypr/scripts/Volume.sh --toggle-mic",
 	//"on-click-right": "pavucontrol -t 4",
 	//"on-scroll-up": "$HOME/.config/hypr/scripts/Volume.sh --mic-inc",
@@ -276,7 +276,7 @@
      //"interval": 5
 
     "custom/nvidia": {
-     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU: \\uf0e7 %s   %s%%  \\uf2db %s%%  \\uf2c9 %s°C\", $1, $2, $3, $4}'",
+     "exec": "nvidia-smi --query-gpu=pstate,utilization.memory,utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{printf \"GPU:  \\uf0e7 %s    %s%%   \\uf2db %s%%  \\uf2c9 %s°C\", $1, $2, $3, $4}'",
      "interval": 1
 
 

@@ -312,7 +312,7 @@ window#waybar {
     side but rainbow coloring still stays 
     (sorry, this is more of a note to self)*/
     /*border-radius: 12px;*/
-    padding: 2px 3px;
+    padding: 0px 0px;
     margin: 0 5px;
 }
 
@@ -348,16 +348,16 @@ window#waybar {
 
 #workspaces {
     margin: 0 2px;
-    padding: 2px;
+    padding: 0px 5px;
     font-size: 17px;
 }
 
 #workspaces button {
-    padding: 0 4px;
+    padding: 0 1px;
     background: alpha(@color8, 0.3);
     /*color: @color12; @color12*/
     border-radius: 12px;
-    margin: 2px;
+    margin: 0px;
     /*box-shadow: inset 0 -1px 0 @color10;*/
     /*border-bottom: 2px solid #dc322f;*/
     animation: kitty_cat_rainbow 210s infinite ease-in-out;
@@ -396,7 +396,7 @@ window#waybar {
     margin: 0px 3px;
     font-weight: bold;
     /*border-left: 3px solid @color6;*/
-    font-size: 17px;
+    font-size: 16px;
     animation: fav-color-rainbow 210s infinite ease-in-out;
 }
 
@@ -494,13 +494,14 @@ window#waybar {
 #network {
    /* border-bottom-color: @color16;  USed to be @color6*/
     animation: fav-color-rainbow 210s infinite ease-in-out;   
-    margin: 0 75px;
+    margin: 0 23px;
 }
 
 #network.disconnected {
     background-color: alpha(@color1, 0.25);
     color: shade(@color1, 1.5);
-    border-radius: 10px;
+    border-radius: 7px;
+    margin: 3px;
 }
 
 /* ---------------------------------- */
@@ -564,8 +565,8 @@ window#waybar {
     /*background-color: alpha(@color8, 0.6);*/
     border-radius: 2px;
     border-bottom-color: @color9;
-    padding: 0 2px;
-    margin-left: 2px;
+    padding: 0 1px;
+    /*margin-left: 2px;*/
 }
 
 #tray > .passive {
@@ -588,22 +589,5 @@ window#waybar {
 }
 
 
-/* NVIDIA Custom Module */
-.custom-nvidia {
-    font-size: 14px;
-    font-weight: bold;
-    /*color: color13;  used to be color: #00ff00 */
-    background: #222;
-    border-radius: 5px;
-    padding: 2px 3px;
-}
 
-/* Warning (High Temp or Usage) */
-.custom-nvidia.warning {
-    color: #ffaa00; /* Orange */
-}
 
-/* Critical (Very High Temp or Usage) */
-.custom-nvidia.critical {
-    color: #ff0000; /* Red */
-}
