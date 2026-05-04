@@ -13,8 +13,3 @@ Also, no install scripts here, at the moment it's rsync or nothing. 🥹
   when I've been trying to get some functionality working for days or weeks, Gskartwii has given a lot of good
   advice and explanation of what is going on, big mcthankies from mcspankies! )
 
-
-
-
-<img width="2560" height="1600" alt="cover_photo" src="https://github.com/user-attachments/assets/5d4b8c7a-6e31-4bef-9059-c6e4cbb24c9b" />
-
