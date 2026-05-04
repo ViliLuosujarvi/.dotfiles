@@ -42,14 +42,16 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 # Main prompt
 PROMPT='  
-  %{$fg[green]%}           
-   %F{magenta}%n%f @ %F{magenta}%m%f $(git_prompt_info) $(virtualenv_prompt_info)%{$fg[green]%}%~ %{$fg[red]%}
-%{$fg[blue]%}    %{$fg[yellow]%}%1~  %{$fg[magenta]%}%(!..$) %{$reset_color%}'
+  %{$fg[green]%}           
+   %F{magenta}%n%f @ %F{magenta}%m%f $(git_prompt_info) $(virtualenv_prompt_info)%{$fg[green]%}%~  %{$fg[red]%}
+ %{$fg[blue]%}   %{$fg[yellow]%}%1~  %{$fg[magenta]%}%(!..$) %{$reset_color%}'
 					    #   ->
 # %{$fg[green]%}             
 # /
-# %{$fg[magenta]%}             
+# %{$fg[magenta]%}           
 # %{$fg[green]%}  
+#     
+
 
 # Resets color idk
 PROMPT2='%{$fg[gray]%}\ %{$reset_color%}'

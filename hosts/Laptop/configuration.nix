@@ -22,7 +22,6 @@ imports =
       ../../system/base/kakoune.nix
       ../../system/base/foot/foot.nix
       
-
       # ---- hostname ----
       ../../system/base/hostnames/Laptop.nix
 
@@ -58,6 +57,8 @@ imports =
       # ---- Security ----
       ../../system/security/automount.nix
       ../../system/security/firewall.nix
+      ../../system/security/openvpn.nix
+
 
       # proxy
       #../../system/security/mitmproxy_cert.nix

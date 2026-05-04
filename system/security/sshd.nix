@@ -4,9 +4,11 @@
   # Enable incoming ssh
   services.openssh = {
     enable = true;
-    openFirewall = false;
+    ports = [ 5445  ] 
+    #openFirewall = false;
     settings = {
       PasswordAuthentication = true;
+      KbdInteractiveAuthentication = false;
       PermitRootLogin = "no";
     };
   };
