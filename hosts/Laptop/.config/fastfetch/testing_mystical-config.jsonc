@@ -199,11 +199,11 @@
     "keyColor": "blue",
     "format": "{2}"
     },
-    {
+    /*{
     "type": "localip",
     "key": "/│/ ╠ ",
     "keyColor": "blue"
-    },
+    },*/
     {
       "type": "poweradapter",
       "keyIcon": "󰚥"

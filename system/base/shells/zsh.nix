@@ -61,6 +61,9 @@
         alias lla='ls -la'
         alias lt='ls --tree'
 
+	alias pws='wpctl status'
+	alias pwds='wpctl set-default'
+
 	# Kill aliases
 	alias pkd='pkill -i discord'
 	alias pks='pkill -i steam'
@@ -72,6 +75,7 @@
 	alias .s='cd ; cd .dotfiles/system/'
 	alias .i='cd ; cd school_stuff/Info_for_NixOS'
 	alias .pt='cd ; cd .dotfiles/hosts/Pentesting/'
+	alias .htb='cd ; cd HTB_Lab'
 
 	# Annoying as hell to also have swaybg and swayimg
 	alias img='swayimg -f' # My dumb ass strugling with this for ten minutes
