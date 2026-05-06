@@ -13,11 +13,6 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-	git
-	gh
-	# faster grep
-	ripgrep
-
 	# Firas tools - high importance!
 	net-tools
 	vim
@@ -25,13 +20,13 @@
         ];
 
   # Kitty config :3
-  programs.kitty = {
-    enable = true;
+  #programs.kitty = {
+  #  enable = true;
     #font = {
     #  name = "FiraCode Nerd Font";
     #  size = 10;
     #};
-  };
+  #};
   
   # Enable Fira Code as default font
   #fonts.fontconfig = {
@@ -45,6 +40,9 @@
   #    emoji = [ "Noto Color Emoji" ];
   #    };
   #};
+
+  # disable ssh
+  programs.ssh.enable = false;
 
   #Enable git
   programs.git = {
@@ -60,29 +58,29 @@
   };
 
   # Enable vscode
-  programs.vscode = {
-  enable = true;
+  #programs.vscode = {
+  #enable = true;
   # and extensions
-  profiles.default.extensions = with pkgs.vscode-extensions; [
+  #profiles.default.extensions = with pkgs.vscode-extensions; [
     
     # theme options
-    dracula-theme.theme-dracula
+    #dracula-theme.theme-dracula
     #silofy.hackthebox
     #thorerik.hacker-theme
 
     # Basic ML
     #vscodevim.vim
-    ms-python.python
-    ms-toolsai.jupyter
+    #ms-python.python
+    #ms-toolsai.jupyter
     
     # ML visualization
     #wholroyd.jinja
-    mechatroner.rainbow-csv
+    #mechatroner.rainbow-csv
    
     # miscellaneous
     #tekumara.typos-vscode
-    ];
-  };
+    #];
+  #};
 
   # Enable DirEnv
   programs = {
@@ -96,63 +94,63 @@
     #zsh.enable = true;
   };
 
-   programs.emacs = {
-      enable = true;
-      #defaultEditor = true;      
-      package = pkgs.emacs-pgtk;
-      extraPackages =
-          epkgs: with epkgs; [
-            org-modern
-            olivetti
-            command-log-mode
-            vertico
-            corfu
-            hotfuzz
-            orderless
-            #evil
-            #evil-collection
-            #evil-snipe
-            #evil-owl
-            #evil-vimish-fold
-            dashboard
-            doom-themes
-            doom-modeline
-            nerd-icons
-            nerd-icons-dired
-            nerd-icons-corfu
-            nerd-icons-ibuffer
-            nerd-icons-completion
-            yasnippet
-            shackle
-            projectile
-            treemacs
-            treemacs-projectile
-            treemacs-evil
-            treemacs-nerd-icons
-            treesit-grammars.with-all-grammars
-            git-timemachine
-            wgrep
-            magit
-            magit-todos
-            undo-fu
-            undo-fu-session
-            org-roam
-            org-node
-            org-node-fakeroam
-            vterm
-            vterm-toggle
-            sudo-edit
-            direnv
-            svelte-mode
-            typescript-mode
-            sass-mode
-            rainbow-mode
-   	   ];
-	   
-	   extraConfig = ''
-		(setq treesit-auto-install 'prompt)
-		'';
-	};
+   #programs.emacs = {
+   #   enable = true;
+   #   #defaultEditor = true;      
+   #   package = pkgs.emacs-pgtk;
+   #   extraPackages =
+   #       epkgs: with epkgs; [
+   #         org-modern
+   #         olivetti
+   #         command-log-mode
+   #         vertico
+   #         corfu
+   #         hotfuzz
+   #         orderless
+   #         #evil
+   #         #evil-collection
+   #         #evil-snipe
+   #         #evil-owl
+   #         #evil-vimish-fold
+   #         dashboard
+   #         doom-themes
+   #         doom-modeline
+   #         nerd-icons
+   #         nerd-icons-dired
+   #         nerd-icons-corfu
+   #         nerd-icons-ibuffer
+   #         nerd-icons-completion
+   #         yasnippet
+   #         shackle
+   #         projectile
+   #         treemacs
+   #         treemacs-projectile
+   #         treemacs-evil
+   #         treemacs-nerd-icons
+   #         treesit-grammars.with-all-grammars
+   #         git-timemachine
+   #         wgrep
+   #         magit
+   #         magit-todos
+   #         undo-fu
+   #         undo-fu-session
+   #         org-roam
+   #         org-node
+   #         org-node-fakeroam
+   #         vterm
+   #         vterm-toggle
+   #         sudo-edit
+   #         direnv
+   #         svelte-mode
+   #         typescript-mode
+   #         sass-mode
+   #         rainbow-mode
+   #	   ];
+   #
+   #	   extraConfig = ''
+   #		(setq treesit-auto-install 'prompt)
+   #		'';
+   #	};
 
   home.file = {
      ".config" = {

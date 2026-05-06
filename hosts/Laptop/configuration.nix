@@ -58,6 +58,7 @@ imports =
       ../../system/security/automount.nix
       ../../system/security/firewall.nix
       ../../system/security/openvpn.nix
+      ../../system/security/sshd.nix
 
 
       # proxy
