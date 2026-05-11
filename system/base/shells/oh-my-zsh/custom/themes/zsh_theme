@@ -35,7 +35,7 @@ if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
 # ------ testing to modify zsh
 
 # Shows exit status of latest command if not zero
-local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+#local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 # Right side of the prompt
 #RPS1='%{$reset_color%} %{$fg[grey]%}%D{[ %X ]} '

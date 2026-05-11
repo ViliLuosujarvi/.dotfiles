@@ -79,11 +79,6 @@ imports =
      openconnect
      #xdg-desktop-portal-gnome
 
-     # Personally needed software
-     gh
-     git
-     btop
-
      inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
   ];
 
