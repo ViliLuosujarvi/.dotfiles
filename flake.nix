@@ -80,8 +80,8 @@
       nixos-hardware,
       sops-nix,
       vscode-server,
-      rose-pine-hyprcursor
-     
+      rose-pine-hyprcursor,
+
       }@inputs:
 
     # "let in" couple of more used blocks of informations
@@ -126,6 +126,7 @@
             inherit inputs pkgs;
           };
         };
+
 	# Work mode for Home-Desktop
 	Home-Desktop-Work = lib.nixosSystem {
 	  inherit system;
@@ -139,6 +140,7 @@
 	    inherit inputs pkgs;
 	  };
 	};
+
 	# Leisure configuration for home Laptop
         Home-Laptop = lib.nixosSystem {
           inherit system;
@@ -155,6 +157,7 @@
             inherit self inputs;
           };
         };
+
 	# Work configuration for home Laptop
         Home-Laptop-Work = lib.nixosSystem {
           inherit system;

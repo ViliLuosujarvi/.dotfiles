@@ -46,7 +46,7 @@ imports =
       #../../system/app/virt-manager.nix
       #../../system/app/VirtualBox.nix
       ../../system/app/Docker.nix
-      #../../system/app/Qemu.nix
+      ../../system/app/Qemu.nix
 
       # ---- games ----
       ../../system/games/steam.nix
@@ -77,9 +77,12 @@ imports =
      net-tools
 
      openconnect
+     protonvpn-gui
      #xdg-desktop-portal-gnome
 
+
      inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
+     #inputs.bluetui.packages.${pkgs.system}.default
   ];
 
   # Allow unfree software

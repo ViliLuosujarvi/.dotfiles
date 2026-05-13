@@ -189,7 +189,7 @@
 	"format-wifi" : " {bandwidthUpBytes:2}     {bandwidthDownBytes:2}    {signalStrength}%  ",
         "format-ethernet": " {bandwidthUpBytes:2}     {bandwidthDownBytes:2}    󰈀 ",
 	"tooltip-format": "{ifname}:{ipaddr} / {cidr} | 󰖩 {essid} ({signalStrength}%)",
-        "format-linked": "󱘖 {ifname}",
+        "format-linked": "󱘖 {ifname}:{ipaddr}",
 	"format-disconnected" : "󰯡  no network",
         "interval": 1,
         "tooltip": true,
