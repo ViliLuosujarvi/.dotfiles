@@ -17,6 +17,9 @@
 	git
 	ripgrep
 	btop
+	# python version manager
+	uv
+
 
 	# Firas tools - high importance!
 	net-tools

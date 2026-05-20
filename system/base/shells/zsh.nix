@@ -84,6 +84,7 @@
 	alias vpn='protonvpn-app'
 	alias .f='cd ; cd school_stuff/Fontys_2026/MA-CSE_2026'
 	alias .T='cd ; cd school_stuff/Thesis'	
+	alias .r='cd ; cd rust_projects'
 
 	# And here just to ease my workflow,
 	# some aliases to jump to computer configs
