@@ -113,6 +113,11 @@
 	alias nmap_web_safe_osscan="sudo nmap -p 80,443 -O -v --osscan-guess --fuzzy "
 	alias nmap_ping_scan="nmap -n -sP"
 
+	alias speed='librespeed-cli --no-icmp'
+
+	# Python / jupyter aliases
+	alias lab="uv run --with jupyter jupyter lab"
+
 	# History files
         source <(fzf --zsh);
         HISTFILE=~/.zsh_history;
