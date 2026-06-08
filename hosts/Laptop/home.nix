@@ -18,7 +18,7 @@
 	ripgrep
 	btop
 	librespeed-cli
-
+	unzip
 
 	# python version manager
 	uv
