@@ -13,25 +13,17 @@ dwindle {
   special_scale_factor = 0.8
 }
 
-general {
-    layout = master
-
-    resize_on_border = true
-}
-
 master {
-    mfact = 0.53
-    orientation = right
-    new_status = slave
-    #smart_resizing = true
-
-    new_on_top = true
-    new_on_active = after
-    #inherit_fullscreen = true
-
-    drop_at_cursor = true
+  new_status = master
+  new_on_top = 1
+  mfact = 0.5
 }
 
+general {
+  resize_on_border = true
+     
+  layout = dwindle
+}
 
 input {
   kb_layout = us,fi

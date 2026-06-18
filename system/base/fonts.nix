@@ -24,7 +24,6 @@
 	hack-font
 	inconsolata
 	#source-code-pro
-        manrope
         hack-font
         nerd-fonts.hack
         noto-fonts
