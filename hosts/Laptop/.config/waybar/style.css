@@ -494,7 +494,7 @@ window#waybar {
 #network {
    /* border-bottom-color: @color16;  USed to be @color6*/
     animation: fav-color-rainbow 210s infinite ease-in-out;   
-    margin: 0 23px;
+    margin: 0 15px; /*old margin: 0 23px*/
 }
 
 #network.disconnected {

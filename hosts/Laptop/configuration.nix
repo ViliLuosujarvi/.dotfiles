@@ -77,7 +77,7 @@ imports =
      net-tools
 
      openconnect
-     protonvpn-gui
+     proton-vpn
      #xdg-desktop-portal-gnome
 
 

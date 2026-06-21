@@ -19,7 +19,7 @@ environment.systemPackages = with pkgs; [
 #     wpaperd
 #     mpvpaper
      swaybg
-     swww
+     awww
      nerdfetch
      rofi
      brightnessctl
