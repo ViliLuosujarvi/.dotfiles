@@ -48,11 +48,11 @@
     # not in use at the moment, could be just
     # removed from this file entirely, 
     # will be here just temporarily (clueless)
-    hyprlang = {
-      url = "github:hyprwm/hyprlang";
+    #hyprlang = {
+    #  url = "github:hyprwm/hyprlang";
       #inputs.system.follows = "system";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    #  inputs.nixpkgs.follows = "nixpkgs";
+    #};
 
     # sops-nix for ecrets management
     # (still under maintanance aka I haven't had
@@ -75,7 +75,6 @@
       nixpkgs, 
       flake-utils,
       hyprland,
-      hyprlang,
       home-manager,
       nixos-hardware,
       sops-nix,
