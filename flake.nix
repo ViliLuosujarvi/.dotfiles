@@ -64,6 +64,12 @@
     # VSCode server for running e.g jupyter server for
     # machine learning purposes
     vscode-server.url = "github:nix-community/nixos-vscode-server";
+
+    # Zen browser
+    zen-browser = {
+      url = "github:youwen5/zen-browser-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   # Here the machine output that is result of
@@ -80,6 +86,7 @@
       sops-nix,
       vscode-server,
       rose-pine-hyprcursor,
+      zen-browser
 
       }@inputs:
 

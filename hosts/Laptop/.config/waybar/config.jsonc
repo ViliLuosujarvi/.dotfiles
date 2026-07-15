@@ -87,7 +87,7 @@
     },
 
     "disk": {
-        "interval": 30,
+        "interval": 5,
         "format": "󰋊 {percentage_used}%",
         "path": "/",
         "tooltip": true,

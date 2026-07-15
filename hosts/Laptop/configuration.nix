@@ -80,9 +80,14 @@ imports =
      proton-vpn
      #xdg-desktop-portal-gnome
 
-
+     # Custom cursor
      inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
+
      #inputs.bluetui.packages.${pkgs.system}.default
+
+     # Zen browser 
+     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+
   ];
 
   # Allow unfree software
