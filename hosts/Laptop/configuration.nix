@@ -15,12 +15,13 @@ imports =
       ../../system/base/fonts.nix
       ../../system/base/hyprland.nix
       ../../system/base/networking.nix
-      #../../system/base/locale.nix
-      ../../system/base/locale/Netherlands_locale.nix
+      ../../system/base/locale/Finnish_locale.nix
       ../../system/base/screen_shot.nix
       ../../system/base/pipewire.nix
       ../../system/base/kakoune.nix
       ../../system/base/foot/foot.nix
+      ../../system/base/terminator.nix
+
       
       # ---- hostname ----
       ../../system/base/hostnames/Laptop.nix
