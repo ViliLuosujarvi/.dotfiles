@@ -186,10 +186,10 @@
         //"format-disconnected": "󰯡 Offline",
         //"format-alt": "{bandwidthUpBits} 󰁝 {bandwidthDownBits}"
 											// 󰖩 
-	"format-wifi" : " {bandwidthUpBytes:2}     {bandwidthDownBytes:2}    {signalStrength}%  ",
-        "format-ethernet": " {bandwidthUpBytes:2}     {bandwidthDownBytes:2}    󰈀 ",
+	"format-wifi" : " {bandwidthUpBytes:2}   {bandwidthDownBytes:2}    {signalStrength}%  ",
+        "format-ethernet": " {bandwidthUpBytes:2}   {bandwidthDownBytes:2}    󰈀 ",
 	"tooltip-format": "{ifname}:{ipaddr} / {cidr} | 󰖩 {essid} ({signalStrength}%)",
-        "format-linked": "󱘖 {ifname}:{ipaddr}",
+        "format-linked": "󱘖 {ifname}:{ipaddr}    {bandwidthupbytes:2}   {bandwidthdownbytes:2}    {signalstrength}%",
 	"format-disconnected" : "󰯡  no network",
         "interval": 1,
         "tooltip": true,

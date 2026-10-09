@@ -20,7 +20,7 @@ imports =
       ../../system/base/pipewire.nix
       ../../system/base/kakoune.nix
       ../../system/base/foot/foot.nix
-      ../../system/base/terminator.nix
+      #../../system/base/terminator.nix
 
       
       # ---- hostname ----
@@ -36,6 +36,8 @@ imports =
       ../../system/hardware/opengl.nix
       ../../system/hardware/time_syncd.nix
       #../../system/hardware/roccat.nix
+      ../../system/hardware/bluetooth.nix
+
 
       # ---- App ----
       ../../system/app/discord.nix
@@ -46,7 +48,7 @@ imports =
       ../../system/app/FreeCAD.nix
       #../../system/app/virt-manager.nix
       #../../system/app/VirtualBox.nix
-      ../../system/app/Docker.nix
+      #../../system/app/Docker.nix
       ../../system/app/Qemu.nix
 
       # ---- games ----
